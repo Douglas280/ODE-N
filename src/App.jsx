@@ -1,8 +1,6 @@
 import React, { useState, useCallback, useReducer, memo } from "react";
 import { useIndexes } from "./hooks/useIndexes.js";
 import { useDebounce } from "./hooks/useDebounce.js";
-import { normalize } from "./engine/normalize.js";
-import { calcValues } from "./engine/ciphers.js";
 import { RainbowEye } from "./components/RainbowEye.jsx";
 import { RainbowText } from "./components/RainbowText.jsx";
 import { LookupPanel } from "./components/LookupPanel.jsx";
@@ -41,26 +39,13 @@ const TABS = [
 
 const TabBar = memo(function TabBar({ active, onChange }) {
   return (
-    <nav
-      style={{ display: "flex", gap: 4, borderBottom: "1px solid #2a2a35", paddingBottom: 2 }}
-      aria-label="Main navigation"
-    >
+    <nav className="tab-bar" aria-label="Main navigation">
       {TABS.map(t => (
         <button
           key={t.key}
+          className="tab-btn"
           onClick={() => onChange(t.key)}
           aria-current={active === t.key ? "page" : undefined}
-          style={{
-            background: active === t.key ? "#2a2a35" : "none",
-            border: "none",
-            borderRadius: "6px 6px 0 0",
-            color: active === t.key ? "#e8e8f0" : "#6b6b80",
-            cursor: "pointer",
-            fontSize: 13,
-            fontWeight: active === t.key ? 600 : 400,
-            padding: "7px 14px",
-            transition: "color 0.15s",
-          }}
         >
           {t.label}
         </button>
@@ -83,7 +68,6 @@ export default function App() {
     dispatchHistory({ type: "ADD", entry });
   }, []);
 
-  // Fix: this was a no-op in the original code
   const handleHistorySelect = useCallback((text) => {
     setLookupText(text);
     setTab("lookup");
@@ -98,38 +82,28 @@ export default function App() {
   }, []);
 
   return (
-    <div
-      style={{
-        background: "#0f0f13",
-        color: "#e8e8f0",
-        fontFamily: "'Inter', system-ui, sans-serif",
-        minHeight: "100vh",
-        padding: "0 16px 40px",
-      }}
-    >
-      <header
-        style={{
-          alignItems: "center",
-          display: "flex",
-          gap: 10,
-          padding: "20px 0 16px",
-        }}
-      >
+    <div className="app-shell">
+      <header className="app-header">
         <RainbowEye size={36} />
         <RainbowText
           text="ODE-N"
           style={{ fontSize: 22, fontWeight: 700, letterSpacing: "0.06em" }}
         />
         {!ready && (
-          <span style={{ color: "#6b6b80", fontSize: 11, marginLeft: 8 }}>
-            indexing…
+          <span className="indexing-badge">
+            <span style={{
+              width: 6, height: 6, borderRadius: "50%",
+              background: "currentColor", opacity: 0.7,
+              display: "inline-block", flexShrink: 0,
+            }} />
+            indexing
           </span>
         )}
       </header>
 
       <TabBar active={tab} onChange={setTab} />
 
-      <main style={{ maxWidth: 780, margin: "20px auto 0", paddingTop: 4 }}>
+      <main className="main-content">
         {tab === "lookup" && (
           <LookupPanel
             value={lookupText}

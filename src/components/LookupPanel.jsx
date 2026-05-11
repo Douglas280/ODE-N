@@ -3,7 +3,7 @@ import { normalize } from "../engine/normalize.js";
 import { calcValues } from "../engine/ciphers.js";
 import { rankByCrossMatch, nearestInIndex } from "../engine/ranking.js";
 import { CIPHERS, CIPHER_KEYS } from "../engine/constants.js";
-import { Card, Inp, SectionLabel, ValueBadge, EmptyState } from "./ui.jsx";
+import { Card, Inp, SectionLabel, ValueBadge, EmptyState, LoadingState } from "./ui.jsx";
 import { CipherSelector } from "./CipherSelector.jsx";
 import { MatchRow } from "./MatchRow.jsx";
 
@@ -21,9 +21,7 @@ export const LookupPanel = memo(function LookupPanel({
 
   const exactMatches = useMemo(() => {
     if (!vals || !ready || !indexes) return [];
-    const bucket = indexes.idx[cipher]?.[vals[cipher]] ?? [];
-    const exactSet = new Set(bucket.map(e => e.id));
-    return bucket;
+    return indexes.idx[cipher]?.[vals[cipher]] ?? [];
   }, [vals, cipher, indexes, ready]);
 
   const nearMatches = useMemo(() => {
@@ -49,54 +47,61 @@ export const LookupPanel = memo(function LookupPanel({
 
   return (
     <Card>
-      <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+        {/* Search row */}
         <div style={{ display: "flex", gap: 8 }}>
           <Inp
             value={value}
             onChange={e => onChange(e.target.value)}
-            placeholder="Enter a phrase…"
+            placeholder="Enter a phrase to look up…"
             aria-label="Phrase input"
             style={{ flex: 1 }}
           />
           <button
+            className="btn-add"
             onClick={handleAddHistory}
             disabled={!norm}
-            aria-label="Add to history"
-            style={{
-              background: "#2a2a35",
-              border: "1px solid #3a3a48",
-              borderRadius: 6,
-              color: "#e8e8f0",
-              cursor: norm ? "pointer" : "not-allowed",
-              opacity: norm ? 1 : 0.4,
-              padding: "0 14px",
-            }}
+            aria-label="Save to history"
+            title="Save to history"
           >
             +
           </button>
         </div>
 
+        {/* Cipher picker */}
         <CipherSelector active={cipher} onChange={setCipher} />
 
+        {/* Values row */}
         {vals && (
-          <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+          <div className="values-row">
             {CIPHER_KEYS.map(k => (
               <ValueBadge key={k} value={vals[k]} color={CIPHERS[k].color} />
             ))}
           </div>
         )}
 
-        {!ready && (
-          <EmptyState message="Building index…" />
-        )}
+        {/* Loading */}
+        {!ready && <LoadingState message="Building index…" />}
 
+        {/* No results */}
         {ready && norm && exactMatches.length === 0 && (
-          <EmptyState message={`No exact matches for ${cipher} = ${activeVal}`} />
+          <EmptyState
+            icon="◎"
+            message={`No exact matches for ${CIPHERS[cipher].label} = ${activeVal}`}
+          />
         )}
 
+        {/* Empty prompt */}
+        {ready && !norm && (
+          <EmptyState icon="✦" message="Type a phrase above to find gematria matches" />
+        )}
+
+        {/* Exact matches */}
         {exactMatches.length > 0 && (
           <div>
-            <SectionLabel>Exact matches — {CIPHERS[cipher].label} {activeVal}</SectionLabel>
+            <SectionLabel>
+              Exact — {CIPHERS[cipher].label} {activeVal}
+            </SectionLabel>
             <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
               {exactMatches.slice(0, 12).map(e => (
                 <MatchRow key={e.id} entry={e} targetValues={vals} onSelect={onChange} />
@@ -105,6 +110,7 @@ export const LookupPanel = memo(function LookupPanel({
           </div>
         )}
 
+        {/* Near matches */}
         {nearMatches.length > 0 && (
           <div>
             <SectionLabel>Near matches</SectionLabel>
@@ -116,6 +122,7 @@ export const LookupPanel = memo(function LookupPanel({
           </div>
         )}
 
+        {/* Cross-cipher matches */}
         {crossMatches.length > 0 && (
           <div>
             <SectionLabel>Cross-cipher matches</SectionLabel>

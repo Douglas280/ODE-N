@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useRef, memo } from "react";
 import { normalize } from "../engine/normalize.js";
 import { buildGlyph, polygonPoints } from "../engine/glyph.js";
-import { Card, Inp, SectionLabel, EmptyState } from "./ui.jsx";
+import { Card, Inp, EmptyState } from "./ui.jsx";
 import { useCopy } from "../hooks/useCopy.js";
 
 const PAD = 20;
@@ -24,7 +24,7 @@ function GlyphSvg({ glyph, width, height }) {
       viewBox={`0 0 ${width} ${height}`}
       role="img"
       aria-label={`Glyph for: ${glyph.label ?? ""}`}
-      style={{ display: "block", background: "#0a0a0e", borderRadius: 8 }}
+      style={{ display: "block", background: "#07070d" }}
     >
       {/* Aura lines */}
       {glyph.segments.map((seg, i) => {
@@ -115,36 +115,41 @@ export const GlyphPanel = memo(function GlyphPanel({ initialPhrase = "" }) {
 
   return (
     <Card>
-      <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
         <Inp
           value={raw}
           onChange={e => setRaw(e.target.value)}
-          placeholder="Enter phrase for glyph…"
+          placeholder="Enter phrase to generate its glyph…"
           aria-label="Glyph phrase input"
         />
 
-        {!norm && <EmptyState message="Enter a phrase to generate its glyph" />}
+        {!norm && (
+          <EmptyState icon="✦" message="Type a phrase to generate its unique glyph signature" />
+        )}
 
-        {norm && !glyph && <EmptyState message="Could not render glyph for this phrase" />}
+        {norm && !glyph && (
+          <EmptyState icon="◌" message="Could not render glyph for this phrase" />
+        )}
 
         {glyph && (
           <>
-            <div ref={svgContainerRef} style={{ lineHeight: 0 }}>
+            <div ref={svgContainerRef} className="glyph-svg-wrap">
               <GlyphSvg glyph={glyph} width={svgSize} height={svgSize} />
             </div>
             <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
-              <span style={{ fontSize: 12, color: "#6b6b80", flex: 1 }}>{norm}</span>
+              <span style={{ fontSize: 12, color: "var(--text-muted)", flex: 1, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                {norm}
+              </span>
               <button
                 onClick={() => copy(norm)}
                 aria-label={copied ? "Copied" : "Copy phrase"}
+                className={`btn${copied ? "" : ""}`}
                 style={{
-                  background: "#2a2a35",
-                  border: "1px solid #3a3a48",
-                  borderRadius: 6,
-                  color: copied ? "#4ade80" : "#6b6b80",
-                  cursor: "pointer",
                   fontSize: 11,
-                  padding: "4px 8px",
+                  padding: "5px 10px",
+                  color: copied ? "var(--success)" : undefined,
+                  borderColor: copied ? "rgba(74,222,128,0.3)" : undefined,
+                  background: copied ? "rgba(74,222,128,0.08)" : undefined,
                 }}
               >
                 {copied ? "✓ Copied" : "Copy phrase"}

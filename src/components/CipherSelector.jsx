@@ -1,21 +1,27 @@
 import React, { memo } from "react";
 import { CIPHERS, CIPHER_KEYS } from "../engine/constants.js";
-import { Btn } from "./ui.jsx";
 
 export const CipherSelector = memo(function CipherSelector({ active, onChange }) {
   return (
-    <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+    <div className="cipher-grid">
       {CIPHER_KEYS.map(k => {
         const c = CIPHERS[k];
+        const isActive = active === k;
         return (
-          <Btn
+          <button
             key={k}
-            active={active === k}
+            className={`cipher-btn${isActive ? " active" : ""}`}
             onClick={() => onChange(k)}
-            style={{ borderColor: active === k ? c.color : undefined, color: active === k ? c.color : undefined }}
+            style={isActive ? {
+              borderColor: c.color,
+              color: c.color,
+              boxShadow: `0 0 10px ${c.color}33`,
+              background: `${c.color}11`,
+            } : undefined}
           >
-            {c.short} <span style={{ fontSize: 10, opacity: 0.7 }}>{c.label}</span>
-          </Btn>
+            {c.short}
+            <span style={{ fontSize: 10, opacity: 0.65, marginLeft: 3 }}>{c.label}</span>
+          </button>
         );
       })}
     </div>
