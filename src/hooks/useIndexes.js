@@ -9,7 +9,7 @@ function buildSync() {
     for (const phrase of cat.phrases) {
       allPhrases.push(phrase);
       const norm = phrase.trim().toLowerCase().replace(/[^a-z ]/g, "").replace(/\s+/g, " ");
-      phraseCatMap.set(norm, cat.key);
+      phraseCatMap.set(norm, cat.label);
     }
   }
   const entries = buildDataset(allPhrases, phraseCatMap);
@@ -18,29 +18,38 @@ function buildSync() {
 }
 
 export function useIndexes() {
-  const [state, setState] = useState({ entries: null, indexes: null, ready: false });
+  const [state, setState] = useState({ entries: null, indexes: null, ready: false, count: 0 });
   const workerRef = useRef(null);
 
   useEffect(() => {
     let cancelled = false;
 
-    // Vite replaces this import with the worker bundle URL at build time.
-    // If the dynamic import fails (test env, SSR) we fall back to sync build.
     import("../engine/indexWorker.js?worker")
       .then(({ default: Worker }) => {
         const w = new Worker();
         workerRef.current = w;
         w.onmessage = (e) => {
-          if (!cancelled) setState({ ...e.data, ready: true });
+          if (!cancelled) setState({
+            entries: e.data.entries,
+            indexes: e.data.indexes,
+            count:   e.data.entries?.length ?? 0,
+            ready:   true,
+          });
           w.terminate();
         };
         w.onerror = () => {
-          if (!cancelled) setState({ ...buildSync(), ready: true });
+          if (!cancelled) {
+            const built = buildSync();
+            setState({ ...built, count: built.entries.length, ready: true });
+          }
           w.terminate();
         };
       })
       .catch(() => {
-        if (!cancelled) setState({ ...buildSync(), ready: true });
+        if (!cancelled) {
+          const built = buildSync();
+          setState({ ...built, count: built.entries.length, ready: true });
+        }
       });
 
     return () => {

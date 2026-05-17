@@ -1,4 +1,5 @@
-import { CIPHER_VOWELS, PYTH_MAP, PRIME_MAP } from "./constants.js";
+import { CIPHER_VOWELS, PYTH_MAP, PRIME_MAP, CIPHER_KEYS } from "./constants.js";
+import { normalize, wordCount, letterCount } from "./normalize.js";
 
 /**
  * Single-pass fused cipher — computes simple, reverseSimple, ascii,
@@ -88,4 +89,39 @@ export function calcValues(norm) {
     pythagorean:   fused.pythagorean,
     prime:         fused.prime,
   };
+}
+
+/**
+ * Evaluate a list of term objects [{id, text, op}] and return totals + avg.
+ * Returns null when no terms have non-empty text.
+ */
+export function calcExpression(terms) {
+  const parsed = [];
+  for (const t of terms) {
+    const norm = normalize(t.text);
+    if (!norm.length) continue;
+    parsed.push({
+      id: t.id, op: t.op, norm,
+      values: calcValues(norm),
+      wc: wordCount(norm),
+      lc: letterCount(norm),
+    });
+  }
+  if (!parsed.length) return null;
+
+  const totals = {};
+  for (const c of CIPHER_KEYS) totals[c] = 0;
+  let totalWC = 0;
+
+  for (let i = 0; i < parsed.length; i++) {
+    const t    = parsed[i];
+    const sign = (i === 0 || t.op === "+") ? 1 : -1;
+    for (const c of CIPHER_KEYS) totals[c] += sign * t.values[c];
+    totalWC += t.wc;
+  }
+
+  const avg = {};
+  for (const c of CIPHER_KEYS) avg[c] = totalWC > 0 ? Math.round(totals[c] / totalWC) : 0;
+
+  return { parsed, totals, avg, totalWC };
 }

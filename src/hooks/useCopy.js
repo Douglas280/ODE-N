@@ -1,15 +1,19 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 
-export function useCopy(timeout = 1500) {
-  const [copied, setCopied] = useState(false);
+export function useCopy() {
+  const [copiedId, setCopiedId] = useState(null);
+  const timerRef = useRef(null);
 
-  const copy = useCallback((text) => {
-    if (!text) return;
+  const copy = useCallback((text, id) => {
+    if (!navigator.clipboard) return;
     navigator.clipboard.writeText(text).then(() => {
-      setCopied(true);
-      setTimeout(() => setCopied(false), timeout);
+      setCopiedId(id);
+      clearTimeout(timerRef.current);
+      timerRef.current = setTimeout(() => setCopiedId(null), 1500);
     });
-  }, [timeout]);
+  }, []);
 
-  return { copied, copy };
+  useEffect(() => () => clearTimeout(timerRef.current), []);
+
+  return { copy, copiedId };
 }

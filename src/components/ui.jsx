@@ -1,74 +1,113 @@
 import React from "react";
+import { digitalRoot } from "../engine/normalize.js";
 
-const S = {
-  card: {
-    background: "#18181f",
-    border: "1px solid #2a2a35",
-    borderRadius: 10,
-    padding: "16px",
-  },
-  btn: {
-    background: "#2a2a35",
-    border: "1px solid #3a3a48",
-    borderRadius: 6,
-    color: "#e8e8f0",
-    cursor: "pointer",
-    fontSize: 13,
-    padding: "6px 12px",
-    transition: "background 0.15s",
-  },
-  btnActive: {
-    background: "#7c6af7",
-    borderColor: "#7c6af7",
-  },
-  inp: {
-    background: "#0f0f13",
-    border: "1px solid #2a2a35",
-    borderRadius: 6,
-    color: "#e8e8f0",
-    fontSize: 14,
-    padding: "8px 12px",
-    outline: "none",
-    width: "100%",
-    boxSizing: "border-box",
-  },
-  badge: {
-    borderRadius: 4,
-    display: "inline-block",
-    fontSize: 11,
-    fontWeight: 600,
-    padding: "2px 6px",
-  },
-  sectionLabel: {
-    color: "#6b6b80",
-    fontSize: 11,
-    fontWeight: 600,
-    letterSpacing: "0.08em",
-    textTransform: "uppercase",
-    marginBottom: 6,
-  },
-  fieldLabel: {
-    color: "#6b6b80",
-    fontSize: 11,
-    marginBottom: 4,
-  },
-  emptyState: {
-    color: "#6b6b80",
-    fontSize: 13,
-    padding: "24px 0",
-    textAlign: "center",
-  },
+export const T = {
+  bg0:      "#000000",
+  bg1:      "#0d0d0d",
+  bg2:      "#151515",
+  border:   "#1e1e1e",
+  border2:  "#2a2a2a",
+  text:     "#e8e8e8",
+  textDim:  "#444444",
+  textMid:  "#888888",
+  mono:     "'Courier New', Courier, monospace",
+  radius:   10,
+  radiusLg: 14,
+};
+
+export const baseInputStyle = {
+  width:            "100%",
+  padding:          "12px 14px",
+  borderRadius:     T.radius,
+  border:           `1px solid ${T.border}`,
+  background:       T.bg0,
+  color:            T.text,
+  fontSize:         15,
+  fontFamily:       T.mono,
+  boxSizing:        "border-box",
+  outline:          "none",
+  WebkitAppearance: "none",
 };
 
 export function Card({ children, style }) {
-  return <div style={{ ...S.card, ...style }}>{children}</div>;
+  return (
+    <div style={{
+      background:   T.bg1,
+      border:       `1px solid ${T.border}`,
+      borderRadius: T.radiusLg,
+      padding:      "16px",
+      marginBottom: 12,
+      ...style,
+    }}>
+      {children}
+    </div>
+  );
 }
 
-export function Btn({ children, active, onClick, style, ...rest }) {
+export function SectionLabel({ children }) {
+  return (
+    <div style={{
+      fontSize:      11,
+      fontWeight:    700,
+      color:         T.textDim,
+      textTransform: "uppercase",
+      letterSpacing: "0.12em",
+      marginBottom:  12,
+    }}>
+      {children}
+    </div>
+  );
+}
+
+export function FieldLabel({ children }) {
+  return (
+    <div style={{
+      fontSize:      11,
+      color:         T.textMid,
+      marginBottom:  5,
+      letterSpacing: "0.04em",
+    }}>
+      {children}
+    </div>
+  );
+}
+
+export function Inp({ value, onChange, placeholder, type = "text", min, max, accentColor, style: ext, onKeyDown }) {
+  return (
+    <input
+      type={type}
+      value={value}
+      onChange={onChange}
+      placeholder={placeholder}
+      min={min}
+      max={max}
+      onKeyDown={onKeyDown}
+      style={{
+        ...baseInputStyle,
+        borderColor: value ? (accentColor || T.border2) : T.border,
+        ...ext,
+      }}
+    />
+  );
+}
+
+export function Btn({ onClick, children, active, color, style: ext, title, ...rest }) {
   return (
     <button
       onClick={onClick}
-      style={{ ...S.btn, ...(active ? S.btnActive : {}), ...style }}
+      title={title}
+      style={{
+        padding:      "9px 14px",
+        borderRadius: T.radius,
+        border:       `1px solid ${active ? (color || T.border2) : T.border}`,
+        background:   active ? `${color || "#38bdf8"}1a` : "transparent",
+        color:        active ? (color || "#38bdf8") : T.textMid,
+        cursor:       "pointer",
+        fontSize:     12,
+        fontFamily:   T.mono,
+        whiteSpace:   "nowrap",
+        ...ext,
+      }}
       {...rest}
     >
       {children}
@@ -76,46 +115,75 @@ export function Btn({ children, active, onClick, style, ...rest }) {
   );
 }
 
-export function Inp({ style, ...props }) {
-  return <input style={{ ...S.inp, ...style }} {...props} />;
-}
-
-export function ValueBadge({ value, color }) {
-  return (
-    <span style={{ ...S.badge, background: color + "22", color }}>
-      {value}
-    </span>
-  );
-}
-
-export function CopyBtn({ onCopy, copied }) {
+export function CopyBtn({ text, id, copy, copiedId, style: ext }) {
+  const done = copiedId === id;
   return (
     <button
-      onClick={onCopy}
-      aria-label={copied ? "Copied" : "Copy to clipboard"}
-      title={copied ? "Copied!" : "Copy"}
+      onClick={e => { e.stopPropagation(); copy(text, id); }}
+      title="Copy to clipboard"
       style={{
-        ...S.btn,
-        padding: "4px 8px",
-        fontSize: 11,
-        background: copied ? "#4ade8022" : "#2a2a35",
-        color: copied ? "#4ade80" : "#6b6b80",
-        borderColor: copied ? "#4ade8055" : "#3a3a48",
+        background:     "transparent",
+        border:         "none",
+        color:          done ? "#4ade80" : T.textDim,
+        cursor:         "pointer",
+        fontSize:       13,
+        padding:        "4px 6px",
+        fontFamily:     T.mono,
+        flexShrink:     0,
+        minWidth:       28,
+        minHeight:      28,
+        display:        "flex",
+        alignItems:     "center",
+        justifyContent: "center",
+        ...ext,
       }}
     >
-      {copied ? "✓" : "⧉"}
+      {done ? "✓" : "⎘"}
     </button>
   );
 }
 
-export function EmptyState({ message }) {
-  return <div style={S.emptyState}>{message}</div>;
+export function ValueBadge({ cipher, value, cipherDef, showRoot = false }) {
+  const { short, color } = cipherDef;
+  const root = digitalRoot(value);
+  return (
+    <span style={{
+      display:      "inline-flex",
+      alignItems:   "center",
+      gap:          4,
+      padding:      "4px 10px",
+      borderRadius: 6,
+      border:       `1px solid ${color}33`,
+      fontSize:     12,
+      fontFamily:   T.mono,
+      fontWeight:   700,
+      color,
+      flexShrink:   0,
+      whiteSpace:   "nowrap",
+    }}>
+      <span style={{ color: `${color}55`, fontWeight: 400, fontSize: 10 }}>{short}</span>
+      {value}
+      {showRoot && <span style={{ color: `${color}44`, fontSize: 9 }}>/{root}</span>}
+    </span>
+  );
 }
 
-export function SectionLabel({ children }) {
-  return <div style={S.sectionLabel}>{children}</div>;
+export function EmptyState({ text }) {
+  return (
+    <div style={{ color: T.textDim, fontSize: 13, padding: "20px 0", textAlign: "center" }}>
+      {text}
+    </div>
+  );
 }
 
-export function FieldLabel({ children }) {
-  return <div style={S.fieldLabel}>{children}</div>;
+export function Divider({ label }) {
+  return (
+    <div style={{ display: "flex", alignItems: "center", gap: 10, margin: "4px 0 12px" }}>
+      <div style={{ flex: 1, height: 1, background: T.border }} />
+      <span style={{ fontSize: 10, color: T.textDim, letterSpacing: "0.1em", textTransform: "uppercase" }}>
+        {label}
+      </span>
+      <div style={{ flex: 1, height: 1, background: T.border }} />
+    </div>
+  );
 }
