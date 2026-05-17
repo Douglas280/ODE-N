@@ -909,6 +909,214 @@ const SEED_PHRASES = [
   "early in the relationship","late in the relationship","early in the process","late in the process","early in the grief","late in the grief",
   "early in the healing","late in the healing","before things got hard","after things got hard","before it made sense","after it finally made sense",
   "too early to know","too late to change","right on time","always a little late","always a little early","never quite on time",
+  "man of many secrets","woman of many secrets","man of few secrets","woman of few secrets","wants to be seen by many","wants to be seen by few","gives more than they take","takes more than they give","loyal husband and father","loyal wife and mother","travels a lot in life","travels seldom in life","learns easier than most","doesnt learn easy",
+  // ── opinionated character batch ──
+  "shows up late and leaves early","remembers everything and forgives nothing","helps only when it benefits them","talks loud in quiet rooms","cries alone and laughs in public","knows everyone and trusts nobody",
+  "builds you up to tear you down later","disappears when things get hard","stays when things get hard","takes credit and shares blame","shares credit and takes blame","loves harder than they are loved",
+  "is never wrong out loud","apologizes without changing","changes without apologizing","means well and lands badly","lands well and means nothing","too smart for their own comfort",
+  "too soft for the world they chose","too hard for the people who love them","clever but not wise","wise but not clever","brave in theory only","brave when no one is watching",
+  "generous with strangers and cold at home","cold with strangers and warm at home","loyal to a fault and proud of it","loyal until loyalty costs something","honest in the wrong moments","dishonest in the right ones",
+  "kind to everyone except themselves","cruel to themselves and calls it discipline","loves deeply and shows it poorly","shows love well and feels it barely","dangerous when bored","gentle when trusted",
+  "sharp when threatened","soft when safe","loud about small things","quiet about the big ones","brilliant in crisis","useless in peace",
+  "made for hard times","ill-suited for easy ones","better in theory than in practice","better in practice than they sound","underestimated always","overestimated by themselves",
+  "known by few and loved by those few","known by many and understood by none","gives everything then resents it","gives nothing and calls it boundaries","the most interesting person in any room","the loneliest person in any room",
+  "built different and knows it","built different and hides it",
+  // ── character descriptive batch ──
+  "sharp under pressure","quiet before striking","burns low always","voltage behind stillness","controlled interior fire","deliberately hard to read",
+  "calm that costs","still but loaded","edge without display","precise in danger","slow to detonate","coiled and waiting",
+  "dangerous in stillness","measured in fury","rage kept clean","genuinely wants good","loves without agenda","gives without tracking",
+  "warm without performance","soft in private","carries others quietly","holds space naturally","generous past reason","kind when unseen",
+  "warms every room","remembers the small","tends to everyone","love without conditions","gentle past comfort","cares to exhaustion",
+  "sees before speaking","reads rooms instantly","thinks three moves","pattern before proof","understands without explaining","connects invisible dots",
+  "knows without asking","slow talker fast thinker","listens to understand","sees the unspoken","sharp but quiet","thinks in systems",
+  "moves in principles","depth without display","never misses much","magnetic without trying","draws people in","makes strangers comfortable",
+  "everyone's second call","nobody's first enemy","easy to approach","hard to leave","remembered by all","known by few",
+  "feels like home","impossible to forget","leaves a mark","changes the temperature","shifts every room","people lean toward",
+  "light and shadow","angel with teeth","kind and ruthless","soft and immovable","gentle and exacting","peace with edges",
+  "tender but precise","warm and dangerous","calm and volcanic","loving and distant","honest and withholding","open and opaque",
+  "certain and questioning","present and unreachable","clear and complex","says what costs","does what hurts","stands when inconvenient",
+  "honest at expense","keeps word quietly","admits fault first","changes when wrong","holds line anyway","values over comfort",
+  "principle over applause","truth over peace","integrity in private","consistent when unseen","accountable without performance","never performs goodness",
+  "moves with purpose","never fully still","always building something","thinks long term","outworks the room","hunger without desperation",
+  "wants more quietly","driven past comfort","focused past distraction","never wastes motion","plays the long","patient and relentless",
+  "sees the ceiling","plans beyond today","works in silence","mood shifts fast","reads as calm","unpredictable in peace",
+  "steady in crisis","calm then sudden","warm then cold","present then gone","open then sealed","generous then withdrawn",
+  "predictable in chaos","unreliable in comfort","stable under pressure","unstable in safety","changes without warning","impossible to anticipate",
+  "lives inside themselves","rich inner world","thinks more than speaks","feels everything quietly","processes before responding","interior life vast",
+  "surface hides depth","never fully known","gives partial access","mystery by nature","deep without performance","keeps their own counsel",
+  "carries quiet weight","has a whole world","more than visible",
+  // ── individual descriptors & instructions batch ──
+  "moves without permission","builds without blueprints","answers to no one","carries more than shown","knows before being told","leaves rooms better than found",
+  "takes up necessary space","speaks when it costs","stays when others leave","arrives already prepared","earns trust slowly","breaks patterns on purpose",
+  "sees what others overlook","holds ground under pressure","names things precisely","acts without applause","learns from every loss","chooses discomfort over stagnation",
+  "protects without being asked","commits fully or not at all","reads the room early","gives without keeping score","moves at their own pace","refuses easy comfort",
+  "knows when to be still","changes their mind openly","holds others accountable gently","speaks last and clearly","shows up before being called","makes hard things look simple",
+  "asks the second question","trusts their instincts first","repairs what others abandon","leads without needing followers","rests without guilt","gives people room to be wrong",
+  "owns their contradictions","sits with uncertainty long","makes something from nothing","refuses to be managed","knows what they are worth","grows in the dark",
+  "never wastes a wound","feels deeply and continues","decides and doesn't revisit","admits when they are lost","finds the door that wasn't there","keeps nothing that weighs them",
+  "fights for what matters quietly","holds their own story","stops when stopping is brave","does not negotiate their peace","trusts the process they built","lives inside their values",
+  "acts from the inside out","burns clean not bright","returns to themselves reliably","measures by growth not speed","speaks the truth with care","belongs to themselves first",
+  "walks through and keeps walking","earns their own respect daily","makes room for others quietly","stays soft in hard places","refuses to be defined early","holds the line without noise",
+  "gives the benefit once","builds systems not dependencies","lets things end when they end","chooses depth over breadth","knows their own rhythms","does not explain themselves often",
+  "takes the weight they can carry","does not rush their knowing","makes peace without losing ground","accepts help without shame","loves what is actually there","walks away from what diminishes",
+  "tends to their own roots","stays curious past certainty","releases what is not theirs","does not outsource their conscience","moves toward fear when necessary","holds space for their own becoming",
+  "sees the pattern before the proof","does not wait to be chosen","trusts their grief to pass","builds what they needed and lacked","does not confuse busy with alive","finds stillness before deciding",
+  "speaks the name of what hurts","lets loyalty be earned","keeps their counsel well","does not flinch from their reflection","chooses presence over performance","does not take what dims their light",
+  "returns kindness without keeping count","stays longer when it matters","leaves when leaving is love","does not become what hurt them","holds their shape under pressure","knows what season they are in",
+  "does the invisible work","does not rush the becoming","earns their stillness","does not waste their anger","uses their wounds as windows","stands in their own light",
+  "does not borrow other people's fears","lives at their own frequency","does not lose themselves in approval","does not make small what is large","stays honest when honesty is costly","does not minimize their own knowing",
+  "holds the vision when others can't","does not trade their depth for ease","makes the call that needed making","does not perform humility","walks the talk without announcement","does not rehearse their suffering",
+  "honors what shaped them","does not confuse loyalty with silence","shows their work without apology","does not wait for a perfect moment","lives like they mean it","does not carry what isn't theirs",
+  "builds the thing they kept imagining","does not let fear make decisions","stays true when truth is inconvenient","does not explain their exits","knows their own frequency","does not perform their healing",
+  "earns their own peace","does not outsource their center","keeps going past the point of comfort","does not confuse movement with progress","arrives as themselves every time",
+  // ── mortality & timing batch ──
+  "dies young and known","lives past their purpose","goes quietly in sleep","dies with unfinished business","leaves before the ending","dies surrounded by many",
+  "dies completely alone","goes out fighting","dies mid sentence","lives to very old","dies at the height","goes before their time",
+  "dies in the middle","lives long enough to change","dies the same as lived","goes gently without resistance","dies holding someone's hand","leaves a full life",
+  "dies with regrets unnamed","goes out on their terms","dies young and forgotten","lives into their legend","dies before being understood","goes in their sleep peacefully",
+  "dies at the wrong time","lives past everyone they loved","dies with secrets intact","goes without saying goodbye","dies remembered by few","lives long and fades slowly",
+  "dies at the peak","goes suddenly without warning","dies after long suffering","lives to see the change","dies before the resolution","goes with everything settled",
+  "dies in the middle of becoming","lives past their own story","dies with purpose intact","goes before understanding arrives","dies the way they feared","lives long and stays sharp",
+  "dies carrying the weight","goes in the presence of love","dies before the recognition comes","lives to outlast the pain","dies as they were born","goes out with no warning",
+  "dies with one thing left","lives into complete forgiveness","dies in the act of giving","goes quietly with no fuss","dies having loved well","lives long enough to rest",
+  "dies before reconciliation","goes with loose ends everywhere","dies in a foreign place","lives to see justice","dies holding old grudges","goes in the company of strangers",
+  "dies remembered as different than lived","lives past their relevance","dies in the making of something","goes before anyone was ready","dies with their name cleared","lives to the very end fully",
+  "dies having never been seen","goes in the middle of winter","dies with their story incomplete","lives until the work is done","dies at the start of something","goes without being mourned long",
+  "dies the death they prepared for","lives long and remains strange","dies in someone else's story","goes before the apology arrives","dies with music still in them","lives past what tried to kill them",
+  "dies before the dawn of it","goes with grace and intention","dies mid transformation","lives long enough to become legend","dies having started too late","goes in the arms of the known",
+  "dies before the children grow","lives to be misremembered","dies the same day as someone loved","goes out as they came in","dies with their eyes open","lives into irrelevance quietly",
+  "dies having never left home","goes at the right time somehow","dies in the light of morning","lives long and loves harder","dies before the story resolves","goes leaving everything unfinished",
+  "dies as the chapter closes","lives to forgive everything","dies in the place they loved","goes when the work is done",
+  // ── life stages batch ──
+  "born into confusion","raised without safety","early life marked them","childhood shaped everything","grew up too fast","learned love was conditional",
+  "raised by the streets","nobody came when called","figured it out alone","survived the early years","gifted child unnoticed","early talent unsupported",
+  "born into the wrong house","raised in survival mode","no soft beginning","early loss changed everything","born knowing something was off","childhood was the wound",
+  "learned silence early","had everything then nothing","found trouble young","teenage years were defining","went looking for belonging early","first love left a mark",
+  "found the wrong crowd","brilliant and misunderstood young","ran before being pushed","built a self from scratch","fifteen changed everything","grew up overnight",
+  "carried adult weight young","rebellion became a path","found their power too young","lost innocence gradually","first big mistake young","twenties were the wilderness",
+  "found footing late","early adulthood wrong turns","built from the bottom","made money young lost it","fell in love wrong time","first career was wrong",
+  "twenties were survival","found their people late","early success had a cost","wasted twenties wisely","first chapter was hardest","built foundation in poverty",
+  "knew what they wanted early","left home never looked back","found purpose at forty","midlife brought the reckoning","forties were the beginning","rebuilt everything at fifty",
+  "crisis became rebirth","found wealth in middle years","lost it all started over","middle years were the best","peaked in their forties","midlife brought unexpected peace",
+  "married late and right","children came in middle years","career broke open at forty","found religion in the middle","forties finally made sense","wealth came late and lasted",
+  "success after the struggle","rich after sixty","late bloomer who bloomed","recognition came in old age","fortune found them eventually","built the empire after fifty",
+  "last chapter was richest","retired into abundance","success was the long game","late life brought everything","wealth came after losses","world caught up to them late",
+  "legacy built in final years","found their audience at seventy","outlived their wealth","old age brought new poverty","spent everything before the end","late life stripped everything",
+  "final years were hardest","outlived everyone they loved","health failed before the finish","lost the fortune in old age","last chapter rewrote everything","late life brought isolation",
+  "outlived their relevance","gave it all away at end","money ran out first","late life full of regret","grew old in wrong place","started with nothing ended with everything",
+  "started with everything ended with nothing","long arc complete","full life fully lived","came from bottom stayed at top","the whole life was the work","lived every chapter differently",
+  "nothing wasted across life","the beginning explained the ending","each decade a different person","later years redeemed the early","early years funded the later","life got better each decade",
+  "peaked early never recovered","peaked late never looked back","the middle was the miracle","lived three lives in one","every loss built the next","the life told a complete story",
+  "born broke died rich","born rich died broke","born rich died richer","born broke died broke","the whole life pointed somewhere","lived like they knew the arc",
+  // ── quality phrases batch ──
+  "genuinely good natured","deeply principled","quietly courageous","radically self aware","consistently kind hearted","naturally empathetic",
+  "fiercely loyal","remarkably self disciplined","genuinely humble","deeply compassionate","authentically generous","naturally gifted leader",
+  "profoundly wise","relentlessly optimistic","deeply emotionally intelligent","naturally draws people","earns trust effortlessly","steady under pressure",
+  "rare moral courage","chronically self centered","deeply manipulative","quietly vindictive","pathologically dishonest","consistently undermines others",
+  "naturally envious","perpetually dissatisfied","deeply resentful","chronically ungrateful","quietly destructive","naturally divisive",
+  "profoundly selfish","relentlessly negative","deeply insecure","chronically jealous","naturally cruel","quietly sabotages everything",
+  "deeply bitter","chronically victimized","pathologically avoidant","always finds a way","consistently beats the odds","naturally attracts abundance",
+  "success follows them","everything they touch grows","wins more than loses","builds lasting things","leaves things better","creates value everywhere",
+  "finishes what they start","results speak for themselves","outcomes consistently favorable","makes the most of everything","turns problems into solutions","rarely fails when committed",
+  "achieves beyond expectations","produces against all odds","converts opportunity into outcome","wins the long game","every chapter ends well","never sees things through",
+  "consistently self sabotages","always wrong timing","misses every open door","effort rarely becomes result","potential stays potential","burns what they build",
+  "repeats the same mistakes","loses what they gain","opportunity keeps passing","starts strong finishes nowhere","every win comes undone","ruins the almost moments",
+  "close but never there","good start wrong finish","always almost never fully","the breakthrough never comes","effort without arrival","misses by an inch",
+  "the win slips through","lives with deep intention","chooses quality over quantity","builds a meaningful life","lives below their ego","invests in what matters",
+  "protects their peace","lives with open hands","chooses growth over comfort","builds from the inside","lives at their word","keeps their circle tight",
+  "maintains deep inner life","lives with creative freedom","tends what they value","moves with quiet confidence","lives in alignment","builds rituals that hold",
+  "lives generously and fully","chooses depth every time","lives like it matters","lives reactively","wastes what they are given","moves through life sideways",
+  "avoids what demands growth","lives against their values","destroys what they build","survives but never lives","exists below their potential","drifts without direction",
+  "substitutes activity for meaning","lives in chronic avoidance","consumes more than creates","moves through without landing","lives for others approval","builds nothing that lasts",
+  "wastes their best years","lives in permanent reaction","chooses distraction over depth","moves fast goes nowhere","lives like it doesn't matter","high ceiling low follow through",
+  "all potential no traction","deep feeler shallow actor","brilliant mind poor choices","gifted but undisciplined","talented and self destructive","strong start weak finish",
+  "good person bad decisions","big heart poor boundaries","smart but self defeating","kind but easily used","brave in thought only","powerful presence weak follow through",
+  "wide vision narrow execution","sees far moves slow","knows better does worse","feels everything acts on nothing","understands all changes nothing","capable of everything afraid of most",
+  "full of light hard to reach","deeply loving hard to keep","gives everything holds nothing back","takes everything gives nothing back","loves hard lands badly","means well causes harm",
+  "tries hard falls short","wants the best does the least","capable and consistently absent","present but not there","here but never arrived",
+  // ── social fiscal intent batch ──
+  "socially magnetic","socially invisible","reads every room","avoids all rooms","commands attention naturally","drains the room",
+  "fills the silence","creates the silence","everyone knows them","nobody really knows them","popular but lonely","alone but full",
+  "connects deeply rarely","connects widely shallowly","the life of it","the death of it","socially exhausting","socially effortless",
+  "makes friends easily","keeps friends rarely","strangers become family","family became strangers","holds the group together","splits every group",
+  "socially aware","socially oblivious","reads people instantly","misreads everyone constantly","the center always","the edge always",
+  "brings people in","pushes people out","socially powerful quietly","socially powerless publicly","magnetic from a distance","difficult up close",
+  "easy to love","hard to like","hard to love","easy to like","builds wealth quietly","loses wealth loudly",
+  "money finds them","money leaves them","spends before earning","saves before spending","rich in private","broke in public",
+  "broke in private","rich in public","financially disciplined","financially reckless","turns nothing into something","turns something into nothing",
+  "earns well spends better","earns well saves nothing","money minded","money blind","generously broke","stingily wealthy",
+  "abundant then empty","empty then abundant","inherited and lost it","earned from nothing","wealth without wisdom","wisdom without wealth",
+  "financially free early","financially trapped late","money is the motive","money is the obstacle","gives money freely","hoards money quietly",
+  "debt follows them","abundance follows them","fiscally responsible","fiscally impulsive","underpays themselves","overpays others",
+  "money amplifies them","money diminishes them","always means well","rarely means well","never means anything","means everything deeply",
+  "acts with pure intent","acts with hidden intent","motives are clear","motives are murky","transparent in all things","opaque in all things",
+  "agenda free","always has an agenda","secretly wants harm","helps to help","helps to control","gives to give",
+  "gives to take","loves freely","loves conditionally","acts without motive","never acts without motive","pure in intention",
+  "corrupt in intention","driven by service","driven by self","wants what is right","wants what is theirs","works for the whole",
+  "works for themselves only","intent matches action","intent betrays action","says what they mean","means what they say","means nothing they say",
+  "says nothing they mean","genuine through and through","performative through and through","real in private","fake in public","fake in private",
+  "real in public","integrity all the way","corruption all the way","quietly self serving","openly self serving","covertly benevolent",
+  "overtly malevolent","hidden goodness","visible goodness","hidden evil","visible evil","deceptively kind",
+  "transparently cruel","kindness as strategy","cruelty as strategy","love as weapon","love as gift","help as control",
+  "help as freedom","truth as kindness","truth as cruelty","silence as protection","silence as punishment","presence as gift",
+  "presence as burden","absence as love","absence as abandonment","power used well","power used badly",
+  // ── sensory relational spiritual dream batch ──
+  "always something cooking","house tells the story","car says everything","neighborhood knew them","never owned much","everything secondhand",
+  "kept the lights low","home always open","home always closed","walls full of meaning","nothing on the walls","always something playing",
+  "silence in every room","smells like memory","the place remembered them","left marks everywhere","left no trace","plants alive everywhere",
+  "plants always dying","dogs loved them instantly","animals avoided them","children gravitated toward them","children sensed something off","neighborhood changed after them",
+  "built something with their hands","never fixed anything","kept everything immaculate","lived in beautiful chaos","fridge always full","fridge always empty",
+  "always called back","never called back","remembered every birthday","forgot every birthday","showed up without being asked","never showed up when needed",
+  "last to leave","first to leave","never said it first","always said it first","checked in without reason","only called when needing something",
+  "kept every letter","threw everything away","the three am call","unreachable when it mattered","held grudges for decades","forgot slights immediately",
+  "introduced everyone to everyone","kept all circles separate","the person everyone mentioned","the person nobody mentioned","remembered the small things","missed the obvious things",
+  "made you feel found","made you feel invisible","the friend who showed up","the friend who disappeared","left everyone better","left everyone wondering",
+  "married three times","never married once","seven year cycles","one true friend","moved twelve times","never left the block",
+  "always the second choice","always the first call","first of their kind","last in the line","three great loves","one great love only",
+  "never stayed past two years","stayed forty years","three careers one life","one job whole life","two cities one soul","every city briefly",
+  "had everything twice","lost it all twice","quit on the second","the third time worked","born first of many","born last of many",
+  "only child energy","middle child invisible","raised four on nothing","had one and stopped","generous and withholding","fights for strangers ignores family",
+  "saves others loses themselves","loud about small quiet about large","brave in words coward in action","soft spoken deeply cutting","warm at distance cold up close","gives everything keeps nothing",
+  "takes everything gives something","sees everyone misses themselves","fixes everything breaks something","loves hard lets go easy","holds on releases badly","open book locked door",
+  "says everything means nothing","means everything says little","runs toward and away","needs people avoids them","avoids people needs them","strong for everyone weak alone",
+  "weak publicly strong privately","confident in chaos lost in peace","calm in crisis chaotic in comfort","easy to find hard to know","hard to find easy to know","gives advice ignores their own",
+  "knows better lives worse","heals others stays wounded","wounded and healing others","carries ancestral weight","breaks the family pattern","the curse ends here",
+  "born with old eyes","the line changes with them","spiritually awake","spiritually asleep","sees beyond the surface","reads energy accurately",
+  "sends energy unintentionally","ancestral gifts intact","ancestral wounds unhealed","the family chose them","the family marked them","carries light unknowingly",
+  "carries shadow unknowingly","born into a lineage","broke from the lineage","the pattern stops here","the pattern continues through them","gifted and unaware",
+  "gifted and burdened","called to something larger","running from the calling","universe speaks through them","old soul new body","new soul old wounds",
+  "here to complete something","here to begin something","dreams in color","never remembers dreams","wakes knowing things","sleeps like the dead",
+  "night person completely","dreams solve problems","recurring dream for years","nightmare since childhood","prophetic dreams","no dreams at all",
+  "wakes before the alarm","sleeps through everything","restless every night","sleeps deeply","talks in their sleep","walks in their sleep",
+  "dreams of the same place","dreams of flying","wakes exhausted always","wakes ready always","best ideas come sleeping","processes grief in dreams",
+  "receives messages while sleeping","fights battles in sleep","night reveals everything","morning brings the answer","sleeps when stressed","cannot sleep when stressed",
+  "sleep is their reset","sleep never resets them",
+  // ── magic mind secrets body theft self-deception batch ──
+  "has magic energy","radiates strange energy","carries protective energy","emits chaotic energy","has healing presence","has draining presence",
+  "carries cursed energy","has blessed energy","emits warning signals","radiates calm pressure","has electric presence","carries cold energy",
+  "has fire inside","holds ancient knowing","has psychic edges","carries ghost energy","reads invisible currents","moves through dimensions",
+  "has spirit guides nearby","carries lineage power","emits truth frequency","radiates deception","has unsettling stillness","holds magnetic charge",
+  "carries divine spark","can think quickly","processes information fast","reads situations instantly","catches every detail","misses nothing important",
+  "connects ideas rapidly","solves problems in seconds","anticipates next moves","plans three steps ahead","learns by watching once","understands without explanation",
+  "retains everything heard","forgets nothing important","analyzes constantly silently","calculates in real time","reasons under pressure","thinks in patterns",
+  "sees the whole system","processes emotions analytically","responds before thinking","acts before processing","overthinks every decision","underthinks important ones",
+  "mental gymnast type","brilliant in conversation","can keep secrets","takes secrets to grave","trusted with confidences","never repeats anything",
+  "holds private things sacred","discreet beyond reason","mouth like a vault","cannot keep secrets","spills information quickly","loose lipped under pressure",
+  "shares everything by accident","uses secrets as currency","weaponizes private info","trades secrets for status","keeps secrets but tells stories","selective with information",
+  "compartmentalizes everything","keeps work separate from home","doesnt bring problems home","carries everything alone","trusts no one with truth","gives partial truths only",
+  "tells different stories to different people","consistent across all audiences","genuinely transparent","athletic build person","naturally muscular frame","lean and powerful",
+  "stocky and strong","tall and commanding","short and intense","broad shouldered","narrow frame deep voice","compact powerhouse",
+  "soft physically hard internally","hard physically soft internally","moves like an athlete","moves like a dancer","moves like a fighter","moves like a survivor",
+  "heavy footsteps","silent footsteps","fills doorways","slips through unnoticed","body tells the story","body hides the story",
+  "weathered but strong","youthful at any age","ages like wine","ages like stone","is a thief person","takes what isnt theirs",
+  "justifies the taking","steals from others","steals from friends","steals from strangers","steals from family","steals out of need",
+  "steals out of greed","steals out of habit","steals out of spite","takes credit not theirs","takes ideas freely","takes time without asking",
+  "takes affection deceptively","takes information dishonestly","fingers in every till","light fingers heavy conscience","light fingers no conscience","stops short of stealing",
+  "would steal if needed","lies to themselves","believes their own lies","cannot see themselves clearly","mirror doesnt show truth","constructs a self that isnt real",
+  "avoids their own reflection","faces themselves directly","brutal self honesty","delusional self image","inflated self perception","deflated self perception",
+  "accurate self knowledge","blind to their patterns","aware of every pattern","denies what they know","admits what theyve done","rewrites their own history",
+  "preserves their own history","needs to be the hero","happy being the supporting cast","needs to be misunderstood","needs to be seen accurately","believes their own publicity",
+  "ignores their own publicity","internal narrative locked","internal narrative fluid","fights their own truth","accepts their own truth","lives in their own myth",
 ];
 
 // ================================================================
@@ -1043,7 +1251,12 @@ const CATEGORY_DEFS = [
     "when autumn finally arrives","before winter settles in","after winter releases","early in life","late in life","middle of life",
     "early in the relationship","late in the relationship","early in the process","late in the process","early in the grief","late in the grief",
     "early in the healing","late in the healing","before things got hard","after things got hard","before it made sense","after it finally made sense",
-    "too early to know","too late to change","right on time","always a little late","always a little early","never quite on time",]],
+    "too early to know","too late to change","right on time","always a little late","always a little early","never quite on time",
+    "spiritually asleep","dreams in color","never remembers dreams","wakes knowing things","sleeps like the dead","night person completely",
+    "dreams solve problems","recurring dream for years","nightmare since childhood","prophetic dreams","no dreams at all","wakes before the alarm",
+    "sleeps through everything","restless every night","sleeps deeply","talks in their sleep","walks in their sleep","dreams of the same place",
+    "dreams of flying","wakes exhausted always","wakes ready always","best ideas come sleeping","processes grief in dreams","receives messages while sleeping",
+    "fights battles in sleep","morning brings the answer","sleeps when stressed","cannot sleep when stressed","sleep is their reset","sleep never resets them",]],
   ["patterns", "patterns", [
     "abundant mindset","accurate assessment","active learning","adaptive strategy","adaptive synchronization","aligned intention",
     "aligned output stream","aligned priorities","analytical coherence","anticipatory thinking","authentic presence","balanced perspective",
@@ -1630,7 +1843,66 @@ const CATEGORY_DEFS = [
     "rarely keeps their word","breaks promises cleanly","breaks promises quietly","owns their mistakes","hides their mistakes","apologizes and means it",
     "apologizes and repeats it","never apologizes","apologizes for everything","takes responsibility","deflects responsibility","admits fault privately",
     "admits fault publicly","blames others first","blames themselves first","holds others accountable","holds no one accountable","holds themselves accountable",
-    "excuses themselves always",]],
+    "excuses themselves always",
+    "gives more than they take","takes more than they give","travels a lot in life","travels seldom in life","learns easier than most","doesnt learn easy",
+    "shows up late and leaves early","remembers everything and forgives nothing","helps only when it benefits them","talks loud in quiet rooms","cries alone and laughs in public","knows everyone and trusts nobody",
+    "builds you up to tear you down later","disappears when things get hard","stays when things get hard","takes credit and shares blame","shares credit and takes blame","loves harder than they are loved",
+    "is never wrong out loud","apologizes without changing","changes without apologizing","means well and lands badly","lands well and means nothing","too smart for their own comfort",
+    "too soft for the world they chose","too hard for the people who love them","clever but not wise","wise but not clever","brave in theory only","brave when no one is watching",
+    "generous with strangers and cold at home","cold with strangers and warm at home","loyal to a fault and proud of it","loyal until loyalty costs something","honest in the wrong moments","dishonest in the right ones",
+    "kind to everyone except themselves","cruel to themselves and calls it discipline","loves deeply and shows it poorly","shows love well and feels it barely","dangerous when bored","gentle when trusted",
+    "sharp when threatened","soft when safe","loud about small things","quiet about the big ones","brilliant in crisis","useless in peace",
+    "better in theory than in practice","better in practice than they sound","gives everything then resents it","gives nothing and calls it boundaries",
+    "deeply emotionally intelligent","naturally draws people","earns trust effortlessly","steady under pressure","rare moral courage","chronically self centered",
+    "consistently undermines others","quietly sabotages everything","always finds a way","consistently beats the odds","naturally attracts abundance","success follows them",
+    "everything they touch grows","wins more than loses","builds lasting things","leaves things better","creates value everywhere","finishes what they start",
+    "results speak for themselves","outcomes consistently favorable","makes the most of everything","turns problems into solutions","rarely fails when committed","achieves beyond expectations",
+    "produces against all odds","converts opportunity into outcome","wins the long game","every chapter ends well","never sees things through","consistently self sabotages",
+    "always wrong timing","misses every open door","effort rarely becomes result","potential stays potential","burns what they build","repeats the same mistakes",
+    "loses what they gain","opportunity keeps passing","starts strong finishes nowhere","every win comes undone","ruins the almost moments","close but never there",
+    "good start wrong finish","always almost never fully","the breakthrough never comes","effort without arrival","misses by an inch","the win slips through",
+    "chooses quality over quantity","builds a meaningful life","invests in what matters","protects their peace","chooses growth over comfort","tends what they value",
+    "builds rituals that hold","wastes what they are given","moves through life sideways","avoids what demands growth","destroys what they build","exists below their potential",
+    "drifts without direction","substitutes activity for meaning","consumes more than creates","moves through without landing","builds nothing that lasts","wastes their best years",
+    "chooses distraction over depth","moves fast goes nowhere","high ceiling low follow through","all potential no traction","brilliant mind poor choices","strong start weak finish",
+    "smart but self defeating","brave in thought only","powerful presence weak follow through","wide vision narrow execution","sees far moves slow","knows better does worse",
+    "feels everything acts on nothing","understands all changes nothing","capable of everything afraid of most","gives everything holds nothing back","takes everything gives nothing back","loves hard lands badly",
+    "means well causes harm","tries hard falls short","wants the best does the least","capable and consistently absent","present but not there","here but never arrived",
+    "socially magnetic","socially invisible","reads every room","avoids all rooms","commands attention naturally","drains the room",
+    "fills the silence","creates the silence","everyone knows them","nobody really knows them","popular but lonely","alone but full",
+    "connects deeply rarely","connects widely shallowly","the life of it","the death of it","socially exhausting","socially effortless",
+    "makes friends easily","keeps friends rarely","strangers become family","family became strangers","holds the group together","splits every group",
+    "socially aware","socially oblivious","reads people instantly","misreads everyone constantly","the center always","the edge always",
+    "brings people in","pushes people out","socially powerful quietly","socially powerless publicly","magnetic from a distance","difficult up close",
+    "easy to love","hard to like","hard to love","easy to like","builds wealth quietly","loses wealth loudly",
+    "money finds them","money leaves them","spends before earning","saves before spending","rich in private","broke in public",
+    "broke in private","rich in public","financially disciplined","financially reckless","turns nothing into something","turns something into nothing",
+    "earns well spends better","earns well saves nothing","money minded","money blind","generously broke","stingily wealthy",
+    "abundant then empty","empty then abundant","inherited and lost it","earned from nothing","wealth without wisdom","wisdom without wealth",
+    "financially free early","financially trapped late","money is the obstacle","gives money freely","hoards money quietly","debt follows them",
+    "abundance follows them","fiscally responsible","fiscally impulsive","underpays themselves","overpays others","money amplifies them",
+    "money diminishes them","never means anything","transparent in all things","opaque in all things","says nothing they mean","deceptively kind",
+    "transparently cruel",
+    "always something cooking","house tells the story","car says everything","neighborhood knew them","never owned much","everything secondhand",
+    "kept the lights low","home always open","home always closed","walls full of meaning","nothing on the walls","always something playing",
+    "silence in every room","smells like memory","the place remembered them","left marks everywhere","left no trace","plants alive everywhere",
+    "plants always dying","dogs loved them instantly","animals avoided them","children gravitated toward them","children sensed something off","neighborhood changed after them",
+    "built something with their hands","never fixed anything","kept everything immaculate","lived in beautiful chaos","fridge always full","fridge always empty",
+    "always called back","never called back","remembered every birthday","forgot every birthday","showed up without being asked","never showed up when needed",
+    "last to leave","first to leave","never said it first","always said it first","checked in without reason","only called when needing something",
+    "kept every letter","threw everything away","the three am call","unreachable when it mattered","held grudges for decades","forgot slights immediately",
+    "introduced everyone to everyone","kept all circles separate","the person everyone mentioned","the person nobody mentioned","remembered the small things","missed the obvious things",
+    "made you feel found","made you feel invisible","the friend who showed up","the friend who disappeared","left everyone better","left everyone wondering",
+    "seven year cycles","never left the block","always the second choice","always the first call","three great loves","one great love only",
+    "never stayed past two years","quit on the second","the third time worked","fights for strangers ignores family","loud about small quiet about large","brave in words coward in action",
+    "soft spoken deeply cutting","warm at distance cold up close","gives everything keeps nothing","takes everything gives something","sees everyone misses themselves","fixes everything breaks something",
+    "loves hard lets go easy","holds on releases badly","says everything means nothing","means everything says little","runs toward and away","needs people avoids them",
+    "avoids people needs them","strong for everyone weak alone","weak publicly strong privately","confident in chaos lost in peace","calm in crisis chaotic in comfort","easy to find hard to know",
+    "hard to find easy to know","gives advice ignores their own","knows better lives worse","breaks the family pattern","sees beyond the surface","night reveals everything",
+    "takes secrets to grave","spills information quickly","shares everything by accident","uses secrets as currency","weaponizes private info","trades secrets for status",
+    "keeps secrets but tells stories","tells different stories to different people","takes what isnt theirs","steals from others","steals from friends","steals from strangers",
+    "steals from family","takes credit not theirs","takes ideas freely","takes time without asking","takes affection deceptively","takes information dishonestly",
+    "denies what they know","admits what theyve done","rewrites their own history","preserves their own history","fights their own truth","accepts their own truth",]],
   ["identity", "identity", [
     "clear articulation","technical literacy","information control","harm awareness","domain mastery","temporal awareness",
     "deep passion","easily bored","drawn to the unseen","concise expression","system navigation","selective disclosure",
@@ -2018,7 +2290,112 @@ const CATEGORY_DEFS = [
     "rare commodity","regular degular","one of one","real prize","is the chaos","is the peace",
     "type to slide","type to hide","built for the pressure","came from the mud","never seen the mud","earned every stripe",
     "bought their stripes","on demon time","on angel time","balanced energy","toxic energy","healing energy",
-    "draining energy","type to heal you","type to break you",]],
+    "draining energy","type to heal you","type to break you",
+    "man of many secrets","woman of many secrets","man of few secrets","woman of few secrets","wants to be seen by many","wants to be seen by few","loyal husband and father","loyal wife and mother",
+    "made for hard times","ill-suited for easy ones","underestimated always","overestimated by themselves","known by few and loved by those few","known by many and understood by none",
+    "the most interesting person in any room","the loneliest person in any room","built different and knows it","built different and hides it",
+    "sharp under pressure","quiet before striking","burns low always","voltage behind stillness","controlled interior fire","deliberately hard to read",
+    "calm that costs","still but loaded","edge without display","precise in danger","slow to detonate","coiled and waiting",
+    "dangerous in stillness","measured in fury","rage kept clean","genuinely wants good","loves without agenda","gives without tracking",
+    "warm without performance","soft in private","carries others quietly","holds space naturally","generous past reason","kind when unseen",
+    "warms every room","remembers the small","tends to everyone","love without conditions","gentle past comfort","cares to exhaustion",
+    "sees before speaking","reads rooms instantly","thinks three moves","pattern before proof","understands without explaining","connects invisible dots",
+    "knows without asking","slow talker fast thinker","listens to understand","sees the unspoken","sharp but quiet","thinks in systems",
+    "moves in principles","depth without display","never misses much","magnetic without trying","draws people in","makes strangers comfortable",
+    "everyone's second call","nobody's first enemy","easy to approach","hard to leave","remembered by all","known by few",
+    "feels like home","impossible to forget","leaves a mark","changes the temperature","shifts every room","people lean toward",
+    "light and shadow","angel with teeth","kind and ruthless","soft and immovable","gentle and exacting","peace with edges",
+    "tender but precise","warm and dangerous","calm and volcanic","loving and distant","honest and withholding","open and opaque",
+    "certain and questioning","present and unreachable","clear and complex","says what costs","does what hurts","stands when inconvenient",
+    "honest at expense","keeps word quietly","admits fault first","changes when wrong","holds line anyway","values over comfort",
+    "principle over applause","truth over peace","integrity in private","consistent when unseen","accountable without performance","never performs goodness",
+    "moves with purpose","never fully still","always building something","thinks long term","outworks the room","hunger without desperation",
+    "wants more quietly","driven past comfort","focused past distraction","never wastes motion","plays the long","patient and relentless",
+    "sees the ceiling","plans beyond today","works in silence","mood shifts fast","reads as calm","unpredictable in peace",
+    "steady in crisis","calm then sudden","warm then cold","present then gone","open then sealed","generous then withdrawn",
+    "predictable in chaos","unreliable in comfort","stable under pressure","unstable in safety","changes without warning","impossible to anticipate",
+    "lives inside themselves","rich inner world","thinks more than speaks","feels everything quietly","processes before responding","interior life vast",
+    "surface hides depth","never fully known","gives partial access","mystery by nature","deep without performance","keeps their own counsel",
+    "carries quiet weight","has a whole world","more than visible",
+    "moves without permission","builds without blueprints","answers to no one","carries more than shown","knows before being told","leaves rooms better than found",
+    "takes up necessary space","speaks when it costs","stays when others leave","arrives already prepared","earns trust slowly","breaks patterns on purpose",
+    "sees what others overlook","holds ground under pressure","names things precisely","acts without applause","learns from every loss","chooses discomfort over stagnation",
+    "protects without being asked","commits fully or not at all","reads the room early","gives without keeping score","moves at their own pace","refuses easy comfort",
+    "knows when to be still","changes their mind openly","holds others accountable gently","speaks last and clearly","shows up before being called","makes hard things look simple",
+    "asks the second question","trusts their instincts first","repairs what others abandon","leads without needing followers","rests without guilt","gives people room to be wrong",
+    "owns their contradictions","sits with uncertainty long","makes something from nothing","refuses to be managed","knows what they are worth","grows in the dark",
+    "never wastes a wound","feels deeply and continues","decides and doesn't revisit","admits when they are lost","finds the door that wasn't there","keeps nothing that weighs them",
+    "fights for what matters quietly","holds their own story","stops when stopping is brave","does not negotiate their peace","trusts the process they built","lives inside their values",
+    "acts from the inside out","burns clean not bright","returns to themselves reliably","measures by growth not speed","speaks the truth with care","belongs to themselves first",
+    "walks through and keeps walking","earns their own respect daily","makes room for others quietly","stays soft in hard places","refuses to be defined early","holds the line without noise",
+    "gives the benefit once","builds systems not dependencies","lets things end when they end","chooses depth over breadth","knows their own rhythms","does not explain themselves often",
+    "takes the weight they can carry","does not rush their knowing","makes peace without losing ground","accepts help without shame","loves what is actually there","walks away from what diminishes",
+    "tends to their own roots","stays curious past certainty","releases what is not theirs","does not outsource their conscience","moves toward fear when necessary","holds space for their own becoming",
+    "sees the pattern before the proof","does not wait to be chosen","trusts their grief to pass","builds what they needed and lacked","does not confuse busy with alive","finds stillness before deciding",
+    "speaks the name of what hurts","lets loyalty be earned","keeps their counsel well","does not flinch from their reflection","chooses presence over performance","does not take what dims their light",
+    "returns kindness without keeping count","stays longer when it matters","leaves when leaving is love","does not become what hurt them","holds their shape under pressure","knows what season they are in",
+    "does the invisible work","does not rush the becoming","earns their stillness","does not waste their anger","uses their wounds as windows","stands in their own light",
+    "does not borrow other people's fears","lives at their own frequency","does not lose themselves in approval","does not make small what is large","stays honest when honesty is costly","does not minimize their own knowing",
+    "holds the vision when others can't","does not trade their depth for ease","makes the call that needed making","does not perform humility","walks the talk without announcement","does not rehearse their suffering",
+    "honors what shaped them","does not confuse loyalty with silence","shows their work without apology","does not wait for a perfect moment","lives like they mean it","does not carry what isn't theirs",
+    "builds the thing they kept imagining","does not let fear make decisions","stays true when truth is inconvenient","does not explain their exits","knows their own frequency","does not perform their healing",
+    "earns their own peace","does not outsource their center","keeps going past the point of comfort","does not confuse movement with progress","arrives as themselves every time",
+    "born into confusion","raised without safety","childhood shaped everything","grew up too fast","learned love was conditional","raised by the streets",
+    "gifted child unnoticed","born into the wrong house","raised in survival mode","born knowing something was off","childhood was the wound","learned silence early",
+    "teenage years were defining","brilliant and misunderstood young","built a self from scratch","grew up overnight","found their power too young","found their people late",
+    "peaked in their forties","late bloomer who bloomed","found their audience at seventy","outlived their wealth","outlived everyone they loved","outlived their relevance",
+    "full life fully lived","the whole life was the work","lived every chapter differently","each decade a different person","life got better each decade","peaked early never recovered",
+    "peaked late never looked back","lived three lives in one","born broke died rich","born rich died broke","born rich died richer","born broke died broke",
+    "the whole life pointed somewhere","lived like they knew the arc",
+    "genuinely good natured","deeply principled","quietly courageous","radically self aware","consistently kind hearted","naturally empathetic",
+    "fiercely loyal","remarkably self disciplined","genuinely humble","deeply compassionate","authentically generous","naturally gifted leader",
+    "profoundly wise","relentlessly optimistic","deeply manipulative","quietly vindictive","pathologically dishonest","naturally envious",
+    "perpetually dissatisfied","deeply resentful","chronically ungrateful","quietly destructive","naturally divisive","profoundly selfish",
+    "relentlessly negative","deeply insecure","chronically jealous","naturally cruel","deeply bitter","chronically victimized",
+    "pathologically avoidant","lives with deep intention","lives below their ego","lives with open hands","builds from the inside","lives at their word",
+    "keeps their circle tight","maintains deep inner life","lives with creative freedom","moves with quiet confidence","lives in alignment","lives generously and fully",
+    "chooses depth every time","lives like it matters","lives reactively","lives against their values","survives but never lives","lives in chronic avoidance",
+    "lives for others approval","lives in permanent reaction","lives like it doesn't matter","deep feeler shallow actor","gifted but undisciplined","talented and self destructive",
+    "good person bad decisions","big heart poor boundaries","kind but easily used","full of light hard to reach","deeply loving hard to keep",
+    "money is the motive","always means well","rarely means well","means everything deeply","acts with pure intent","acts with hidden intent",
+    "motives are clear","motives are murky","agenda free","always has an agenda","secretly wants harm","helps to help",
+    "helps to control","gives to give","gives to take","loves freely","loves conditionally","acts without motive",
+    "never acts without motive","pure in intention","corrupt in intention","driven by service","driven by self","wants what is right",
+    "wants what is theirs","works for the whole","works for themselves only","intent matches action","intent betrays action","says what they mean",
+    "means what they say","means nothing they say","genuine through and through","performative through and through","real in private","fake in public",
+    "fake in private","real in public","integrity all the way","corruption all the way","quietly self serving","openly self serving",
+    "covertly benevolent","overtly malevolent","hidden goodness","visible goodness","hidden evil","visible evil",
+    "kindness as strategy","cruelty as strategy","love as weapon","love as gift","help as control","help as freedom",
+    "truth as kindness","truth as cruelty","silence as protection","silence as punishment","presence as gift","presence as burden",
+    "absence as love","absence as abandonment","power used well","power used badly",
+    "one true friend","first of their kind","last in the line","two cities one soul","only child energy","middle child invisible",
+    "generous and withholding","saves others loses themselves","open book locked door","heals others stays wounded","wounded and healing others","carries ancestral weight",
+    "the curse ends here","born with old eyes","the line changes with them","spiritually awake","reads energy accurately","sends energy unintentionally",
+    "ancestral gifts intact","ancestral wounds unhealed","the family chose them","the family marked them","carries light unknowingly","carries shadow unknowingly",
+    "born into a lineage","broke from the lineage","the pattern stops here","the pattern continues through them","gifted and unaware","gifted and burdened",
+    "called to something larger","running from the calling","universe speaks through them","old soul new body","new soul old wounds","here to complete something",
+    "here to begin something",
+    "has magic energy","radiates strange energy","carries protective energy","emits chaotic energy","has healing presence","has draining presence",
+    "carries cursed energy","has blessed energy","emits warning signals","radiates calm pressure","has electric presence","carries cold energy",
+    "has fire inside","holds ancient knowing","has psychic edges","carries ghost energy","reads invisible currents","moves through dimensions",
+    "has spirit guides nearby","carries lineage power","emits truth frequency","radiates deception","has unsettling stillness","holds magnetic charge",
+    "carries divine spark","can think quickly","processes information fast","reads situations instantly","catches every detail","misses nothing important",
+    "connects ideas rapidly","solves problems in seconds","anticipates next moves","plans three steps ahead","learns by watching once","understands without explanation",
+    "retains everything heard","forgets nothing important","analyzes constantly silently","calculates in real time","reasons under pressure","thinks in patterns",
+    "sees the whole system","processes emotions analytically","responds before thinking","acts before processing","overthinks every decision","underthinks important ones",
+    "mental gymnast type","brilliant in conversation","can keep secrets","trusted with confidences","never repeats anything","holds private things sacred",
+    "discreet beyond reason","mouth like a vault","cannot keep secrets","loose lipped under pressure","selective with information","compartmentalizes everything",
+    "keeps work separate from home","doesnt bring problems home","carries everything alone","trusts no one with truth","gives partial truths only","consistent across all audiences",
+    "genuinely transparent","athletic build person","naturally muscular frame","lean and powerful","stocky and strong","tall and commanding",
+    "short and intense","broad shouldered","narrow frame deep voice","compact powerhouse","soft physically hard internally","hard physically soft internally",
+    "moves like an athlete","moves like a dancer","moves like a fighter","moves like a survivor","heavy footsteps","silent footsteps",
+    "fills doorways","slips through unnoticed","body tells the story","body hides the story","weathered but strong","youthful at any age",
+    "ages like wine","ages like stone","is a thief person","justifies the taking","steals out of need","steals out of greed",
+    "steals out of habit","steals out of spite","fingers in every till","light fingers heavy conscience","light fingers no conscience","stops short of stealing",
+    "would steal if needed","lies to themselves","believes their own lies","cannot see themselves clearly","mirror doesnt show truth","constructs a self that isnt real",
+    "avoids their own reflection","faces themselves directly","brutal self honesty","delusional self image","inflated self perception","deflated self perception",
+    "accurate self knowledge","blind to their patterns","aware of every pattern","needs to be the hero","happy being the supporting cast","needs to be misunderstood",
+    "needs to be seen accurately","believes their own publicity","ignores their own publicity","internal narrative locked","internal narrative fluid","lives in their own myth",]],
   ["events", "events", [
     "sudden disruption","gradual shift","unexpected outcome","predictable pattern","controlled incident","major escalation",
     "isolated event","chain reaction","systemic failure","brief interruption","extended duration","rapid onset",
@@ -2086,7 +2463,41 @@ const CATEGORY_DEFS = [
     "before the funeral","the morning after","the night before","the first day alone","the last shared meal","the final phone call",
     "the beginning of the ending","room felt wrong","air was heavy","silence was thick","light was strange","quiet was loud",
     "space was full","room was waiting","air shifted subtly",
-  ]],
+  
+    "dies young and known","lives past their purpose","goes quietly in sleep","dies with unfinished business","leaves before the ending","dies surrounded by many",
+    "dies completely alone","goes out fighting","dies mid sentence","lives to very old","dies at the height","goes before their time",
+    "dies in the middle","lives long enough to change","dies the same as lived","goes gently without resistance","dies holding someone's hand","leaves a full life",
+    "dies with regrets unnamed","goes out on their terms","dies young and forgotten","lives into their legend","dies before being understood","goes in their sleep peacefully",
+    "dies at the wrong time","lives past everyone they loved","dies with secrets intact","goes without saying goodbye","dies remembered by few","lives long and fades slowly",
+    "dies at the peak","goes suddenly without warning","dies after long suffering","lives to see the change","dies before the resolution","goes with everything settled",
+    "dies in the middle of becoming","lives past their own story","dies with purpose intact","goes before understanding arrives","dies the way they feared","lives long and stays sharp",
+    "dies carrying the weight","goes in the presence of love","dies before the recognition comes","lives to outlast the pain","dies as they were born","goes out with no warning",
+    "dies with one thing left","lives into complete forgiveness","dies in the act of giving","goes quietly with no fuss","dies having loved well","lives long enough to rest",
+    "dies before reconciliation","goes with loose ends everywhere","dies in a foreign place","lives to see justice","dies holding old grudges","goes in the company of strangers",
+    "dies remembered as different than lived","lives past their relevance","dies in the making of something","goes before anyone was ready","dies with their name cleared","lives to the very end fully",
+    "dies having never been seen","goes in the middle of winter","dies with their story incomplete","lives until the work is done","dies at the start of something","goes without being mourned long",
+    "dies the death they prepared for","lives long and remains strange","dies in someone else's story","goes before the apology arrives","dies with music still in them","lives past what tried to kill them",
+    "dies before the dawn of it","goes with grace and intention","dies mid transformation","lives long enough to become legend","dies having started too late","goes in the arms of the known",
+    "dies before the children grow","lives to be misremembered","dies the same day as someone loved","goes out as they came in","dies with their eyes open","lives into irrelevance quietly",
+    "dies having never left home","goes at the right time somehow","dies in the light of morning","lives long and loves harder","dies before the story resolves","goes leaving everything unfinished",
+    "dies as the chapter closes","lives to forgive everything","dies in the place they loved","goes when the work is done",
+    "early life marked them","nobody came when called","figured it out alone","survived the early years","early talent unsupported","no soft beginning",
+    "early loss changed everything","had everything then nothing","found trouble young","went looking for belonging early","first love left a mark","found the wrong crowd",
+    "ran before being pushed","fifteen changed everything","carried adult weight young","rebellion became a path","lost innocence gradually","first big mistake young",
+    "twenties were the wilderness","found footing late","early adulthood wrong turns","built from the bottom","made money young lost it","fell in love wrong time",
+    "first career was wrong","twenties were survival","early success had a cost","wasted twenties wisely","first chapter was hardest","built foundation in poverty",
+    "knew what they wanted early","left home never looked back","found purpose at forty","midlife brought the reckoning","forties were the beginning","rebuilt everything at fifty",
+    "crisis became rebirth","found wealth in middle years","lost it all started over","middle years were the best","midlife brought unexpected peace","married late and right",
+    "children came in middle years","career broke open at forty","found religion in the middle","forties finally made sense","wealth came late and lasted","success after the struggle",
+    "rich after sixty","recognition came in old age","fortune found them eventually","built the empire after fifty","last chapter was richest","retired into abundance",
+    "success was the long game","late life brought everything","wealth came after losses","world caught up to them late","legacy built in final years","old age brought new poverty",
+    "spent everything before the end","late life stripped everything","final years were hardest","health failed before the finish","lost the fortune in old age","last chapter rewrote everything",
+    "late life brought isolation","gave it all away at end","money ran out first","late life full of regret","grew old in wrong place","started with nothing ended with everything",
+    "started with everything ended with nothing","long arc complete","came from bottom stayed at top","nothing wasted across life","the beginning explained the ending","later years redeemed the early",
+    "early years funded the later","the middle was the miracle","every loss built the next","the life told a complete story",
+    "married three times","never married once","moved twelve times","stayed forty years","three careers one life","one job whole life",
+    "every city briefly","had everything twice","lost it all twice","born first of many","born last of many","raised four on nothing",
+    "had one and stopped",]],
   ["language", "language", [
     "left unspoken","never questioned","did not need","words restrained","said just enough","nearly spoken",
     "silence maintained","meaning inferred","kept internal","left unresolved","almost revealed","intention implied",
@@ -2113,18 +2524,26 @@ const CATEGORIES = CATEGORY_DEFS.map(([label, short]) => ({ label, short }));
 // § SEED PHRASES
 // ================================================================
 const CIPHERS = {
-  simple:        { key:"simple",        label:"Simple English", short:"SE",  color:"#38bdf8" },
-  reverseSimple: { key:"reverseSimple", label:"Reverse Simple", short:"RS",  color:"#c084fc" },
-  weighted:      { key:"weighted",      label:"Weighted",       short:"WG",  color:"#f472b6" },
-  ascii:         { key:"ascii",         label:"ASCII",          short:"AC",  color:"#4ade80" },
-  shadow:        { key:"shadow",        label:"Shadow",         short:"SH",  color:"#fb923c" },
-  eclipse:       { key:"eclipse",       label:"Eclipse",        short:"EC",  color:"#e879f9" },
-  pythagorean:   { key:"pythagorean",   label:"Pythagorean",    short:"PY",  color:"#facc15" },
-  prime:         { key:"prime",         label:"Prime",          short:"PR",  color:"#2dd4bf" },
+  // ── Standard Class ──
+  simple:        { key:"simple",        label:"Simple English", short:"SE",  color:"#38bdf8",  class:"standard" },
+  reverseSimple: { key:"reverseSimple", label:"Reverse Simple", short:"RS",  color:"#c084fc",  class:"standard" },
+  ascii:         { key:"ascii",         label:"ASCII",          short:"AC",  color:"#4ade80",  class:"standard" },
+  jewish:        { key:"jewish",        label:"Jewish",         short:"JW",  color:"#a3e635",  class:"standard" },
+  // ── Sacred Class ──
+  weighted:      { key:"weighted",      label:"Weighted",       short:"WG",  color:"#f472b6",  class:"sacred"   },
+  shadow:        { key:"shadow",        label:"Shadow",         short:"SH",  color:"#fb923c",  class:"sacred"   },
+  eclipse:       { key:"eclipse",       label:"Eclipse",        short:"EC",  color:"#e879f9",  class:"sacred"   },
+  obsidian:      { key:"obsidian",      label:"Obsidian",       short:"OB",  color:"#94a3b8",  class:"sacred"   },
+  prism:         { key:"prism",         label:"Prism",          short:"PR",  color:"#67e8f9",  class:"sacred"   },
+  anchor:        { key:"anchor",        label:"Anchor",         short:"AN",  color:"#fde68a",  class:"sacred"   },
 };
-const CIPHER_KEYS = ["simple","reverseSimple","weighted","ascii","shadow","eclipse","pythagorean","prime"];
+const CIPHER_KEYS = ["simple","reverseSimple","ascii","jewish","weighted","shadow","eclipse","obsidian","prism","anchor"];
+// Separate key lists for UI grouping
+const STANDARD_KEYS = ["simple","reverseSimple","ascii","jewish"];
+const SACRED_KEYS   = ["weighted","shadow","eclipse","obsidian","prism","anchor"];
 
 const RAINBOW = ["#ff4444","#ff8c00","#ffd700","#4ade80","#38bdf8","#818cf8","#c084fc"];
+
 
 // ================================================================
 // § GEMATRIA ENGINE
@@ -2148,41 +2567,47 @@ function digitalRoot(n) {
 
 const VOWELS = new Set(["a","e","i","o","u"]);
 
-/**
- * Single-pass fused cipher — computes simple, reverseSimple, and ascii
- * in one character loop instead of three separate traversals.
- */
-// Pythagorean lookup: A-Z mapped to 1-9 repeating (classical numerology)
-// A=1 B=2 C=3 D=4 E=5 F=6 G=7 H=8 I=9 J=1 K=2 L=3 M=4 N=5 O=6 P=7 Q=8 R=9 S=1 T=2 U=3 V=4 W=5 X=6 Y=7 Z=8
-const PYTH_MAP = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8];
+// ── Jewish cipher map (A-Z English letters mapped to Hebrew gematria values) ──
+// A=1 B=2 C=3 D=4 E=5 F=6 G=7 H=8 I=9 J=600 K=10 L=20 M=30 N=40 O=50
+// P=60 Q=70 R=80 S=90 T=100 U=200 V=700 W=900 X=300 Y=400 Z=500
+const JEWISH_MAP = [
+  1,   2,   3,   4,   5,   6,   7,   8,   9,   600, // A–J
+  10,  20,  30,  40,  50,  60,  70,  80,  90,  100, // K–T
+  200, 700, 900, 300, 400, 500                       // U–Z
+];
 
-// Prime lookup: A=2, B=3, C=5... first 26 primes
-const PRIME_MAP = [2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101];
+// ── Phonetic category sets (shared across Sacred Class ciphers) ──
+const VOWEL_SET         = new Set(["a","e","i","o","u"]);
+const VOICED_CONS       = new Set(["b","d","g","j","l","m","n","r","v","z"]);
+const UNVOICED_CONS     = new Set(["k","p","t","s","f","h","c","q","x"]);
+const HARD_CONS         = new Set(["b","d","g","k","p","t"]);
+const SOFT_CONS         = new Set(["s","f","v","z","h","j"]);
+const LIQUIDS           = new Set(["l","r"]);
+const NASALS            = new Set(["m","n"]);
+// Obsidian sibilants
+const SIBILANTS         = new Set(["s","z","sh","zh"]);
 
 /**
- * Single-pass fused cipher — computes simple, reverseSimple, ascii,
- * pythagorean, and prime in one character loop.
+ * Single-pass fused cipher — SE, RS, AC, JW in one loop.
  */
 function ciphersFused(norm) {
-  let simple = 0, rev = 0, ascii = 0, pyth = 0, prime = 0;
+  let simple = 0, rev = 0, ascii = 0, jewish = 0;
   for (let i = 0; i < norm.length; i++) {
     const cc = norm.charCodeAt(i);
     if (cc < 97 || cc > 122) continue;
-    const idx = cc - 97;  // 0–25
-    const v   = idx + 1;  // 1–26
+    const idx = cc - 97;
+    const v   = idx + 1;
     simple += v;
     rev    += 27 - v;
     ascii  += cc;
-    pyth   += PYTH_MAP[idx];
-    prime  += PRIME_MAP[idx];
+    jewish += JEWISH_MAP[idx];
   }
-  return { simple, reverseSimple: rev, ascii, pythagorean: pyth, prime };
+  return { simple, reverseSimple: rev, ascii, jewish };
 }
 
 /**
  * Weighted cipher — Buster's formula:
  * V(letter) = L × (1 + (p−1)/n) × (1 + (w−1)/W)
- * Receives pre-split words array to avoid re-splitting norm.
  */
 function cipherWeighted(words) {
   const W = words.length;
@@ -2215,10 +2640,10 @@ function cipherShadowEclipse(words) {
     for (let i = 0; i < n; i++) {
       const ch = word[i]; freq[ch] = (freq[ch] || 0) + 1;
     }
-    const adj0   = 27 - (word.charCodeAt(0) - 96);
-    const adjFirst = VOWELS.has(word[0])     ? adj0 / 2   : adj0;
-    const adjN1  = 27 - (word.charCodeAt(n - 1) - 96);
-    const adjLast  = VOWELS.has(word[n - 1]) ? adjN1 / 2  : adjN1;
+    const adj0    = 27 - (word.charCodeAt(0) - 96);
+    const adjFirst = VOWELS.has(word[0])     ? adj0 / 2  : adj0;
+    const adjN1   = 27 - (word.charCodeAt(n - 1) - 96);
+    const adjLast  = VOWELS.has(word[n - 1]) ? adjN1 / 2 : adjN1;
     let wordTotal = 0;
     for (let i = 0; i < n; i++) {
       const ch = word[i];
@@ -2232,22 +2657,160 @@ function cipherShadowEclipse(words) {
   return { shadow: Math.round(shadowTotal), eclipse: Math.round(eclipseTotal) };
 }
 
-/** Compute all 8 cipher values — words array split once, shared across all ciphers. */
+/**
+ * Obsidian cipher — Buster's Sacred Class
+ * Aggressive & volatile. Cube-based encoding with phonetic amplification
+ * and multiplicative entanglement.
+ *
+ * Step 1 — Base: V[n] = i³ + 7×n²  (i = letter ordinal 1-26, n = position in word)
+ * Step 2 — Phonetic modifier → V′:
+ *   Sibilants (s,z): V′ = (V mod 199)²
+ *   Vowels:          V′ = V × 3
+ *   Others:          V′ = V
+ * Step 3 — Entanglement: E[n] = (V′[n] × V′[n-1]) − V′[n+1]
+ *   Boundary handling: missing V′[n-1]=0, missing V′[n+1]=0
+ * Step 4 — Sum all E[n], mod 9973
+ */
+function cipherObsidian(words) {
+  let total = 0;
+  for (const word of words) {
+    const n = word.length;
+    if (n === 0) continue;
+    // Build V′ array for this word
+    const vp = [];
+    for (let pos = 0; pos < n; pos++) {
+      const cc = word.charCodeAt(pos);
+      if (cc < 97 || cc > 122) { vp.push(0); continue; }
+      const i = cc - 96; // 1-26
+      const p = pos + 1; // 1-based position
+      let v = i * i * i + 7 * p * p;
+      const ch = word[pos];
+      if (ch === "s" || ch === "z") {
+        v = Math.pow(v % 199, 2);
+      } else if (VOWEL_SET.has(ch)) {
+        v = v * 3;
+      }
+      vp.push(v);
+    }
+    // Entanglement
+    for (let pos = 0; pos < n; pos++) {
+      const prev = pos > 0     ? vp[pos - 1] : 0;
+      const next = pos < n - 1 ? vp[pos + 1] : 0;
+      total += (vp[pos] * prev) - next;
+    }
+  }
+  return ((total % 9973) + 9973) % 9973;
+}
+
+/**
+ * Prism cipher — Buster's Sacred Class
+ * Refractive dual-path system. Sound category decides which path(s) a letter takes.
+ *
+ * Path A: i² + 3×n + 7
+ * Path B: i × n + 11
+ *
+ * Vowels (A E I O U):          V′ = A + 19      (Path A + flat boost)
+ * Voiced consonants (B D G J L M N R V Z): V′ = B × 2   (Path B doubled)
+ * Unvoiced consonants (K P T S F H C Q X): V′ = A + B   (both paths summed)
+ * Others (W Y):                V′ = A           (Path A only, no boost)
+ *
+ * Step 4: sum all V′, mod 97 dampening applied per letter, then total sum
+ */
+function cipherPrism(words) {
+  let total = 0;
+  let n = 1; // running position across full phrase
+  for (const word of words) {
+    for (let pos = 0; pos < word.length; pos++) {
+      const cc = word.charCodeAt(pos);
+      if (cc < 97 || cc > 122) continue;
+      const i  = cc - 96; // 1-26
+      const A  = i * i + 3 * n + 7;
+      const B  = i * n + 11;
+      const ch = word[pos];
+      let vp;
+      if (VOWEL_SET.has(ch)) {
+        vp = A + 19;
+      } else if (VOICED_CONS.has(ch)) {
+        vp = B * 2;
+      } else if (UNVOICED_CONS.has(ch)) {
+        vp = A + B;
+      } else {
+        vp = A; // W, Y and any uncategorized
+      }
+      total += vp % 97; // dampening per letter
+      n++;
+    }
+  }
+  return total;
+}
+
+/**
+ * Anchor cipher — Buster's Sacred Class
+ * Transparent positional-square encoding. Collision-free across anagrams.
+ *
+ * Base:     V  = i² × n   (i = ordinal 1-26, n = position in word, resets per word)
+ * Modifier: V′ = V + phonetic layer
+ *   Vowels:         + (n × 7)
+ *   Hard consonants (B D G K P T): × 2
+ *   Soft consonants (S F V Z H J): + 13
+ *   Liquids (L R):                 + 11
+ *   Nasals (M N):                  + 9
+ *   Others (C Q W X Y):            unchanged
+ *
+ * Sum all V′, mod 9973
+ */
+function cipherAnchor(words) {
+  let total = 0;
+  for (const word of words) {
+    const wLen = word.length;
+    for (let pos = 0; pos < wLen; pos++) {
+      const cc = word.charCodeAt(pos);
+      if (cc < 97 || cc > 122) continue;
+      const i  = cc - 96;       // 1-26
+      const n  = pos + 1;       // 1-based, resets per word
+      let v    = i * i * n;     // base: i² × n
+      const ch = word[pos];
+      if (VOWEL_SET.has(ch)) {
+        v += n * 7;
+      } else if (HARD_CONS.has(ch)) {
+        v *= 2;
+      } else if (SOFT_CONS.has(ch)) {
+        v += 13;
+      } else if (LIQUIDS.has(ch)) {
+        v += 11;
+      } else if (NASALS.has(ch)) {
+        v += 9;
+      }
+      // C Q W X Y — unchanged
+      total += v;
+    }
+  }
+  return total % 9973;
+}
+
+/** Compute all 10 cipher values */
 function calcValues(norm) {
-  const words = norm.split(" ");
+  if (!norm) return {
+    simple:0, reverseSimple:0, ascii:0, jewish:0,
+    weighted:0, shadow:0, eclipse:0, obsidian:0, prism:0, anchor:0
+  };
+  const words = norm.split(" ").filter(Boolean);
   const fused = ciphersFused(norm);
   const se    = cipherShadowEclipse(words);
   return {
     simple:        fused.simple,
     reverseSimple: fused.reverseSimple,
-    weighted:      cipherWeighted(words),
     ascii:         fused.ascii,
+    jewish:        fused.jewish,
+    weighted:      cipherWeighted(words),
     shadow:        se.shadow,
     eclipse:       se.eclipse,
-    pythagorean:   fused.pythagorean,
-    prime:         fused.prime,
+    obsidian:      cipherObsidian(words),
+    prism:         cipherPrism(words),
+    anchor:        cipherAnchor(words),
   };
 }
+
 
 // ================================================================
 // § DATA LAYER
@@ -2309,7 +2872,8 @@ function calcExpression(terms) {
   }
   if (!parsed.length) return null;
 
-  const totals = { simple: 0, reverseSimple: 0, weighted: 0, ascii: 0, shadow: 0, eclipse: 0 };
+  const totals = {};
+  for (const c of CIPHER_KEYS) totals[c] = 0;
   let totalWC = 0;
   for (let i = 0; i < parsed.length; i++) {
     const t    = parsed[i];
@@ -2480,32 +3044,117 @@ const RainbowText = memo(function RainbowText({ size = 30 }) {
 });
 
 // ================================================================
+// § OD3N LOGO — Phi·D³·Ohm rainbow symbol
+// ================================================================
+const OD3N_COLORS = ["#ff4444","#ff8c00","#ffd700","#4ade80","#38bdf8","#818cf8","#c084fc","#e879f9"];
+
+const Od3nLogo = memo(function Od3nLogo({ size = 120 }) {
+  const scale = size / 300;
+  const w = 300, h = 130;
+  // Rainbow gradient stops across the full symbol
+  const stops = OD3N_COLORS.map((c, i) => (
+    <stop key={i} offset={`${(i/(OD3N_COLORS.length-1))*100}%`} stopColor={c}/>
+  ));
+  return (
+    <svg
+      width={w * scale} height={h * scale}
+      viewBox={`0 0 ${w} ${h}`}
+      style={{ display:"block", overflow:"visible" }}>
+      <defs>
+        <linearGradient id="od3n-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+          {stops}
+        </linearGradient>
+        <filter id="od3n-glow" x="-20%" y="-20%" width="140%" height="140%">
+          <feGaussianBlur stdDeviation="1.8" result="b"/>
+          <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+      </defs>
+
+      {/* === Φ  (Phi — the O) === */}
+      {/* Outer circle */}
+      <circle cx="52" cy="65" r="42"
+        fill="none" stroke="url(#od3n-grad)"
+        strokeWidth="3.5" filter="url(#od3n-glow)"/>
+      {/* Vertical bar */}
+      <line x1="52" y1="18" x2="52" y2="112"
+        stroke="url(#od3n-grad)" strokeWidth="3" strokeLinecap="round"
+        filter="url(#od3n-glow)"/>
+      {/* Horizontal crossbar */}
+      <line x1="24" y1="65" x2="80" y2="65"
+        stroke="url(#od3n-grad)" strokeWidth="2" strokeLinecap="round" opacity="0.7"/>
+
+      {/* === D === */}
+      <text x="108" y="110"
+        fontSize="92" fontFamily="Georgia, serif" fontWeight="700"
+        fill="url(#od3n-grad)" filter="url(#od3n-glow)"
+        textAnchor="middle">D</text>
+
+      {/* === ³ exponent === */}
+      <text x="162" y="34"
+        fontSize="34" fontFamily="Georgia, serif" fontWeight="700"
+        fill="url(#od3n-grad)" filter="url(#od3n-glow)"
+        textAnchor="middle">3</text>
+
+      {/* === Ω (Ohm horseshoe) — the N === */}
+      {/* Arc */}
+      <path d="M 195 112 C 195 52, 212 26, 242 26 C 272 26, 289 52, 289 112"
+        fill="none" stroke="url(#od3n-grad)"
+        strokeWidth="3.5" strokeLinecap="round"
+        filter="url(#od3n-glow)"/>
+      {/* Left foot */}
+      <line x1="182" y1="112" x2="212" y2="112"
+        stroke="url(#od3n-grad)" strokeWidth="3.5" strokeLinecap="round"/>
+      {/* Right foot */}
+      <line x1="272" y1="112" x2="302" y2="112"
+        stroke="url(#od3n-grad)" strokeWidth="3.5" strokeLinecap="round"/>
+    </svg>
+  );
+});
+
+// ================================================================
 // § DESIGN TOKENS — pure black mobile-first theme
 // ================================================================
 const T = {
-  bg0:      "#000000",
-  bg1:      "#0d0d0d",
-  bg2:      "#151515",
-  border:   "#1e1e1e",
-  border2:  "#2a2a2a",
-  text:     "#e8e8e8",
-  textDim:  "#444444",
-  textMid:  "#888888",
+  // ── 80% dark neutral — surfaces barely visible ──
+  bg0:      "#000000",           // true black — glyph canvas, inputs
+  bg1:      "#080808",           // card surface — almost invisible
+  bg2:      "#0e0e0e",           // secondary surface
+  bgActive: "#111111",           // only appears when focused/active
+
+  // ── borders — near-invisible by default ──
+  border:   "#141414",           // resting border — barely there
+  border2:  "#1e1e1e",           // slightly more visible
+  borderActive: "#2a2a2a",       // active/focused border
+
+  // ── text — strict hierarchy ──
+  text:     "#c8c8c8",           // primary — dimmer than before
+  textMid:  "#555555",           // secondary — dark gray
+  textDim:  "#2e2e2e",           // tertiary — near-invisible
+  textGhost:"#1a1a1a",           // labels only, barely visible
+
+  // ── accent — only appears on active/focused/valued elements ──
+  accent:   "#e879f9",           // primary accent (purple)
+
   mono:     "'Courier New', Courier, monospace",
   radius:   10,
   radiusLg: 14,
 };
 
+// Active illumination helper — call when an element is in focus/active state
+const illuminate = (color, strength = 0.12) =>
+  `${color}${Math.round(strength * 255).toString(16).padStart(2,'0')}`;
+
 // ================================================================
 // § PRIMITIVE UI COMPONENTS
 // ================================================================
-const Card = memo(({ children, style }) => (
+const Card = memo(({ children, style, active }) => (
   <div style={{
-    background:   T.bg1,
-    border:       `1px solid ${T.border}`,
+    background:   active ? T.bgActive : T.bg1,
+    border:       `1px solid ${active ? T.borderActive : T.border}`,
     borderRadius: T.radiusLg,
     padding:      "16px",
-    marginBottom: 12,
+    marginBottom: 10,
+    transition:   "border-color 0.2s, background 0.2s",
     ...style,
   }}>
     {children}
@@ -2515,11 +3164,11 @@ const Card = memo(({ children, style }) => (
 const SectionLabel = memo(function SectionLabel({ children }) {
   return (
     <div style={{
-      fontSize:      11,
+      fontSize:      10,
       fontWeight:    700,
       color:         T.textDim,
       textTransform: "uppercase",
-      letterSpacing: "0.12em",
+      letterSpacing: "0.14em",
       marginBottom:  12,
     }}>{children}</div>
   );
@@ -2538,27 +3187,36 @@ const FieldLabel = memo(function FieldLabel({ children }) {
 
 const baseInputStyle = {
   width:        "100%",
-  padding:      "12px 14px",
+  padding:      "11px 14px",
   borderRadius: T.radius,
   border:       `1px solid ${T.border}`,
   background:   T.bg0,
   color:        T.text,
-  fontSize:     15,
+  fontSize:     14,
   fontFamily:   "'Courier New', Courier, monospace",
   boxSizing:    "border-box",
   outline:      "none",
   WebkitAppearance: "none",
+  transition:   "border-color 0.15s",
 };
 
 function Inp({ value, onChange, placeholder, type="text", min, max, accentColor, style: ext, onKeyDown }) {
+  const [focused, setFocused] = React.useState(false);
   return (
     <input
       type={type} value={value} onChange={onChange}
       placeholder={placeholder} min={min} max={max}
       onKeyDown={onKeyDown}
+      onFocus={() => setFocused(true)}
+      onBlur={() => setFocused(false)}
       style={{
         ...baseInputStyle,
-        borderColor: value ? (accentColor || T.border2) : T.border,
+        borderColor: focused
+          ? (accentColor || T.borderActive)
+          : value
+            ? T.border2
+            : T.border,
+        boxShadow: focused ? `0 0 0 1px ${accentColor || T.accent}22` : "none",
         ...ext,
       }}
     />
@@ -2607,27 +3265,137 @@ const CopyBtn = memo(function CopyBtn({ text, id, copy, copiedId, style: ext }) 
   );
 });
 
+/**
+ * CipherFingerprint — radar/spider chart of all 10 cipher values.
+ * Each axis = one cipher, value normalized against a reasonable max.
+ * Two phrases with similar shapes are visually resonant.
+ */
+function CipherFingerprint({ values, size = 120, label }) {
+  if (!values) return null;
+  const cx = size / 2, cy = size / 2;
+  const R  = size * 0.38;
+  const keys = CIPHER_KEYS;
+  const N  = keys.length;
+
+  // Normalize each cipher value to 0-1 against rough max values
+  const MAXES = {
+    simple: 350, reverseSimple: 350, ascii: 2500, jewish: 30000,
+    weighted: 500, shadow: 500, eclipse: 500,
+    obsidian: 9972, prism: 6000, anchor: 9972,
+  };
+
+  const pts = keys.map((k, i) => {
+    const angle = (i / N) * Math.PI * 2 - Math.PI / 2;
+    const norm  = Math.min(1, (values[k] || 0) / (MAXES[k] || 1000));
+    const r     = R * Math.max(0.06, norm);
+    return {
+      x: cx + Math.cos(angle) * r,
+      y: cy + Math.sin(angle) * r,
+      ax: cx + Math.cos(angle) * R,
+      ay: cy + Math.sin(angle) * R,
+      lx: cx + Math.cos(angle) * (R + 10),
+      ly: cy + Math.sin(angle) * (R + 10),
+      key: k, color: CIPHERS[k].color, short: CIPHERS[k].short,
+    };
+  });
+
+  const polyline = pts.map(p => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ");
+  // Background web lines at 25/50/75/100%
+  const webLevels = [0.25, 0.5, 0.75, 1];
+
+  return (
+    <div style={{ display:"flex", flexDirection:"column", alignItems:"center" }}>
+      <svg width={size + 24} height={size + 24}
+        viewBox={`-12 -12 ${size+24} ${size+24}`}
+        style={{ display:"block" }}>
+        {/* Web rings */}
+        {webLevels.map((lvl, li) => {
+          const ring = keys.map((k, i) => {
+            const angle = (i / N) * Math.PI * 2 - Math.PI / 2;
+            const r = R * lvl;
+            return `${(cx + Math.cos(angle)*r).toFixed(1)},${(cy + Math.sin(angle)*r).toFixed(1)}`;
+          }).join(" ");
+          return <polygon key={li} points={ring}
+            fill="none" stroke="rgba(255,255,255,0.06)" strokeWidth="0.5"/>;
+        })}
+        {/* Axis lines */}
+        {pts.map((p, i) => (
+          <line key={i} x1={cx} y1={cy} x2={p.ax} y2={p.ay}
+            stroke="rgba(255,255,255,0.08)" strokeWidth="0.5"/>
+        ))}
+        {/* Filled polygon */}
+        <polygon points={polyline}
+          fill="rgba(232,121,249,0.12)"
+          stroke="#e879f9"
+          strokeWidth="0.8"
+          strokeLinejoin="round"
+          opacity="0.9"/>
+        {/* Vertex dots colored by cipher */}
+        {pts.map((p, i) => (
+          <circle key={i} cx={p.x} cy={p.y} r="2.2" fill={p.color} opacity="0.9"/>
+        ))}
+        {/* Axis labels */}
+        {pts.map((p, i) => (
+          <text key={i}
+            x={p.lx} y={p.ly}
+            fontSize="5.5"
+            fontFamily="monospace"
+            fill={p.color}
+            textAnchor="middle"
+            dominantBaseline="middle"
+            opacity="0.9">
+            {p.short}
+          </text>
+        ))}
+      </svg>
+      {label && (
+        <div style={{ fontSize:9, color:T.textDim, fontFamily:T.mono,
+          textAlign:"center", marginTop:-4 }}>{label}</div>
+      )}
+    </div>
+  );
+}
+
 const ValueBadge = memo(function ValueBadge({ cipher, value, showRoot = false }) {
-  const { short, color } = CIPHERS[cipher];
+  const c = CIPHERS[cipher];
+  const { short, color } = c;
+  const isSacred = c.class === "sacred";
   const root = digitalRoot(value);
+  // Magnitude-scaled font: 11-14px based on value magnitude
+  const mag = Math.min(1, Math.log10(Math.max(value, 1) + 1) / 4); // 0-1
+  const fontSize = 11 + mag * 3;
   return (
     <span style={{
       display:    "inline-flex",
       alignItems: "center",
       gap:        4,
       padding:    "4px 10px",
-      borderRadius: 6,
+      borderRadius: isSacred ? 4 : 8,  // Sacred = sharper corners
       border:     `1px solid ${color}33`,
-      fontSize:   12,
+      fontSize,
       fontFamily: "'Courier New', Courier, monospace",
       fontWeight: 700,
       color,
       flexShrink: 0,
       whiteSpace: "nowrap",
+      position:   "relative",
     }}>
-      <span style={{ color:`${color}55`, fontWeight:400, fontSize:10 }}>{short}</span>
+      {/* Sacred Class marker — a small dot in the corner */}
+      {isSacred && (
+        <span style={{
+          position:    "absolute",
+          top:         3,
+          right:       3,
+          width:       3,
+          height:      3,
+          borderRadius:"50%",
+          background:  color,
+          boxShadow:   `0 0 4px ${color}`,
+        }}/>
+      )}
+      <span style={{ color:`${color}55`, fontWeight:400, fontSize:fontSize - 2 }}>{short}</span>
       {value}
-      {showRoot && <span style={{ color:`${color}44`, fontSize:9 }}>/{root}</span>}
+      {showRoot && <span style={{ color:`${color}44`, fontSize:fontSize - 3 }}>/{root}</span>}
     </span>
   );
 });
@@ -2798,14 +3566,42 @@ const COMPONENT_COLORS = ["#38bdf8","#c084fc","#f472b6","#4ade80","#fb923c","#e8
 // ================================================================
 function NamePanel({ indexes, copy, copiedId }) {
   const [input,   setInput]   = useState("");
+  const [input2,  setInput2]  = useState("");
+  const [mode,    setMode]    = useState("single"); // "single" | "compat"
   const [focused, setFocused] = useState(null); // which component to expand
-  const debouncedInput = useDebounce(input, 100);
+  const debouncedInput  = useDebounce(input, 100);
+  const debouncedInput2 = useDebounce(input2, 100);
 
   const reading = useMemo(() => {
     const n = debouncedInput.trim();
     if (!n) return null;
     return parseName(n);
   }, [debouncedInput]);
+
+  const reading2 = useMemo(() => {
+    const n = debouncedInput2.trim();
+    if (!n) return null;
+    return parseName(n);
+  }, [debouncedInput2]);
+
+  // #18 — Compatibility: count matching values across all 6 components
+  const compat = useMemo(() => {
+    if (!reading || !reading2) return null;
+    const shared = [];
+    for (const comp of NAME_COMPONENTS) {
+      if (reading[comp.key] === reading2[comp.key]) {
+        shared.push({ name: comp.label, val: reading[comp.key] });
+      }
+    }
+    // Score: 0-100 based on shared components weighted
+    const score = Math.round((shared.length / NAME_COMPONENTS.length) * 100);
+    // Diff in digital roots — lower = more compatible
+    let rootDiff = 0;
+    for (const comp of NAME_COMPONENTS) {
+      rootDiff += Math.abs(reading[comp.dr] - reading2[comp.dr]);
+    }
+    return { shared, score, rootDiff };
+  }, [reading, reading2]);
 
   // For the focused component, find database matches by SE value
   const focusMatches = useMemo(() => {
@@ -2837,16 +3633,86 @@ function NamePanel({ indexes, copy, copiedId }) {
 
   return (
     <Card>
-      <SectionLabel>Name Reading</SectionLabel>
+      <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:12 }}>
+        <SectionLabel style={{ margin:0 }}>Name Reading</SectionLabel>
+        <div style={{ display:"flex", gap:0, border:`1px solid ${T.border2}`, borderRadius:8, overflow:"hidden" }}>
+          {["single","compat"].map(m => (
+            <button key={m} onClick={() => setMode(m)} style={{
+              padding:"5px 12px", fontSize:10, fontFamily:T.mono,
+              fontWeight:700, letterSpacing:"0.08em", textTransform:"uppercase",
+              background: mode === m ? "#38bdf822" : "transparent",
+              color: mode === m ? "#38bdf8" : T.textDim,
+              border:"none",
+              borderRight: m === "single" ? `1px solid ${T.border2}` : "none",
+              cursor:"pointer",
+            }}>{m === "single" ? "single" : "compat"}</button>
+          ))}
+        </div>
+      </div>
       <Inp
         value={input}
         onChange={handleChange}
-        placeholder="enter a full name..."
+        placeholder={mode === "compat" ? "first name..." : "enter a full name..."}
         accentColor="#38bdf8"
-        style={{ marginBottom: 12 }}
+        style={{ marginBottom: mode === "compat" ? 8 : 12 }}
       />
+      {mode === "compat" && (
+        <Inp
+          value={input2}
+          onChange={e => setInput2(e.target.value)}
+          placeholder="second name..."
+          accentColor="#c084fc"
+          style={{ marginBottom: 12 }}
+        />
+      )}
 
-      {reading && (
+      {/* #18 Compatibility view */}
+      {mode === "compat" && compat && (
+        <div style={{
+          background:"linear-gradient(135deg, #38bdf80a, #c084fc0a)",
+          border:`1px solid ${compat.score >= 50 ? "#4ade8044" : compat.score >= 25 ? "#fde68a44" : T.border}`,
+          borderRadius:T.radius,
+          padding:"14px 16px",
+          marginBottom:12,
+        }}>
+          <div style={{ display:"flex", alignItems:"baseline", justifyContent:"space-between", marginBottom:8 }}>
+            <span style={{ fontSize:9, color:T.textDim, fontFamily:T.mono,
+              letterSpacing:"0.14em", fontWeight:700 }}>COMPATIBILITY</span>
+            <div style={{ textAlign:"right" }}>
+              <span style={{
+                fontSize:32, fontWeight:900,
+                color: compat.score >= 50 ? "#4ade80" : compat.score >= 25 ? "#fde68a" : "#f87171",
+                fontFamily:T.mono,
+              }}>{compat.score}</span>
+              <span style={{ fontSize:14, color:T.textMid, fontFamily:T.mono, marginLeft:2 }}>/100</span>
+            </div>
+          </div>
+          <div style={{ fontSize:11, color:T.textMid, marginBottom:8, lineHeight:1.5 }}>
+            {compat.shared.length} of 6 components share values · digital root spread: {compat.rootDiff}
+          </div>
+          {compat.shared.length > 0 && (
+            <div style={{ display:"flex", gap:5, flexWrap:"wrap" }}>
+              {compat.shared.map((s, i) => (
+                <span key={i} style={{
+                  fontSize:10, fontFamily:T.mono,
+                  padding:"2px 8px", borderRadius:4,
+                  background:"#4ade8022",
+                  border:"1px solid #4ade8055",
+                  color:"#4ade80",
+                  fontWeight:700,
+                }}>{s.name} · {s.val}</span>
+              ))}
+            </div>
+          )}
+          {compat.shared.length === 0 && (
+            <div style={{ fontSize:11, color:T.textDim, fontStyle:"italic" }}>
+              No shared component values — distinct numerological signatures
+            </div>
+          )}
+        </div>
+      )}
+
+      {mode === "single" && reading && (
         <>
           {/* Name parts display */}
           <div style={{ display:"flex", gap:6, flexWrap:"wrap", marginBottom:12 }}>
@@ -2985,6 +3851,9 @@ function NamePanel({ indexes, copy, copiedId }) {
 // ================================================================
 // § GLYPH ENGINE — walk-as-signature visualization
 // ================================================================
+// Glyph-internal maps — used only by walk system, not cipher engine
+const PYTH_MAP  = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8];
+const PRIME_MAP = [2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101];
 
 /**
  * 9 directions indexed by Pythagorean value (1-9).
@@ -3030,6 +3899,852 @@ function polygonPoints(cx, cy, radius, sides, rotation = 0) {
  */
 // Sigmoid helper for positionFactor
 function sigmoid(x) { return 1 / (1 + Math.exp(-x)); }
+
+// ================================================================
+// § ECHO GLYPH ENGINE — resonant pulse, prime spiral, factor webs
+// ================================================================
+// Number-theory helpers
+function gcd(a, b) { a = Math.abs(a); b = Math.abs(b); while (b) { [a, b] = [b, a % b]; } return a; }
+function shareFactor(a, b) { return gcd(a, b) > 1; }
+function commonFactorCount(a, b) {
+  let count = 0; const g = gcd(a, b);
+  for (let f = 2; f <= g; f++) if (g % f === 0) count++;
+  return count;
+}
+
+function buildEchoGlyph(norm) {
+  if (!norm || typeof norm !== "string") return null;
+  const trimmed = norm.trim();
+  if (!trimmed) return null;
+
+  try {
+    const words = trimmed.split(" ").filter(Boolean);
+    const W = words.length;
+    if (W === 0) return null;
+
+    // Pre-pass: per-word stats
+    const wordStats = words.map(word => {
+      const primesSeen = new Set();
+      let totalVowelWeight = 0;
+      const vowelCounts = {};
+      const validLetters = [];
+      for (let i = 0; i < word.length; i++) {
+        const ch = word[i];
+        const idx = ch.charCodeAt(0) - 97;
+        if (idx < 0 || idx > 25) continue;
+        validLetters.push(i);
+        primesSeen.add(PRIME_MAP[idx]);
+        if (VOWELS.has(ch)) {
+          const ord = idx + 1;
+          vowelCounts[ch] = (vowelCounts[ch] || 0) + 1;
+          totalVowelWeight += ord;
+        }
+      }
+      // Shadow value for this word (using existing engine)
+      const wordWords = [word];
+      const sw = cipherShadowEclipse(wordWords);
+      return {
+        word, primesSeen, totalVowelWeight, vowelCounts,
+        validLetters, shadow: sw.shadow, uniquePrimes: primesSeen.size,
+      };
+    });
+
+    // Multi-word ring placement: angular spacing proportional to word length
+    const totalLen = words.reduce((s, w) => s + w.length, 0) || 1;
+    const ringRadius = W > 1 ? 80 + W * 10 : 0;
+    const wordOrigins = [];
+    let cumulativeArc = 0;
+    for (let wi = 0; wi < W; wi++) {
+      const arcShare = (words[wi].length / totalLen) * Math.PI * 2;
+      const centerAngle = cumulativeArc + arcShare / 2 - Math.PI / 2;
+      wordOrigins.push({
+        x: W > 1 ? Math.cos(centerAngle) * ringRadius : 0,
+        y: W > 1 ? Math.sin(centerAngle) * ringRadius : 0,
+        startAngle: cumulativeArc - Math.PI / 2,
+        endAngle: cumulativeArc + arcShare - Math.PI / 2,
+      });
+      cumulativeArc += arcShare;
+    }
+
+    // Walk each word — prime golden-angle spiral
+    const GOLDEN_DEG = 137.5;
+    const consonantRunes = []; // {x, y, sides, size, rotation, color, opacity, letter, wordIdx}
+    const vowelHalos     = []; // {x, y, radius, thickness, color, opacity}
+    const phaseDots      = []; // {x, y, size, opacity, color}
+    const factorLines    = []; // {x1, y1, x2, y2, opacity, color}
+    const resonanceRings = []; // {x, y, radius, color, opacity}
+    const wordPaths      = []; // {d, color} for path traces between letters
+    const wordClosures   = []; // {d, color}
+    const wordConnects   = []; // {d}
+
+    let allMinX = 0, allMaxX = 0, allMinY = 0, allMaxY = 0;
+    const wordLetterPoints = []; // per word, array of {x, y, letter, idx, ordinal, prime}
+
+    for (let wi = 0; wi < W; wi++) {
+      const word = words[wi];
+      const stats = wordStats[wi];
+      const origin = wordOrigins[wi];
+
+      // Base hue per word from Shadow cipher
+      const baseHue = ((stats.shadow * 47) + (wi * 83)) % 360;
+      const compHue = (baseHue + 180) % 360;
+      // Saturation from unique prime count
+      const sat = Math.min(90, 50 + (stats.uniquePrimes / 10) * 40);
+
+      // Walk this word
+      let x = origin.x, y = origin.y;
+      let prevOrdinal = 0;
+      let prevPrime = 0;
+      const letterPts = [];
+      const wordConsonants = []; // for factor webs within and across words
+
+      const n = stats.validLetters.length;
+      for (let vi = 0; vi < n; vi++) {
+        const i = stats.validLetters[vi];
+        const ch = word[i];
+        const idx = ch.charCodeAt(0) - 97;
+        const ordinal = idx + 1;
+        const prime = PRIME_MAP[idx];
+        const py = PYTH_MAP[idx];
+        const isVowel = VOWELS.has(ch);
+
+        // Step direction: prime × golden angle
+        const angleDeg = (prime * GOLDEN_DEG) % 360;
+        const angleRad = angleDeg * Math.PI / 180;
+
+        // Step length
+        const sigPos = 1 + 0.4 * sigmoid((vi - n / 2) / Math.max(n, 1));
+        let stepLen = Math.sqrt(ordinal) * 0.8 * sigPos;
+        // Pairwise factor leap on ordinals
+        if (vi > 0 && shareFactor(ordinal, prevOrdinal)) {
+          stepLen *= 2;
+        }
+
+        if (vi > 0) {
+          x += Math.cos(angleRad) * stepLen * 6;
+          y += Math.sin(angleRad) * stepLen * 6;
+        }
+
+        // Alternating hue: base for even, complement for odd within word
+        const lightness = 55 + (isVowel ? 15 : -5);
+        const hue = (vi % 2 === 0) ? baseHue : compHue;
+        const color = `hsl(${hue}, ${sat}%, ${lightness}%)`;
+
+        letterPts.push({ x, y, letter: ch, idx: vi, ordinal, prime, py, isVowel, color });
+
+        if (isVowel) {
+          // Vowel halo
+          const vowelWeight = (stats.vowelCounts[ch] || 1) * ordinal;
+          const radius = Math.pow(vowelWeight / Math.max(stats.totalVowelWeight, 1), 0.5) * 20;
+          const isLoneVowel = stats.vowelCounts[ch] === 1;
+          vowelHalos.push({
+            x, y, radius: Math.max(radius, 4),
+            thickness: prime / 50 + 0.3,
+            color,
+            opacity: 0.15 + (isLoneVowel ? 0.25 : 0),
+          });
+        } else {
+          // Consonant rune
+          const sides = (py % 4) + 3; // 3-6
+          const contextScale = 0.7 + Math.pow(ordinal / 26, 0.5) * 0.6;
+          const size = (prime / 101) * contextScale * 12;
+          const rotation = (ordinal * 7.5) * Math.PI / 180;
+          consonantRunes.push({
+            x, y, sides: sides === 3 ? 3 : sides === 4 ? 4 : sides === 5 ? 5 : 6,
+            size: Math.max(size, 3),
+            rotation, color, opacity: 0.85, letter: ch, wordIdx: wi,
+          });
+          wordConsonants.push({ x, y, ordinal, vi, color });
+        }
+
+        // Phase dots — every letter
+        const dotBright = (vi + 1) % 5 === 0;
+        phaseDots.push({
+          x, y, size: 1 + Math.log2(prime) * 0.3,
+          opacity: dotBright ? 0.9 : 0.4,
+          color,
+        });
+
+        // Prime climb: three consecutive ascending primes → resonance ring
+        if (vi >= 2) {
+          const p0 = letterPts[vi - 2].prime;
+          const p1 = letterPts[vi - 1].prime;
+          const p2 = prime;
+          if (p0 < p1 && p1 < p2) {
+            const midPt = letterPts[vi - 1];
+            resonanceRings.push({
+              x: midPt.x, y: midPt.y,
+              radius: p1 * 0.5,
+              color: midPt.color,
+              opacity: 0.18,
+            });
+          }
+        }
+
+        // Track bounds
+        if (x < allMinX) allMinX = x;
+        if (x > allMaxX) allMaxX = x;
+        if (y < allMinY) allMinY = y;
+        if (y > allMaxY) allMaxY = y;
+
+        prevOrdinal = ordinal;
+        prevPrime = prime;
+      }
+
+      wordLetterPoints.push(letterPts);
+
+      // Build path trace through letters
+      if (letterPts.length >= 2) {
+        let d = `M ${letterPts[0].x.toFixed(2)} ${letterPts[0].y.toFixed(2)}`;
+        for (let i = 1; i < letterPts.length; i++) {
+          d += ` L ${letterPts[i].x.toFixed(2)} ${letterPts[i].y.toFixed(2)}`;
+        }
+        wordPaths.push({ d, color: `hsl(${baseHue}, ${sat}%, 50%)`, hue: baseHue, sat });
+      }
+
+      // Factor webs within this word — between consonants
+      // Cap at 4 connections per consonant
+      for (let a = 0; a < wordConsonants.length; a++) {
+        const ca = wordConsonants[a];
+        const candidates = [];
+        for (let b = 0; b < a; b++) {
+          const cb = wordConsonants[b];
+          const cfc = commonFactorCount(ca.ordinal, cb.ordinal);
+          if (cfc > 0) candidates.push({ cb, cfc });
+        }
+        candidates.sort((x, y) => y.cfc - x.cfc);
+        const top = candidates.slice(0, 4);
+        for (const { cb, cfc } of top) {
+          factorLines.push({
+            x1: ca.x, y1: ca.y, x2: cb.x, y2: cb.y,
+            opacity: 0.08 * cfc, color: ca.color,
+          });
+        }
+      }
+
+      // Word closure: dashed spiral inward
+      if (letterPts.length >= 3) {
+        const start = letterPts[0];
+        const end = letterPts[letterPts.length - 1];
+        const dx = end.x - start.x, dy = end.y - start.y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        // Diagonal of word's bounding box for proximity check
+        let wMinX = Infinity, wMaxX = -Infinity, wMinY = Infinity, wMaxY = -Infinity;
+        for (const p of letterPts) {
+          if (p.x < wMinX) wMinX = p.x; if (p.x > wMaxX) wMaxX = p.x;
+          if (p.y < wMinY) wMinY = p.y; if (p.y > wMaxY) wMaxY = p.y;
+        }
+        const diag = Math.sqrt((wMaxX - wMinX) ** 2 + (wMaxY - wMinY) ** 2);
+        if (dist < diag * 0.15 && dist > 0.01) {
+          // Half-turn inward spiral from end to start
+          const STEPS = 24;
+          let d = `M ${end.x.toFixed(2)} ${end.y.toFixed(2)}`;
+          const startAngle = Math.atan2(dy, dx);
+          for (let s = 1; s <= STEPS; s++) {
+            const t = s / STEPS;
+            const ang = startAngle + Math.PI * t; // 180° turn
+            const r = dist * (1 - t * 0.7); // shrink to 30% of dist
+            const px = end.x - dx + Math.cos(ang) * r;
+            const py = end.y - dy + Math.sin(ang) * r;
+            d += ` L ${px.toFixed(2)} ${py.toFixed(2)}`;
+          }
+          wordClosures.push({ d, color: `hsl(${baseHue}, ${sat}%, 60%)` });
+        }
+      }
+    }
+
+    // Cross-word connections via cubic Bézier
+    if (W > 1) {
+      for (let wi = 1; wi < W; wi++) {
+        const prev = wordLetterPoints[wi - 1];
+        const curr = wordLetterPoints[wi];
+        if (!prev.length || !curr.length) continue;
+        const p1 = prev[prev.length - 1];
+        const p2 = curr[0];
+        const dx = p2.x - p1.x, dy = p2.y - p1.y;
+        const midX = (p1.x + p2.x) / 2, midY = (p1.y + p2.y) / 2;
+        // Control point distance from combined Shadow values
+        const sCombined = wordStats[wi - 1].shadow + wordStats[wi].shadow;
+        const bend = Math.min(Math.abs(sCombined) * 0.5, 60);
+        // Perpendicular offset
+        const len = Math.sqrt(dx * dx + dy * dy) || 1;
+        const px = -dy / len * bend;
+        const py = dx / len * bend;
+        const cx = midX + px, cy = midY + py;
+        wordConnects.push({
+          d: `M ${p1.x.toFixed(2)} ${p1.y.toFixed(2)} Q ${cx.toFixed(2)} ${cy.toFixed(2)} ${p2.x.toFixed(2)} ${p2.y.toFixed(2)}`,
+        });
+      }
+    }
+
+    // Average hue for aura
+    let avgHue = 0, hueCount = 0;
+    for (const path of wordPaths) { avgHue += path.hue; hueCount++; }
+    avgHue = hueCount > 0 ? (avgHue / hueCount) % 360 : 220;
+
+    // Padding
+    const PAD = 30;
+    allMinX -= PAD; allMaxX += PAD;
+    allMinY -= PAD; allMaxY += PAD;
+    const width  = Math.max(allMaxX - allMinX, 100);
+    const height = Math.max(allMaxY - allMinY, 100);
+
+    return {
+      type:           "echo",
+      consonantRunes, vowelHalos, phaseDots, factorLines, resonanceRings,
+      wordPaths, wordClosures, wordConnects,
+      letterPoints:   wordLetterPoints,
+      wordOrigins,
+      minX:           allMinX, minY: allMinY,
+      width, height,
+      centerX:        (allMinX + allMaxX) / 2,
+      centerY:        (allMinY + allMaxY) / 2,
+      auraHue:        avgHue,
+      auraSat:        30,
+    };
+  } catch (e) {
+    console.error("Echo glyph build failed:", e);
+    return null;
+  }
+}
+
+
+
+
+// ================================================================
+// § CHORAL GLYPH ENGINE — frequency interference, chord nodes
+// ================================================================
+function buildChoralGlyph(norm) {
+  if (!norm || typeof norm !== "string") return null;
+  const trimmed = norm.trim();
+  if (!trimmed) return null;
+  try {
+    const words = trimmed.split(" ").filter(Boolean);
+    const W = words.length;
+    if (W === 0) return null;
+
+    // Word centers in circle-of-fifths arrangement
+    const wordCenters = [];
+    const ringR = W > 1 ? 100 + W * 8 : 0;
+    for (let wi = 0; wi < W; wi++) {
+      const ang = ((wi * 210.6) % 360) * Math.PI / 180 - Math.PI / 2;
+      wordCenters.push({
+        x: W > 1 ? Math.cos(ang) * ringR : 0,
+        y: W > 1 ? Math.sin(ang) * ringR : 0,
+      });
+    }
+
+    const wordWaveforms = []; // per word: {samples, rays, chordNodes, tripleNodes}
+    let allMinX = Infinity, allMaxX = -Infinity, allMinY = Infinity, allMaxY = -Infinity;
+
+    for (let wi = 0; wi < W; wi++) {
+      const word = words[wi];
+      const center = wordCenters[wi];
+
+      const letters = [];
+      for (let i = 0; i < word.length; i++) {
+        const ch = word[i];
+        const idx = ch.charCodeAt(0) - 97;
+        if (idx < 0 || idx > 25) continue;
+        letters.push({
+          ch, ordinal: idx + 1, prime: PRIME_MAP[idx], py: PYTH_MAP[idx],
+          hue: ((idx + 1) * 13.846) % 360,
+          rayAngle: ((idx + 1) * 13.846) % 360,
+          amp: PRIME_MAP[idx] / 10,
+          freq: PYTH_MAP[idx],
+        });
+      }
+      if (letters.length === 0) continue;
+
+      // Path direction = first letter's hue angle
+      const pathAngle = (letters[0].rayAngle * Math.PI / 180);
+      const pathDx = Math.cos(pathAngle);
+      const pathDy = Math.sin(pathAngle);
+
+      // Sample composite waveform along path
+      const N = letters.length * 20;
+      const pathLength = letters.length * 8;
+      const samples = [];
+      let meanAmp = 0;
+      const ampValues = [];
+      for (let s = 0; s < N; s++) {
+        const t = s / (N - 1); // 0 to 1
+        const dist = t * pathLength;
+        // Base point along path
+        const bx = center.x + pathDx * dist;
+        const by = center.y + pathDy * dist;
+        // Sum all rays at this point — perpendicular displacement
+        let displacement = 0;
+        for (const L of letters) {
+          // Each ray contributes a sine: amp × sin(freq × t × 2π + rayAngle)
+          const phase = (L.rayAngle * Math.PI / 180);
+          displacement += L.amp * Math.sin(L.freq * t * Math.PI * 2 + phase);
+        }
+        ampValues.push(Math.abs(displacement));
+        // Perpendicular offset
+        const perpDx = -pathDy, perpDy = pathDx;
+        const px = bx + perpDx * displacement * 0.6;
+        const py = by + perpDy * displacement * 0.6;
+        samples.push({ x: px, y: py, amp: displacement, t });
+        if (px < allMinX) allMinX = px;
+        if (px > allMaxX) allMaxX = px;
+        if (py < allMinY) allMinY = py;
+        if (py > allMaxY) allMaxY = py;
+      }
+      meanAmp = ampValues.reduce((s, v) => s + v, 0) / ampValues.length || 1;
+
+      // Compute rays as visualized lines from center
+      const rays = letters.map(L => {
+        const ang = L.rayAngle * Math.PI / 180;
+        const len = L.amp * 12;
+        return {
+          x1: center.x, y1: center.y,
+          x2: center.x + Math.cos(ang) * len,
+          y2: center.y + Math.sin(ang) * len,
+          hue: L.hue,
+          amp: L.amp, freq: L.freq,
+          letter: L.ch,
+        };
+      });
+
+      // Detect intersections between rays
+      const THRESHOLD = 4;
+      const intersections = []; // {x, y, letterIdxs:[i,j]}
+      for (let i = 0; i < rays.length; i++) {
+        for (let j = i + 1; j < rays.length; j++) {
+          // Two rays from same point — intersection only at center (skip self)
+          // But each ray has finite length, so we check segment intersection
+          const r1 = rays[i], r2 = rays[j];
+          // Parametric intersection
+          const denom = (r1.x2 - r1.x1) * (r2.y2 - r2.y1) - (r1.y2 - r1.y1) * (r2.x2 - r2.x1);
+          if (Math.abs(denom) < 0.001) continue;
+          const t1 = ((r2.x1 - r1.x1) * (r2.y2 - r2.y1) - (r2.y1 - r1.y1) * (r2.x2 - r2.x1)) / denom;
+          const t2 = ((r2.x1 - r1.x1) * (r1.y2 - r1.y1) - (r2.y1 - r1.y1) * (r1.x2 - r1.x1)) / denom;
+          if (t1 >= 0 && t1 <= 1 && t2 >= 0 && t2 <= 1) {
+            const ix = r1.x1 + t1 * (r1.x2 - r1.x1);
+            const iy = r1.y1 + t1 * (r1.y2 - r1.y1);
+            // Skip if too close to word center
+            const dx = ix - center.x, dy = iy - center.y;
+            if (dx * dx + dy * dy < THRESHOLD * THRESHOLD) continue;
+            intersections.push({ x: ix, y: iy, i, j });
+          }
+        }
+      }
+
+      // Group intersections: 3+ rays meeting = triple node
+      const chordNodes = [];
+      const tripleNodes = [];
+      const used = new Set();
+      for (let a = 0; a < intersections.length; a++) {
+        if (used.has(a)) continue;
+        const ia = intersections[a];
+        const cluster = [ia];
+        const rayIdxs = new Set([ia.i, ia.j]);
+        for (let b = a + 1; b < intersections.length; b++) {
+          if (used.has(b)) continue;
+          const ib = intersections[b];
+          const dx = ia.x - ib.x, dy = ia.y - ib.y;
+          if (dx * dx + dy * dy < THRESHOLD * THRESHOLD * 4) {
+            cluster.push(ib);
+            rayIdxs.add(ib.i); rayIdxs.add(ib.j);
+            used.add(b);
+          }
+        }
+        used.add(a);
+        // Average center of cluster
+        let cx = 0, cy = 0;
+        for (const c of cluster) { cx += c.x; cy += c.y; }
+        cx /= cluster.length; cy /= cluster.length;
+        // Compute color blend
+        const involvedHues = [...rayIdxs].map(idx => rays[idx].hue);
+        // Just blend first two for now
+        const h1 = involvedHues[0] || 0;
+        const h2 = involvedHues[1] || h1;
+        const blended = ((h1 + h2) / 2) % 360;
+        const sumAmp = [...rayIdxs].reduce((s, idx) => s + rays[idx].amp, 0);
+        const node = {
+          x: cx, y: cy,
+          size: Math.max(sumAmp / 4, 1.5),
+          hue: blended,
+          rayCount: rayIdxs.size,
+        };
+        if (rayIdxs.size >= 3) tripleNodes.push(node);
+        else chordNodes.push(node);
+      }
+
+      // Beat markers — sample zero crossings
+      const beats = [];
+      for (let s = 1; s < samples.length; s++) {
+        if ((samples[s - 1].amp >= 0 && samples[s].amp < 0) ||
+            (samples[s - 1].amp < 0 && samples[s].amp >= 0)) {
+          // Zero crossing — emit perpendicular dash
+          const dx = samples[s].x - samples[s - 1].x;
+          const dy = samples[s].y - samples[s - 1].y;
+          const ang = Math.atan2(dy, dx) + Math.PI / 2;
+          const mx = (samples[s].x + samples[s - 1].x) / 2;
+          const my = (samples[s].y + samples[s - 1].y) / 2;
+          const DASH = 3;
+          beats.push({
+            x1: mx - Math.cos(ang) * DASH, y1: my - Math.sin(ang) * DASH,
+            x2: mx + Math.cos(ang) * DASH, y2: my + Math.sin(ang) * DASH,
+          });
+        }
+      }
+
+      // Harmonic ghost waveforms — ±1 octave
+      const ghostUp = [], ghostDown = [];
+      for (let s = 0; s < N; s++) {
+        const t = s / (N - 1);
+        const dist = t * pathLength;
+        const bx = center.x + pathDx * dist;
+        const by = center.y + pathDy * dist;
+        let dUp = 0, dDn = 0;
+        for (const L of letters) {
+          const phase = (L.rayAngle * Math.PI / 180);
+          dUp += L.amp * Math.sin(L.freq * 2 * t * Math.PI * 2 + phase);
+          dDn += L.amp * Math.sin(L.freq * 0.5 * t * Math.PI * 2 + phase);
+        }
+        const perpDx = -pathDy, perpDy = pathDx;
+        ghostUp.push({ x: bx + perpDx * dUp * 0.6, y: by + perpDy * dUp * 0.6 });
+        ghostDown.push({ x: bx + perpDx * dDn * 0.6, y: by + perpDy * dDn * 0.6 });
+      }
+
+      // Build sample colors using interference-based saturation
+      const sampleColors = samples.map(s => {
+        const absA = Math.abs(s.amp);
+        const sat = absA > meanAmp ? 85 : 20;
+        // Hue: blend of letter hues weighted by position
+        const letterIdx = Math.floor(s.t * (letters.length - 1));
+        const L = letters[letterIdx] || letters[0];
+        return { hue: L.hue, sat };
+      });
+
+      wordWaveforms.push({
+        samples, sampleColors, rays, chordNodes, tripleNodes,
+        beats, ghostUp, ghostDown, center,
+      });
+    }
+
+    // Difference tone connections between adjacent words
+    const diffConnections = [];
+    if (W > 1) {
+      for (let wi = 0; wi < W - 1; wi++) {
+        const w1 = wordWaveforms[wi];
+        const w2 = wordWaveforms[wi + 1];
+        if (!w1 || !w2 || !w1.samples.length || !w2.samples.length) continue;
+        const p1 = w1.samples[w1.samples.length - 1];
+        const p2 = w2.samples[0];
+        const midX = (p1.x + p2.x) / 2;
+        const midY = (p1.y + p2.y) / 2;
+        diffConnections.push({
+          d: `M ${p1.x.toFixed(2)} ${p1.y.toFixed(2)} Q ${midX.toFixed(2)} ${midY.toFixed(2)} ${p2.x.toFixed(2)} ${p2.y.toFixed(2)}`,
+        });
+      }
+    }
+
+    const PAD = 30;
+    allMinX -= PAD; allMaxX += PAD; allMinY -= PAD; allMaxY += PAD;
+    const width = Math.max(allMaxX - allMinX, 100);
+    const height = Math.max(allMaxY - allMinY, 100);
+
+    return {
+      type: "choral",
+      wordWaveforms, diffConnections,
+      minX: allMinX, minY: allMinY,
+      width, height,
+      centerX: (allMinX + allMaxX) / 2,
+      centerY: (allMinY + allMaxY) / 2,
+    };
+  } catch (e) {
+    console.error("Choral glyph build failed:", e);
+    return null;
+  }
+}
+
+
+// ================================================================
+// § LOOM GLYPH ENGINE — woven tapestry, warp field, weft thread
+// ================================================================
+function buildLoomGlyph(norm) {
+  if (!norm || typeof norm !== "string") return null;
+  const trimmed = norm.trim();
+  if (!trimmed) return null;
+  try {
+    const words = trimmed.split(" ").filter(Boolean);
+    const W = words.length;
+    if (W === 0) return null;
+
+    // ── 1. WARP RING — 26 fixed anchor points (A-Z) on a circle ──
+    const WARP_R = 180;
+    const warpAnchors = [];
+    for (let i = 0; i < 26; i++) {
+      const ang = (i / 26) * Math.PI * 2 - Math.PI / 2;
+      warpAnchors.push({
+        x: Math.cos(ang) * WARP_R,
+        y: Math.sin(ang) * WARP_R,
+        letter: String.fromCharCode(97 + i),
+        ordinal: i + 1,
+        prime: PRIME_MAP[i],
+        hue: (i / 26) * 360,
+        isVowel: VOWELS.has(String.fromCharCode(97 + i)),
+      });
+    }
+
+    // ── 2. WALK — warp-weighted weave ──
+    // Each phrase letter pulls walk 40% toward its anchor (capped at prime/8 step length)
+    // Vowels push 20% away from their anchor instead
+    let x = 0, y = 0; // start at center
+    const shuttleDots = []; // {x, y, letter, ordinal, prime, isVowel, hue, sat, light, wordIdx, posInWord, isFirstInWord, isLastInWord}
+    const walkPoints  = []; // raw path points for stroking
+    walkPoints.push({ x, y });
+
+    // Per-word stats
+    const wordConsonantCounts = words.map(w => {
+      let c = 0;
+      for (const ch of w) if (!VOWELS.has(ch) && /[a-z]/.test(ch)) c++;
+      return c;
+    });
+
+    // Collect letter occurrence index for cross-thread detection later
+    const letterOccurrences = {}; // letter -> array of shuttleDot indices
+
+    for (let wi = 0; wi < W; wi++) {
+      const word = words[wi];
+      const wordLen = word.length;
+      let validIdx = 0;
+      for (let pi = 0; pi < word.length; pi++) {
+        const ch = word[pi];
+        const cIdx = ch.charCodeAt(0) - 97;
+        if (cIdx < 0 || cIdx > 25) continue;
+        const anchor = warpAnchors[cIdx];
+
+        // Vector from current pos toward anchor
+        const dx = anchor.x - x;
+        const dy = anchor.y - y;
+        const distToAnchor = Math.sqrt(dx * dx + dy * dy) || 0.001;
+
+        let stepLen;
+        if (anchor.isVowel) {
+          // Push 20% AWAY from anchor
+          stepLen = -(distToAnchor * 0.2);
+        } else {
+          // Pull toward — smaller of (40% to anchor) or (prime/8)
+          const pullDist = distToAnchor * 0.4;
+          const cap = anchor.prime / 8;
+          stepLen = Math.min(pullDist, cap);
+        }
+
+        x += (dx / distToAnchor) * stepLen;
+        y += (dy / distToAnchor) * stepLen;
+        walkPoints.push({ x, y });
+
+        // Build shuttle dot
+        // Weft color: hue = (position × 45 + wordIndex × 60 + ordinal × 7) mod 360
+        const hue = ((validIdx * 45) + (wi * 60) + (anchor.ordinal * 7)) % 360;
+        const sat = 75 + (anchor.isVowel ? 20 : 0);
+        const light = 50 + (wordConsonantCounts[wi] / Math.max(wordLen, 1)) * 20;
+
+        const sd = {
+          x, y, letter: ch, ordinal: anchor.ordinal, prime: anchor.prime,
+          isVowel: anchor.isVowel,
+          hue, sat: Math.min(sat, 95), light: Math.min(light, 75),
+          wordIdx: wi, posInWord: validIdx,
+          isFirstInWord: validIdx === 0,
+          isLastInWord: false, // patched after word loop
+        };
+        shuttleDots.push(sd);
+
+        if (!letterOccurrences[ch]) letterOccurrences[ch] = [];
+        letterOccurrences[ch].push(shuttleDots.length - 1);
+
+        validIdx++;
+      }
+      // Mark last shuttle of this word
+      if (shuttleDots.length > 0) {
+        for (let i = shuttleDots.length - 1; i >= 0; i--) {
+          if (shuttleDots[i].wordIdx === wi) {
+            shuttleDots[i].isLastInWord = true;
+            break;
+          }
+        }
+      }
+    }
+
+    if (shuttleDots.length === 0) return null;
+
+    // ── 3. CROSS-THREADS — alphabetically adjacent letter pairs ──
+    const crossThreads = [];
+    for (let i = 0; i < 25; i++) {
+      const a = String.fromCharCode(97 + i);
+      const b = String.fromCharCode(97 + i + 1);
+      const occA = letterOccurrences[a] || [];
+      const occB = letterOccurrences[b] || [];
+      if (occA.length === 0 || occB.length === 0) continue;
+      const pairCount = Math.min(occA.length, occB.length);
+      const opacity = Math.min(0.12 * pairCount, 0.55);
+      // For each pair connect successive occurrences
+      const len = Math.min(occA.length, occB.length);
+      for (let k = 0; k < len; k++) {
+        const da = shuttleDots[occA[k]];
+        const db = shuttleDots[occB[k]];
+        crossThreads.push({
+          x1: da.x, y1: da.y, x2: db.x, y2: db.y,
+          hue: ((i + 0.5) / 26) * 360,
+          opacity,
+        });
+      }
+    }
+
+    // ── 4. TENSION LINES from each shuttle dot ──
+    const tensionLines = [];
+    for (const sd of shuttleDots) {
+      const count = Math.floor(1 + Math.log2(sd.ordinal));
+      const baseRot = (sd.prime * 7 * Math.PI) / 180;
+      const lineLen = (sd.prime / 8) * 1.5 + 4;
+      for (let r = 0; r < count; r++) {
+        const ang = baseRot + (r / count) * Math.PI * 2;
+        tensionLines.push({
+          x1: sd.x, y1: sd.y,
+          x2: sd.x + Math.cos(ang) * lineLen,
+          y2: sd.y + Math.sin(ang) * lineLen,
+          hue: sd.hue, sat: sd.sat, light: sd.light,
+        });
+      }
+    }
+
+    // ── 5. HEDDLE MARKS — midpoint perpendicular crossbars ──
+    const heddleMarks = [];
+    for (let i = 1; i < shuttleDots.length; i++) {
+      const a = shuttleDots[i - 1];
+      const b = shuttleDots[i];
+      const mx = (a.x + b.x) / 2;
+      const my = (a.y + b.y) / 2;
+      const dx = b.x - a.x, dy = b.y - a.y;
+      const len = Math.sqrt(dx * dx + dy * dy) || 1;
+      // Perpendicular
+      const perpX = -dy / len, perpY = dx / len;
+      const barLen = (a.prime + b.prime) / 40 + 2;
+      const midHue = ((a.hue + b.hue) / 2) % 360;
+      heddleMarks.push({
+        x1: mx - perpX * barLen, y1: my - perpY * barLen,
+        x2: mx + perpX * barLen, y2: my + perpY * barLen,
+        hue: midHue, sat: (a.sat + b.sat) / 2, light: (a.light + b.light) / 2,
+      });
+    }
+
+    // ── 6. BEAT STRIPE — triple-stroked walk path ──
+    let beatPath = "";
+    if (shuttleDots.length >= 2) {
+      beatPath = `M ${shuttleDots[0].x.toFixed(2)} ${shuttleDots[0].y.toFixed(2)}`;
+      for (let i = 1; i < shuttleDots.length; i++) {
+        beatPath += ` L ${shuttleDots[i].x.toFixed(2)} ${shuttleDots[i].y.toFixed(2)}`;
+      }
+    }
+    // Average weft hue for medium stroke
+    let avgHueX = 0, avgHueY = 0;
+    for (const sd of shuttleDots) {
+      const r = sd.hue * Math.PI / 180;
+      avgHueX += Math.cos(r); avgHueY += Math.sin(r);
+    }
+    const avgWeftHue = (Math.atan2(avgHueY, avgHueX) * 180 / Math.PI + 360) % 360;
+    // Warp shadow color = anchor at angle of phrase centroid
+    let cxAll = 0, cyAll = 0;
+    for (const sd of shuttleDots) { cxAll += sd.x; cyAll += sd.y; }
+    cxAll /= shuttleDots.length; cyAll /= shuttleDots.length;
+    const phraseCentroidAng = Math.atan2(cyAll, cxAll);
+    const warpShadowHue = ((phraseCentroidAng + Math.PI / 2) / (Math.PI * 2)) * 360;
+
+    // ── 7. WORD STACK OFFSETS — capped at 30° total ──
+    const maxOffset = Math.min(W * 7, 30);
+    const wordLayers = [];
+    for (let wi = 0; wi < W; wi++) {
+      const t = W > 1 ? wi / (W - 1) : 0;
+      const angOffset = t * maxOffset; // degrees
+      const scaleOffset = 1 + t * 0.04; // up to 1.04
+      const wordDots = shuttleDots.filter(d => d.wordIdx === wi);
+      const wordMarks = heddleMarks.filter((_, idx) => {
+        // Heddle marks correspond to segments between dots; map to word
+        const a = shuttleDots[idx];
+        const b = shuttleDots[idx + 1];
+        return a && b && a.wordIdx === wi && b.wordIdx === wi;
+      });
+      wordLayers.push({
+        wordIdx: wi,
+        rotation: angOffset, // degrees
+        scale: scaleOffset,
+        dots: wordDots,
+        marks: wordMarks,
+      });
+    }
+
+    // ── 8. DENSITY BAR — cross-threads per word ──
+    const densityBar = words.map((w, wi) => {
+      const wordDots = shuttleDots.filter(d => d.wordIdx === wi);
+      const ids = new Set(wordDots.map((_, i) => shuttleDots.indexOf(wordDots[i])));
+      let count = 0;
+      for (const ct of crossThreads) {
+        // Check if both endpoints are in this word
+        // We can't easily reverse-lookup, so approximate: count cross-threads whose midpoint lies within this word's dot bounding box
+        // Simpler: count letter pairs occurring within the word
+        for (let i = 0; i < w.length - 1; i++) {
+          // Already handled. Skip overhead — just use occurrence count
+        }
+      }
+      // Better: count adjacent-letter pairs within this word
+      let adjPairs = 0;
+      for (let i = 0; i < w.length; i++) {
+        const a = w[i];
+        const aIdx = a.charCodeAt(0) - 97;
+        if (aIdx < 0 || aIdx > 25) continue;
+        for (let j = 0; j < w.length; j++) {
+          if (i === j) continue;
+          const b = w[j];
+          const bIdx = b.charCodeAt(0) - 97;
+          if (bIdx < 0 || bIdx > 25) continue;
+          if (Math.abs(aIdx - bIdx) === 1) adjPairs++;
+        }
+      }
+      const density = w.length > 0 ? adjPairs / w.length : 0;
+      return { word: w, density: Math.min(density, 4) };
+    });
+
+    // ── 9. BOUNDS ──
+    const PAD = 50;
+    let minX = -WARP_R - PAD, maxX = WARP_R + PAD;
+    let minY = -WARP_R - PAD, maxY = WARP_R + PAD;
+    for (const sd of shuttleDots) {
+      if (sd.x < minX) minX = sd.x - PAD;
+      if (sd.x > maxX) maxX = sd.x + PAD;
+      if (sd.y < minY) minY = sd.y - PAD;
+      if (sd.y > maxY) maxY = sd.y + PAD;
+    }
+    const width = maxX - minX;
+    const height = maxY - minY;
+
+    return {
+      type: "loom",
+      warpAnchors,
+      shuttleDots,
+      walkPoints,
+      crossThreads,
+      tensionLines,
+      heddleMarks,
+      beatPath,
+      avgWeftHue,
+      warpShadowHue,
+      wordLayers,
+      densityBar,
+      minX, minY, width, height,
+      centerX: (minX + maxX) / 2,
+      centerY: (minY + maxY) / 2,
+      warpR: WARP_R,
+    };
+  } catch (e) {
+    console.error("Loom glyph build failed:", e);
+    return null;
+  }
+}
+
 
 function buildGlyph(norm) {
   if (!norm || typeof norm !== "string") return null;
@@ -3394,17 +5109,34 @@ function getTwoFingerState(touches) {
   return { dist: Math.sqrt(dx*dx+dy*dy), angle: Math.atan2(dy,dx) };
 }
 
-function GlyphPanel({ copy, copiedId }) {
+function GlyphSingle({ copy, copiedId, prefill, onPrefillConsumed }) {
   const [input,    setInput]    = useState("");
+
+  // Apply prefill when it arrives
+  useEffect(() => {
+    if (prefill) {
+      setInput(prefill);
+      if (onPrefillConsumed) onPrefillConsumed();
+    }
+  }, [prefill, onPrefillConsumed]);
   const [tx,       setTx]       = useState(0);
   const [ty,       setTy]       = useState(0);
   const [scale,    setScale]    = useState(1);
   const [rot,      setRot]      = useState(0);
   const [selected, setSelected] = useState(null);
+  const [stage,    setStage]    = useState(1);   // 1-5 lifecycle stage
+  const [animStep, setAnimStep] = useState(0);   // current letter index in animation
+  const [animating,setAnimating]= useState(false);
+  const [fieldPos, setFieldPos] = useState(null);// {x,y} for field interaction
+  const [tempo,    setTempo]    = useState(60);  // ms per letter step
+
   const gestureRef = useRef({
     mode:null, startX:0, startY:0, startTx:0, startTy:0,
     startDist:1, startScale:1, startAngle:0, startRot:0, moved:false,
   });
+  const svgRef    = useRef(null);
+  const animRef   = useRef(null); // animation interval ref
+
 
   const debouncedInput = useDebounce(input, 120);
   const norm   = useMemo(() => normalize(debouncedInput), [debouncedInput]);
@@ -3417,12 +5149,105 @@ function GlyphPanel({ copy, copiedId }) {
     return n;
   }, [glyph]);
 
+  // Reset animation and field when phrase changes
   useEffect(() => {
     setTx(0); setTy(0); setScale(1); setRot(0); setSelected(null);
+    setAnimStep(0); setAnimating(false); setFieldPos(null);
+    if (animRef.current) clearInterval(animRef.current);
   }, [norm]);
 
+  // Stage 2 — animated construction: step through letters
+  useEffect(() => {
+    if (stage !== 2 || !animating || !glyph) return;
+    if (animStep >= totalLetters) { setAnimating(false); return; }
+    animRef.current = setTimeout(() => {
+      setAnimStep(s => s + 1);
+    }, tempo);
+    return () => clearTimeout(animRef.current);
+  }, [stage, animating, animStep, totalLetters, glyph, tempo]);
+
+  // Stage 5 — temporal mutation: auto-rotate over time
+  useEffect(() => {
+    if (stage !== 5 || !glyph) return;
+    let frame;
+    let t = 0;
+    const tick = () => {
+      t += 0.008;
+      setRot(t);
+      setScale(1 + Math.sin(t * 0.7) * 0.08);
+      frame = requestAnimationFrame(tick);
+    };
+    frame = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(frame);
+  }, [stage, glyph]);
+
+  const handlePlay  = useCallback(() => { setAnimStep(0); setAnimating(true); }, []);
+  const handlePause = useCallback(() => setAnimating(false), []);
+  const handleReset = useCallback(() => {
+    setTx(0); setTy(0); setScale(1); setRot(0); setSelected(null);
+    setAnimStep(0); setAnimating(false);
+  }, []);
+
+  // Stage-aware glyph — Stage 2 clips, Stage 3 warps, others pass through
+  const stageGlyph = useMemo(() => {
+    if (!glyph) return null;
+    if (stage === 1) return glyph;
+
+    if (stage === 2) {
+      let remaining = animStep;
+      const clippedSegs = glyph.segments.map(seg => {
+        if (remaining <= 0) return { ...seg, points: [seg.points[0]], path: "" };
+        const pts = seg.points.slice(0, Math.min(remaining + 1, seg.points.length));
+        remaining -= (seg.points.length - 1);
+        if (pts.length < 2) return { ...seg, points: pts, path: "" };
+        let d = `M ${pts[0].x.toFixed(2)} ${pts[0].y.toFixed(2)}`;
+        for (let i = 1; i < pts.length; i++) d += ` L ${pts[i].x.toFixed(2)} ${pts[i].y.toFixed(2)}`;
+        return { ...seg, points: pts, path: d };
+      });
+      return {
+        ...glyph,
+        segments:    clippedSegs,
+        vowelShapes: glyph.vowelShapes.filter((_, i) => i < animStep),
+        flourishes:  glyph.flourishes.filter((_, i) => i < animStep),
+      };
+    }
+
+    if (stage === 3 && fieldPos) {
+      const STRENGTH = 10, RADIUS = 45;
+      const warp = (px, py) => {
+        const dx = px - fieldPos.x, dy = py - fieldPos.y;
+        const dist = Math.sqrt(dx*dx + dy*dy);
+        if (dist > RADIUS || dist < 0.01) return { x:px, y:py };
+        const f = (1 - dist/RADIUS) * STRENGTH;
+        return { x: px + (dx/dist)*f, y: py + (dy/dist)*f };
+      };
+      const warpedSegs = glyph.segments.map(seg => {
+        const wpts = seg.points.map(p => ({ ...p, ...warp(p.x, p.y) }));
+        let d = `M ${wpts[0].x.toFixed(2)} ${wpts[0].y.toFixed(2)}`;
+        for (let i = 1; i < wpts.length; i++) d += ` L ${wpts[i].x.toFixed(2)} ${wpts[i].y.toFixed(2)}`;
+        return { ...seg, points: wpts, path: d };
+      });
+      return { ...glyph, segments: warpedSegs };
+    }
+
+    return glyph;
+  }, [glyph, stage, animStep, fieldPos]);
+
   const handleChange     = useCallback(e => setInput(e.target.value), []);
-  const handleReset      = useCallback(() => { setTx(0); setTy(0); setScale(1); setRot(0); setSelected(null); }, []);
+
+  // Stage 3 — field interaction: track touch/mouse pos on canvas
+  const handleFieldMove = useCallback(e => {
+    if (stage !== 3 || !svgRef.current) return;
+    const rect = svgRef.current.getBoundingClientRect();
+    const p = e.touches ? e.touches[0] : e;
+    if (!p) return;
+    const scaleX = (glyph?.width  || 360) / rect.width;
+    const scaleY = (glyph?.height || 360) / rect.height;
+    setFieldPos({
+      x: (p.clientX - rect.left) * scaleX + (glyph?.minX || 0),
+      y: (p.clientY - rect.top)  * scaleY + (glyph?.minY || 0),
+    });
+  }, [stage, glyph]);
   const handlePointerEnd = useCallback(() => { gestureRef.current.mode = null; }, []);
   const handleWheel      = useCallback(e => {
     e.preventDefault();
@@ -3458,6 +5283,44 @@ function GlyphPanel({ copy, copiedId }) {
     }
   }, []);
 
+  const handleExport = useCallback(() => {
+    if (!svgRef.current || !norm) return;
+    try {
+      // Clone the SVG and reset the transform group to default view for clean export
+      const clone = svgRef.current.cloneNode(true);
+      // Set a clean background rect
+      const bg = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+      bg.setAttribute("x", svgRef.current.viewBox.baseVal.x);
+      bg.setAttribute("y", svgRef.current.viewBox.baseVal.y);
+      bg.setAttribute("width", svgRef.current.viewBox.baseVal.width);
+      bg.setAttribute("height", svgRef.current.viewBox.baseVal.height);
+      bg.setAttribute("fill", "#000000");
+      clone.insertBefore(bg, clone.firstChild);
+      // Reset transform group to neutral (remove pan/zoom/rotate)
+      const g = clone.querySelector("g[transform]");
+      if (g && glyph) {
+        const cx = glyph.centerX, cy = glyph.centerY;
+        g.setAttribute("transform",
+          `translate(0 0) rotate(0 ${cx} ${cy}) translate(0 0) scale(1)`
+        );
+      }
+      // Remove hit target circles (transparent interaction elements)
+      clone.querySelectorAll('circle[fill="transparent"]').forEach(el => el.remove());
+      const svgStr  = new XMLSerializer().serializeToString(clone);
+      const blob    = new Blob([svgStr], { type:"image/svg+xml" });
+      const url     = URL.createObjectURL(blob);
+      const a       = document.createElement("a");
+      a.href        = url;
+      a.download    = `oden-${norm.replace(/\s+/g,"-").slice(0,40)}.svg`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch(e) {
+      console.error("Export failed:", e);
+    }
+  }, [norm, glyph]);
+
   const showLabels = totalLetters > 0 && totalLetters <= 10;
   const sat  = (glyph && isFinite(glyph.saturation)) ? glyph.saturation : 78;
   const gW   = (glyph && glyph.width  > 0) ? glyph.width  : 360;
@@ -3473,8 +5336,7 @@ function GlyphPanel({ copy, copiedId }) {
   const selPt = (selected && glyph) ? glyph.segments[selected.segIdx]?.points[selected.ptIdx] : null;
 
   return (
-    <Card>
-      <SectionLabel>Glyph</SectionLabel>
+    <>
       <Inp value={input} onChange={handleChange}
         placeholder="enter word or phrase..."
         accentColor="#e879f9" style={{ marginBottom:14 }}/>
@@ -3486,12 +5348,17 @@ function GlyphPanel({ copy, copiedId }) {
             border:`1px solid ${T.border}`, borderRadius:T.radiusLg,
             overflow:"hidden", marginBottom:12, position:"relative", touchAction:"none",
           }}
-            onMouseDown={handlePointerStart} onMouseMove={handlePointerMove}
-            onMouseUp={handlePointerEnd} onMouseLeave={handlePointerEnd}
-            onTouchStart={handlePointerStart} onTouchMove={handlePointerMove}
-            onTouchEnd={handlePointerEnd} onWheel={handleWheel}>
+            onMouseDown={stage !== 3 ? handlePointerStart : undefined}
+            onMouseMove={stage !== 3 ? handlePointerMove : handleFieldMove}
+            onMouseUp={stage !== 3 ? handlePointerEnd : undefined}
+            onMouseLeave={stage !== 3 ? handlePointerEnd : () => setFieldPos(null)}
+            onTouchStart={stage !== 3 ? handlePointerStart : undefined}
+            onTouchMove={stage !== 3 ? handlePointerMove : handleFieldMove}
+            onTouchEnd={stage !== 3 ? handlePointerEnd : () => setFieldPos(null)}
+            onWheel={stage !== 3 ? handleWheel : undefined}>
             <svg
-              viewBox={`${glyph.minX} ${glyph.minY} ${glyph.width} ${glyph.height}`}
+              ref={svgRef}
+              viewBox={`${stageGlyph.minX} ${stageGlyph.minY} ${stageGlyph.width} ${stageGlyph.height}`}
               preserveAspectRatio="xMidYMid meet"
               style={{ width:"100%", height:"100%", display:"block", cursor:"grab" }}>
               <defs>
@@ -3502,7 +5369,7 @@ function GlyphPanel({ copy, copiedId }) {
                 <filter id="gl-aura" x="-80%" y="-80%" width="260%" height="260%">
                   <feGaussianBlur stdDeviation="2.2"/>
                 </filter>
-                {glyph.segments.map((seg, si) => {
+                {stageGlyph.segments.map((seg, si) => {
                   const fa = seg.points[1]?.simple || 13;
                   const la = seg.points[seg.points.length-1]?.simple || 13;
                   return (
@@ -3516,34 +5383,34 @@ function GlyphPanel({ copy, copiedId }) {
                 })}
               </defs>
               <g transform={svgT}>
-                <circle cx={glyph.centerX} cy={glyph.centerY} r={glyph.frameRadius}
+                <circle cx={stageGlyph.centerX} cy={stageGlyph.centerY} r={glyph.frameRadius}
                   fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="0.15"/>
-                <circle cx={glyph.centerX} cy={glyph.centerY} r={glyph.frameRadius*0.92}
+                <circle cx={stageGlyph.centerX} cy={stageGlyph.centerY} r={glyph.frameRadius*0.92}
                   fill="none" stroke="rgba(255,255,255,0.05)" strokeWidth="0.12" strokeDasharray="0.8 1.2"/>
-                <circle cx={glyph.centerX} cy={glyph.centerY} r={glyph.innerRadius}
+                <circle cx={stageGlyph.centerX} cy={stageGlyph.centerY} r={glyph.innerRadius}
                   fill="none" stroke="rgba(255,255,255,0.18)" strokeWidth="0.2" strokeDasharray="0.4 0.4"/>
-                <circle cx={glyph.centerX} cy={glyph.centerY} r="0.25" fill="rgba(255,255,255,0.35)"/>
-                {glyph.symmetryAxis && (
+                <circle cx={stageGlyph.centerX} cy={stageGlyph.centerY} r="0.25" fill="rgba(255,255,255,0.35)"/>
+                {stageGlyph.symmetryAxis && (
                   <line
-                    x1={glyph.symmetryAxis.cx - Math.cos(glyph.symmetryAxis.angle)*glyph.symmetryAxis.length}
-                    y1={glyph.symmetryAxis.cy - Math.sin(glyph.symmetryAxis.angle)*glyph.symmetryAxis.length}
-                    x2={glyph.symmetryAxis.cx + Math.cos(glyph.symmetryAxis.angle)*glyph.symmetryAxis.length}
-                    y2={glyph.symmetryAxis.cy + Math.sin(glyph.symmetryAxis.angle)*glyph.symmetryAxis.length}
-                    stroke={`rgba(255,255,255,${0.1+glyph.symmetryAxis.strength*0.25})`}
+                    x1={stageGlyph.symmetryAxis.cx - Math.cos(stageGlyph.symmetryAxis.angle)*stageGlyph.symmetryAxis.length}
+                    y1={stageGlyph.symmetryAxis.cy - Math.sin(stageGlyph.symmetryAxis.angle)*stageGlyph.symmetryAxis.length}
+                    x2={stageGlyph.symmetryAxis.cx + Math.cos(stageGlyph.symmetryAxis.angle)*stageGlyph.symmetryAxis.length}
+                    y2={stageGlyph.symmetryAxis.cy + Math.sin(stageGlyph.symmetryAxis.angle)*stageGlyph.symmetryAxis.length}
+                    stroke={`rgba(255,255,255,${0.1+stageGlyph.symmetryAxis.strength*0.25})`}
                     strokeWidth="0.18" strokeDasharray="1.2 0.8"/>
                 )}
-                {glyph.closingLine && (
-                  <line x1={glyph.closingLine.x1} y1={glyph.closingLine.y1}
-                    x2={glyph.closingLine.x2} y2={glyph.closingLine.y2}
+                {stageGlyph.closingLine && (
+                  <line x1={stageGlyph.closingLine.x1} y1={stageGlyph.closingLine.y1}
+                    x2={stageGlyph.closingLine.x2} y2={stageGlyph.closingLine.y2}
                     stroke="rgba(255,255,255,0.25)" strokeWidth="0.2" strokeDasharray="0.6 0.4"/>
                 )}
-                {glyph.wordConnections.map((wc, i) => (
+                {stageGlyph.wordConnections.map((wc, i) => (
                   <line key={`wc${i}`} x1={wc.x1} y1={wc.y1} x2={wc.x2} y2={wc.y2}
                     stroke="rgba(255,255,255,0.08)" strokeWidth="0.12" strokeDasharray="0.3 0.5"/>
                 ))}
 
                 {/* Signature arcs — faint radial arcs at each word origin */}
-                {glyph.signatureArcs.map((arc, i) => {
+                {stageGlyph.signatureArcs.map((arc, i) => {
                   const a0 = arc.angle - arc.arcSpan / 2;
                   const a1 = arc.angle + arc.arcSpan / 2;
                   const x0 = arc.cx + Math.cos(a0) * arc.radius;
@@ -3561,28 +5428,28 @@ function GlyphPanel({ copy, copiedId }) {
                     />
                   );
                 })}
-                {glyph.segments.map((seg, si) => (
+                {stageGlyph.segments.map((seg, si) => (
                   <path key={`au${si}`} d={seg.path} fill="none"
-                    stroke={`url(#pg${si})`} strokeWidth={glyph.auraStroke}
+                    stroke={`url(#pg${si})`} strokeWidth={stageGlyph.auraStroke}
                     strokeLinecap="round" strokeLinejoin="round" opacity="0.25" filter="url(#gl-aura)"/>
                 ))}
-                {glyph.segments.map((seg, si) => (
+                {stageGlyph.segments.map((seg, si) => (
                   <path key={`mp${si}`} d={seg.path} fill="none"
-                    stroke={`url(#pg${si})`} strokeWidth={glyph.baseStroke}
+                    stroke={`url(#pg${si})`} strokeWidth={stageGlyph.baseStroke}
                     strokeLinecap="round" strokeLinejoin="round" opacity="0.9" filter="url(#gl-glow)"/>
                 ))}
-                {glyph.crossings.map((cr, i) => (
+                {stageGlyph.crossings.map((cr, i) => (
                   <circle key={`cr${i}`} cx={cr.x} cy={cr.y} r="0.5"
                     fill="#ffffff" opacity="0.4" filter="url(#gl-glow)"/>
                 ))}
-                {glyph.flourishes.map((fl, i) => fl.type === "arc"
+                {stageGlyph.flourishes.map((fl, i) => fl.type === "arc"
                   ? <circle key={`fa${i}`} cx={fl.cx} cy={fl.cy} r={fl.r} fill="none"
                       stroke={letterColor(fl.simple, 0.7, sat)} strokeWidth="0.15" opacity="0.7"/>
                   : <line key={`ft${i}`} x1={fl.x1} y1={fl.y1} x2={fl.x2} y2={fl.y2}
                       stroke={letterColor(fl.simple, 0.6, sat)} strokeWidth="0.2"
                       strokeLinecap="round" opacity="0.7"/>
                 )}
-                {glyph.vowelShapes.map((v, i) => {
+                {stageGlyph.vowelShapes.map((v, i) => {
                   const vp = polygonPoints(v.cx, v.cy, v.radius, v.sides, v.rotation);
                   const ps = vp.map(pt => `${pt.x.toFixed(2)},${pt.y.toFixed(2)}`).join(" ");
                   const vc = letterColor(v.simple, 1, sat);
@@ -3599,7 +5466,7 @@ function GlyphPanel({ copy, copiedId }) {
                     </g>
                   );
                 })}
-                {glyph.segments.map((seg, si) => (
+                {stageGlyph.segments.map((seg, si) => (
                   <g key={`lp${si}`}>
                     {seg.points.map((p, i) => {
                       const isSel = selected && selected.segIdx === si && selected.ptIdx === i;
@@ -3645,7 +5512,7 @@ function GlyphPanel({ copy, copiedId }) {
                     })}
                   </g>
                 ))}
-                {glyph.segments.map((seg, si) => {
+                {stageGlyph.segments.map((seg, si) => {
                   const pts = seg.points;
                   if (pts.length < 2) return null;
                   const lp = pts[pts.length-1], pp = pts[pts.length-2];
@@ -3658,7 +5525,7 @@ function GlyphPanel({ copy, copiedId }) {
                       fill={letterColor(lp.simple, 0.95, sat)} opacity="0.8" filter="url(#gl-glow)"/>
                   );
                 })}
-                {showLabels && glyph.segments.map((seg, si) => (
+                {showLabels && stageGlyph.segments.map((seg, si) => (
                   <g key={`lb${si}`}>
                     {seg.points.map((p, i) => {
                       if (p.isStart || !p.ch) return null;
@@ -3679,8 +5546,53 @@ function GlyphPanel({ copy, copiedId }) {
               border:`1px solid ${T.border2}`, borderRadius:6, color:T.textMid,
               cursor:"pointer", fontSize:11, padding:"4px 10px",
               fontFamily:T.mono, backdropFilter:"blur(4px)"}}>reset</button>
-            {(scale !== 1 || rot !== 0 || tx !== 0 || ty !== 0) && (
-              <div style={{ position:"absolute", bottom:8, left:8,
+            <button onClick={handleExport} style={{
+              position:"absolute", top:8, right:64, background:"rgba(0,0,0,0.6)",
+              border:`1px solid #e879f944`, borderRadius:6, color:"#e879f9",
+              cursor:"pointer", fontSize:11, padding:"4px 10px",
+              fontFamily:T.mono, backdropFilter:"blur(4px)"}}>export svg</button>
+
+            {/* Stage 2 — play/pause controls */}
+            {stage === 2 && glyph && (
+              <div style={{
+                position:"absolute", bottom:8, left:8,
+                display:"flex", gap:6, alignItems:"center",
+              }}>
+                <button
+                  onClick={animating ? handlePause : handlePlay}
+                  style={{
+                    background:"rgba(0,0,0,0.75)", border:`1px solid #e879f966`,
+                    borderRadius:6, color:"#e879f9", cursor:"pointer",
+                    fontSize:14, padding:"4px 12px", fontFamily:T.mono,
+                    backdropFilter:"blur(4px)",
+                  }}>
+                  {animating ? "⏸" : animStep >= totalLetters ? "↺" : "▶"}
+                </button>
+                <div style={{
+                  background:"rgba(0,0,0,0.6)", border:`1px solid ${T.border}`,
+                  borderRadius:6, padding:"4px 8px", fontSize:9,
+                  color:T.textMid, fontFamily:T.mono,
+                }}>
+                  {animStep}/{totalLetters}
+                </div>
+              </div>
+            )}
+
+            {/* Stage 3 — field indicator */}
+            {stage === 3 && (
+              <div style={{
+                position:"absolute", top:8, left:8,
+                background:"rgba(0,0,0,0.6)", border:`1px solid #38bdf844`,
+                borderRadius:6, padding:"4px 8px", fontSize:9,
+                color:"#38bdf8", fontFamily:T.mono,
+              }}>
+                field active — move to warp
+              </div>
+            )}
+
+
+            {(scale !== 1 || rot !== 0 || tx !== 0 || ty !== 0) && stage !== 5 && (
+              <div style={{ position:"absolute", bottom:8, right:8,
                 background:"rgba(0,0,0,0.6)", border:`1px solid ${T.border}`,
                 borderRadius:6, color:T.textDim, fontSize:10,
                 padding:"3px 8px", fontFamily:T.mono, backdropFilter:"blur(4px)" }}>
@@ -3714,9 +5626,58 @@ function GlyphPanel({ copy, copiedId }) {
             <span>· consonant</span><span>⫽ flourish</span>
             <span>◆ end</span><span>∙ crossing</span>
           </div>
-          <div style={{ fontSize:10, color:T.textDim, fontFamily:T.mono, marginBottom:10 }}>
-            drag · pinch zoom · pinch rotate · tap letter
-          </div>
+
+          {/* Stage selector */}
+          {stageGlyph && (
+            <div style={{ marginBottom:10 }}>
+              <div style={{ fontSize:9, color:T.textGhost, fontFamily:T.mono,
+                letterSpacing:"0.12em", marginBottom:6 }}>LIFE CYCLE</div>
+              <div style={{ display:"flex", gap:4 }}>
+                {[
+                  { s:1, label:"Static",    },
+                  { s:2, label:"Construct", },
+                  { s:3, label:"Field",     },
+                ].map(({ s, label }) => (
+                  <button key={s} onClick={() => {
+                    setStage(s);
+                    setAnimStep(0); setAnimating(false); setFieldPos(null);
+                  }} style={{
+                    flex:1, padding:"6px 0",
+                    background: stage === s ? `${T.accent}18` : "transparent",
+                    border:`1px solid ${stage === s ? T.accent : T.border}`,
+                    borderRadius:T.radius,
+                    color: stage === s ? T.accent : T.textDim,
+                    fontSize:8, fontFamily:T.mono, fontWeight:700,
+                    letterSpacing:"0.06em", textTransform:"uppercase",
+                    cursor:"pointer",
+                    transition:"all 0.15s",
+                  }}>
+                    <div style={{ fontSize:10, marginBottom:1 }}>{s}</div>
+                    <div>{label}</div>
+                  </button>
+                ))}
+              </div>
+              {/* Stage 2 speed control */}
+              {stage === 2 && (
+                <div style={{ display:"flex", alignItems:"center", gap:8, marginTop:8 }}>
+                  <span style={{ fontSize:9, color:T.textDim, fontFamily:T.mono }}>SPEED</span>
+                  <input type="range" min="20" max="300" step="10"
+                    value={tempo} onChange={e => setTempo(+e.target.value)}
+                    style={{ flex:1, accentColor:T.accent }}/>
+                  <span style={{ fontSize:9, color:T.textDim, fontFamily:T.mono, minWidth:28 }}>
+                    {tempo}ms
+                  </span>
+                </div>
+              )}
+              {/* Stage descriptions */}
+              <div style={{ fontSize:9, color:T.textGhost, fontFamily:T.mono,
+                marginTop:6, lineHeight:1.5 }}>
+                {stage === 1 && "pan · zoom · rotate · tap any letter"}
+                {stage === 2 && "letter-by-letter construction · play · pause · speed"}
+                {stage === 3 && "move finger across canvas to warp the geometry"}
+              </div>
+            </div>
+          )}
           {values && (
             <div style={{ background:T.bg0, border:`1px solid ${T.border}`,
               borderRadius:T.radius, padding:"10px 12px" }}>
@@ -3733,6 +5694,1509 @@ function GlyphPanel({ copy, copiedId }) {
           )}
         </>
       )}
+    </>
+  );
+}
+
+// ================================================================
+// § ECHO GLYPH RENDERER
+// ================================================================
+function EchoGlyph() {
+  const [input, setInput] = useState("");
+  const [tx, setTx] = useState(0);
+  const [ty, setTy] = useState(0);
+  const [scale, setScale] = useState(1);
+  const [rot, setRot] = useState(0);
+  const gestureRef = useRef({
+    mode: null, startX: 0, startY: 0, startTx: 0, startTy: 0,
+    startDist: 1, startScale: 1, startAngle: 0, startRot: 0, moved: false,
+  });
+  const svgRef = useRef(null);
+
+  const debouncedInput = useDebounce(input, 120);
+  const norm = useMemo(() => normalize(debouncedInput), [debouncedInput]);
+  const glyph = useMemo(() => buildEchoGlyph(norm), [norm]);
+
+  useEffect(() => {
+    setTx(0); setTy(0); setScale(1); setRot(0);
+  }, [norm]);
+
+  const handleChange = useCallback(e => setInput(e.target.value), []);
+  const handleReset = useCallback(() => {
+    setTx(0); setTy(0); setScale(1); setRot(0);
+  }, []);
+  const handlePointerEnd = useCallback(() => { gestureRef.current.mode = null; }, []);
+  const handleWheel = useCallback(e => {
+    e.preventDefault();
+    setScale(s => Math.max(0.3, Math.min(5, s * (e.deltaY < 0 ? 1.1 : 0.9))));
+  }, []);
+  const handlePointerStart = useCallback(e => {
+    const g = gestureRef.current; g.moved = false;
+    if (e.touches && e.touches.length === 2) {
+      const ts = getTwoFingerState(e.touches);
+      g.mode = "pinch"; g.startDist = ts.dist; g.startAngle = ts.angle;
+      g.startScale = scale; g.startRot = rot; e.preventDefault();
+    } else {
+      const p = e.touches ? e.touches[0] : e;
+      g.mode = "pan"; g.startX = p.clientX; g.startY = p.clientY;
+      g.startTx = tx; g.startTy = ty;
+    }
+  }, [tx, ty, scale, rot]);
+  const handlePointerMove = useCallback(e => {
+    const g = gestureRef.current; if (!g.mode) return;
+    if (g.mode === "pinch" && e.touches && e.touches.length === 2) {
+      const ts = getTwoFingerState(e.touches);
+      setScale(Math.max(0.3, Math.min(5, g.startScale * (ts.dist / g.startDist))));
+      setRot(g.startRot + (ts.angle - g.startAngle));
+      g.moved = true; e.preventDefault();
+    } else if (g.mode === "pan") {
+      const p = e.touches ? e.touches[0] : e;
+      const dx = p.clientX - g.startX, dy = p.clientY - g.startY;
+      if (Math.abs(dx) + Math.abs(dy) > 3) g.moved = true;
+      setTx(g.startTx + dx); setTy(g.startTy + dy);
+    }
+  }, []);
+
+  const handleExport = useCallback(() => {
+    if (!svgRef.current || !norm) return;
+    try {
+      const clone = svgRef.current.cloneNode(true);
+      const bg = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+      bg.setAttribute("x", svgRef.current.viewBox.baseVal.x);
+      bg.setAttribute("y", svgRef.current.viewBox.baseVal.y);
+      bg.setAttribute("width", svgRef.current.viewBox.baseVal.width);
+      bg.setAttribute("height", svgRef.current.viewBox.baseVal.height);
+      bg.setAttribute("fill", "#000000");
+      clone.insertBefore(bg, clone.firstChild);
+      const g = clone.querySelector("g[transform]");
+      if (g && glyph) {
+        const cx = glyph.centerX, cy = glyph.centerY;
+        g.setAttribute("transform",
+          `translate(0 0) rotate(0 ${cx} ${cy}) translate(0 0) scale(1)`);
+      }
+      const svgStr = new XMLSerializer().serializeToString(clone);
+      const blob = new Blob([svgStr], { type: "image/svg+xml" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `oden-echo-${norm.replace(/\s+/g, "-").slice(0, 40)}.svg`;
+      document.body.appendChild(a); a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch (e) { console.error("Echo export failed:", e); }
+  }, [norm, glyph]);
+
+  return (
+    <>
+      <Inp
+        value={input} onChange={handleChange}
+        placeholder="enter phrase for echo glyph..."
+        accentColor="#67e8f9"
+        style={{ marginBottom: 12 }}
+      />
+      <div style={{ fontSize: 10, color: T.textDim, fontFamily: T.mono, marginBottom: 10 }}>
+        ⬡ consonant runes · ○ vowel halos · ─ factor webs · · phase dots
+      </div>
+      {glyph && (
+        <div style={{
+          width: "100%", aspectRatio: "1/1",
+          background: "radial-gradient(circle at center, #001218 0%, #000 70%)",
+          border: `1px solid ${T.border}`,
+          borderRadius: T.radiusLg,
+          overflow: "hidden", marginBottom: 12, position: "relative", touchAction: "none",
+        }}
+          onMouseDown={handlePointerStart} onMouseMove={handlePointerMove}
+          onMouseUp={handlePointerEnd} onMouseLeave={handlePointerEnd}
+          onTouchStart={handlePointerStart} onTouchMove={handlePointerMove}
+          onTouchEnd={handlePointerEnd} onWheel={handleWheel}>
+
+          <svg ref={svgRef}
+            viewBox={`${glyph.minX} ${glyph.minY} ${glyph.width} ${glyph.height}`}
+            preserveAspectRatio="xMidYMid meet"
+            style={{ width: "100%", height: "100%", display: "block", cursor: "grab" }}>
+
+            <defs>
+              <filter id="echo-glow" x="-30%" y="-30%" width="160%" height="160%">
+                <feGaussianBlur stdDeviation="0.6" result="b"/>
+                <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+              <filter id="echo-aura" x="-60%" y="-60%" width="220%" height="220%">
+                <feGaussianBlur stdDeviation="6"/>
+              </filter>
+            </defs>
+
+            <g transform={
+              `translate(${tx} ${ty}) rotate(${rot * 180 / Math.PI} ${glyph.centerX} ${glyph.centerY}) translate(${glyph.centerX} ${glyph.centerY}) scale(${scale}) translate(${-glyph.centerX} ${-glyph.centerY})`
+            }>
+              {/* Aura layer */}
+              <circle cx={glyph.centerX} cy={glyph.centerY}
+                r={Math.max(glyph.width, glyph.height) / 2}
+                fill={`hsl(${glyph.auraHue}, ${glyph.auraSat}%, 30%)`}
+                opacity="0.06" filter="url(#echo-aura)"/>
+
+              {/* Factor webs — deepest layer */}
+              {glyph.factorLines.map((l, i) => (
+                <line key={`fl-${i}`}
+                  x1={l.x1} y1={l.y1} x2={l.x2} y2={l.y2}
+                  stroke={l.color} strokeWidth="0.3" opacity={l.opacity}/>
+              ))}
+
+              {/* Resonance rings */}
+              {glyph.resonanceRings.map((r, i) => (
+                <circle key={`rr-${i}`}
+                  cx={r.x} cy={r.y} r={r.radius}
+                  fill="none" stroke={r.color}
+                  strokeWidth="0.4" opacity={r.opacity}/>
+              ))}
+
+              {/* Word connection bridges */}
+              {glyph.wordConnects.map((c, i) => (
+                <path key={`wc-${i}`} d={c.d}
+                  fill="none" stroke="#67e8f9"
+                  strokeWidth="0.5" opacity="0.3"
+                  strokeDasharray="2 2"/>
+              ))}
+
+              {/* Word path traces — faint */}
+              {glyph.wordPaths.map((p, i) => (
+                <path key={`wp-${i}`} d={p.d}
+                  fill="none" stroke={p.color}
+                  strokeWidth="0.4" opacity="0.4"
+                  strokeLinecap="round"/>
+              ))}
+
+              {/* Word closures — dashed spirals */}
+              {glyph.wordClosures.map((c, i) => (
+                <path key={`wcl-${i}`} d={c.d}
+                  fill="none" stroke={c.color}
+                  strokeWidth="0.5" opacity="0.5"
+                  strokeDasharray="2 3"
+                  filter="url(#echo-glow)"/>
+              ))}
+
+              {/* Vowel halos — rings */}
+              {glyph.vowelHalos.map((h, i) => (
+                <g key={`vh-${i}`}>
+                  <circle cx={h.x} cy={h.y} r={h.radius}
+                    fill="none" stroke={h.color}
+                    strokeWidth={h.thickness} opacity={h.opacity}
+                    filter="url(#echo-glow)"/>
+                  <circle cx={h.x} cy={h.y} r={h.radius * 1.6}
+                    fill="none" stroke={h.color}
+                    strokeWidth={h.thickness * 0.4} opacity={h.opacity * 0.5}/>
+                </g>
+              ))}
+
+              {/* Consonant runes — sharp polygons */}
+              {glyph.consonantRunes.map((r, i) => {
+                const pts = polygonPoints(r.x, r.y, r.size, r.sides, r.rotation);
+                const ps = pts.map(p => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ");
+                return (
+                  <g key={`cr-${i}`}>
+                    <polygon points={ps}
+                      fill={r.color} fillOpacity="0.12"
+                      stroke={r.color} strokeWidth="0.5"
+                      opacity={r.opacity} filter="url(#echo-glow)"/>
+                    <circle cx={r.x} cy={r.y} r="0.3" fill={r.color}/>
+                  </g>
+                );
+              })}
+
+              {/* Phase dots — over everything */}
+              {glyph.phaseDots.map((d, i) => (
+                <circle key={`pd-${i}`}
+                  cx={d.x} cy={d.y} r={d.size}
+                  fill={d.color} opacity={d.opacity}/>
+              ))}
+            </g>
+          </svg>
+
+          <button onClick={handleReset} style={{
+            position: "absolute", top: 8, right: 8, background: "rgba(0,0,0,0.6)",
+            border: `1px solid ${T.border2}`, borderRadius: 6, color: T.textMid,
+            cursor: "pointer", fontSize: 11, padding: "4px 10px",
+            fontFamily: T.mono, backdropFilter: "blur(4px)"
+          }}>reset</button>
+          <button onClick={handleExport} style={{
+            position: "absolute", top: 8, right: 64, background: "rgba(0,0,0,0.6)",
+            border: `1px solid #67e8f944`, borderRadius: 6, color: "#67e8f9",
+            cursor: "pointer", fontSize: 11, padding: "4px 10px",
+            fontFamily: T.mono, backdropFilter: "blur(4px)"
+          }}>export svg</button>
+        </div>
+      )}
+      {!glyph && norm && (
+        <div style={{ fontSize: 12, color: T.textDim, padding: "20px 0", textAlign: "center" }}>
+          Building echo glyph...
+        </div>
+      )}
+    </>
+  );
+}
+
+
+
+
+// ================================================================
+// § CHORAL GLYPH RENDERER
+// ================================================================
+function ChoralGlyph() {
+  const [input, setInput] = useState("");
+  const [tx, setTx] = useState(0);
+  const [ty, setTy] = useState(0);
+  const [scale, setScale] = useState(1);
+  const [rot, setRot] = useState(0);
+  const gestureRef = useRef({
+    mode:null, startX:0, startY:0, startTx:0, startTy:0,
+    startDist:1, startScale:1, startAngle:0, startRot:0, moved:false,
+  });
+  const svgRef = useRef(null);
+  const debouncedInput = useDebounce(input, 120);
+  const norm = useMemo(() => normalize(debouncedInput), [debouncedInput]);
+  const glyph = useMemo(() => buildChoralGlyph(norm), [norm]);
+
+  useEffect(() => { setTx(0); setTy(0); setScale(1); setRot(0); }, [norm]);
+
+  const handleChange = useCallback(e => setInput(e.target.value), []);
+  const handleReset  = useCallback(() => { setTx(0); setTy(0); setScale(1); setRot(0); }, []);
+  const handlePointerEnd = useCallback(() => { gestureRef.current.mode = null; }, []);
+  const handleWheel = useCallback(e => {
+    e.preventDefault();
+    setScale(s => Math.max(0.3, Math.min(5, s*(e.deltaY<0?1.1:0.9))));
+  }, []);
+  const handlePointerStart = useCallback(e => {
+    const g = gestureRef.current; g.moved = false;
+    if (e.touches && e.touches.length === 2) {
+      const ts = getTwoFingerState(e.touches);
+      g.mode="pinch"; g.startDist=ts.dist; g.startAngle=ts.angle;
+      g.startScale=scale; g.startRot=rot; e.preventDefault();
+    } else {
+      const p = e.touches ? e.touches[0] : e;
+      g.mode="pan"; g.startX=p.clientX; g.startY=p.clientY; g.startTx=tx; g.startTy=ty;
+    }
+  }, [tx, ty, scale, rot]);
+  const handlePointerMove = useCallback(e => {
+    const g = gestureRef.current; if (!g.mode) return;
+    if (g.mode === "pinch" && e.touches && e.touches.length === 2) {
+      const ts = getTwoFingerState(e.touches);
+      setScale(Math.max(0.3, Math.min(5, g.startScale*(ts.dist/g.startDist))));
+      setRot(g.startRot+(ts.angle-g.startAngle));
+      g.moved=true; e.preventDefault();
+    } else if (g.mode === "pan") {
+      const p = e.touches?e.touches[0]:e;
+      const dx=p.clientX-g.startX, dy=p.clientY-g.startY;
+      if (Math.abs(dx)+Math.abs(dy)>3) g.moved=true;
+      setTx(g.startTx+dx); setTy(g.startTy+dy);
+    }
+  }, []);
+
+  const handleExport = useCallback(() => {
+    if (!svgRef.current || !norm) return;
+    try {
+      const clone = svgRef.current.cloneNode(true);
+      const bg = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+      bg.setAttribute("x", svgRef.current.viewBox.baseVal.x);
+      bg.setAttribute("y", svgRef.current.viewBox.baseVal.y);
+      bg.setAttribute("width", svgRef.current.viewBox.baseVal.width);
+      bg.setAttribute("height", svgRef.current.viewBox.baseVal.height);
+      bg.setAttribute("fill", "#000000");
+      clone.insertBefore(bg, clone.firstChild);
+      const g = clone.querySelector("g[transform]");
+      if (g && glyph) {
+        g.setAttribute("transform",
+          `translate(0 0) rotate(0 ${glyph.centerX} ${glyph.centerY}) translate(0 0) scale(1)`);
+      }
+      const svgStr  = new XMLSerializer().serializeToString(clone);
+      const blob    = new Blob([svgStr], { type:"image/svg+xml" });
+      const url     = URL.createObjectURL(blob);
+      const a       = document.createElement("a");
+      a.href = url;
+      a.download = `oden-choral-${norm.replace(/\s+/g,"-").slice(0,40)}.svg`;
+      document.body.appendChild(a); a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch(e) { console.error(e); }
+  }, [norm, glyph]);
+
+  // Build composite waveform path
+  const buildWavePath = (samples) => {
+    if (!samples || samples.length < 2) return "";
+    let d = `M ${samples[0].x.toFixed(2)} ${samples[0].y.toFixed(2)}`;
+    for (let i = 1; i < samples.length; i++) {
+      d += ` L ${samples[i].x.toFixed(2)} ${samples[i].y.toFixed(2)}`;
+    }
+    return d;
+  };
+
+  return (
+    <>
+      <Inp value={input} onChange={handleChange}
+        placeholder="enter phrase for choral glyph..."
+        accentColor="#fde68a" style={{ marginBottom:12 }}/>
+      <div style={{ fontSize:10, color:T.textDim, fontFamily:T.mono, marginBottom:10 }}>
+        ∿ composite wave · ✕ chord nodes · ⊕ triple nodes · | beat markers
+      </div>
+      {glyph && (
+        <div style={{
+          width:"100%", aspectRatio:"1/1",
+          background:"radial-gradient(circle at center, #100a00 0%, #000 75%)",
+          border:`1px solid ${T.border}`,
+          borderRadius:T.radiusLg,
+          overflow:"hidden", marginBottom:12, position:"relative", touchAction:"none",
+        }}
+          onMouseDown={handlePointerStart} onMouseMove={handlePointerMove}
+          onMouseUp={handlePointerEnd} onMouseLeave={handlePointerEnd}
+          onTouchStart={handlePointerStart} onTouchMove={handlePointerMove}
+          onTouchEnd={handlePointerEnd} onWheel={handleWheel}>
+          <svg ref={svgRef}
+            viewBox={`${glyph.minX} ${glyph.minY} ${glyph.width} ${glyph.height}`}
+            preserveAspectRatio="xMidYMid meet"
+            style={{ width:"100%", height:"100%", display:"block", cursor:"grab" }}>
+            <defs>
+              <filter id="choral-glow" x="-30%" y="-30%" width="160%" height="160%">
+                <feGaussianBlur stdDeviation="0.7" result="b"/>
+                <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+            </defs>
+            <g transform={
+              `translate(${tx} ${ty}) rotate(${rot*180/Math.PI} ${glyph.centerX} ${glyph.centerY}) translate(${glyph.centerX} ${glyph.centerY}) scale(${scale}) translate(${-glyph.centerX} ${-glyph.centerY})`
+            }>
+              {/* Difference tone connections */}
+              {glyph.diffConnections.map((c, i) => (
+                <path key={`dc-${i}`} d={c.d}
+                  fill="none" stroke="#fde68a" strokeWidth="0.6"
+                  opacity="0.3" strokeDasharray="3 3"/>
+              ))}
+
+              {/* Per-word: ghosts → main wave → rays → nodes → beats */}
+              {glyph.wordWaveforms.map((ww, wi) => (
+                <g key={`ww-${wi}`}>
+                  {/* Harmonic ghosts (drawn first, faint) */}
+                  <path d={buildWavePath(ww.ghostUp)}
+                    fill="none" stroke="#fde68a"
+                    strokeWidth="0.4" opacity="0.08"/>
+                  <path d={buildWavePath(ww.ghostDown)}
+                    fill="none" stroke="#fde68a"
+                    strokeWidth="0.4" opacity="0.08"/>
+
+                  {/* Composite waveform — drawn in segments by saturation */}
+                  {ww.samples.map((s, si) => {
+                    if (si === 0) return null;
+                    const prev = ww.samples[si - 1];
+                    const col = ww.sampleColors[si];
+                    return (
+                      <line key={`s-${wi}-${si}`}
+                        x1={prev.x} y1={prev.y} x2={s.x} y2={s.y}
+                        stroke={`hsl(${col.hue}, ${col.sat}%, 60%)`}
+                        strokeWidth="0.9" opacity="0.85"
+                        strokeLinecap="round"/>
+                    );
+                  })}
+
+                  {/* Rays from center */}
+                  {ww.rays.map((r, ri) => (
+                    <line key={`r-${wi}-${ri}`}
+                      x1={r.x1} y1={r.y1} x2={r.x2} y2={r.y2}
+                      stroke={`hsl(${r.hue}, 60%, 50%)`}
+                      strokeWidth="0.5" opacity="0.35"/>
+                  ))}
+
+                  {/* Beat markers */}
+                  {ww.beats.map((b, bi) => (
+                    <line key={`b-${wi}-${bi}`}
+                      x1={b.x1} y1={b.y1} x2={b.x2} y2={b.y2}
+                      stroke="#fff" strokeWidth="0.5" opacity="0.5"/>
+                  ))}
+
+                  {/* Chord nodes */}
+                  {ww.chordNodes.map((n, ni) => (
+                    <circle key={`cn-${wi}-${ni}`}
+                      cx={n.x} cy={n.y} r={n.size}
+                      fill={`hsl(${n.hue}, 80%, 60%)`}
+                      opacity="0.85"
+                      filter="url(#choral-glow)"/>
+                  ))}
+
+                  {/* Triple nodes — ringed */}
+                  {ww.tripleNodes.map((n, ni) => (
+                    <g key={`tn-${wi}-${ni}`}>
+                      <circle cx={n.x} cy={n.y} r={n.size + 3}
+                        fill="none" stroke={`hsl(${n.hue}, 80%, 60%)`}
+                        strokeWidth="0.7" opacity="0.7"/>
+                      <circle cx={n.x} cy={n.y} r={n.size}
+                        fill={`hsl(${n.hue}, 90%, 65%)`}
+                        opacity="1"
+                        filter="url(#choral-glow)"/>
+                    </g>
+                  ))}
+                </g>
+              ))}
+            </g>
+          </svg>
+          <button onClick={handleReset} style={{
+            position:"absolute", top:8, right:8, background:"rgba(0,0,0,0.6)",
+            border:`1px solid ${T.border2}`, borderRadius:6, color:T.textMid,
+            cursor:"pointer", fontSize:11, padding:"4px 10px",
+            fontFamily:T.mono, backdropFilter:"blur(4px)"}}>reset</button>
+          <button onClick={handleExport} style={{
+            position:"absolute", top:8, right:64, background:"rgba(0,0,0,0.6)",
+            border:`1px solid #fde68a44`, borderRadius:6, color:"#fde68a",
+            cursor:"pointer", fontSize:11, padding:"4px 10px",
+            fontFamily:T.mono, backdropFilter:"blur(4px)"}}>export svg</button>
+        </div>
+      )}
+      {!glyph && norm && (
+        <div style={{ fontSize:12, color:T.textDim, padding:"20px 0", textAlign:"center" }}>
+          Building choral glyph...
+        </div>
+      )}
+    </>
+  );
+}
+
+
+// ================================================================
+// § LOOM GLYPH RENDERER
+// ================================================================
+function LoomGlyph() {
+  const [input, setInput] = useState("");
+  const [tx, setTx] = useState(0);
+  const [ty, setTy] = useState(0);
+  const [scale, setScale] = useState(1);
+  const [rot, setRot] = useState(0);
+  const gestureRef = useRef({
+    mode:null, startX:0, startY:0, startTx:0, startTy:0,
+    startDist:1, startScale:1, startAngle:0, startRot:0, moved:false,
+  });
+  const svgRef = useRef(null);
+  const debouncedInput = useDebounce(input, 120);
+  const norm = useMemo(() => normalize(debouncedInput), [debouncedInput]);
+  const glyph = useMemo(() => buildLoomGlyph(norm), [norm]);
+
+  useEffect(() => { setTx(0); setTy(0); setScale(1); setRot(0); }, [norm]);
+
+  const handleChange = useCallback(e => setInput(e.target.value), []);
+  const handleReset  = useCallback(() => { setTx(0); setTy(0); setScale(1); setRot(0); }, []);
+  const handlePointerEnd = useCallback(() => { gestureRef.current.mode = null; }, []);
+  const handleWheel = useCallback(e => {
+    e.preventDefault();
+    setScale(s => Math.max(0.3, Math.min(5, s*(e.deltaY<0?1.1:0.9))));
+  }, []);
+  const handlePointerStart = useCallback(e => {
+    const g = gestureRef.current; g.moved = false;
+    if (e.touches && e.touches.length === 2) {
+      const ts = getTwoFingerState(e.touches);
+      g.mode="pinch"; g.startDist=ts.dist; g.startAngle=ts.angle;
+      g.startScale=scale; g.startRot=rot; e.preventDefault();
+    } else {
+      const p = e.touches ? e.touches[0] : e;
+      g.mode="pan"; g.startX=p.clientX; g.startY=p.clientY; g.startTx=tx; g.startTy=ty;
+    }
+  }, [tx, ty, scale, rot]);
+  const handlePointerMove = useCallback(e => {
+    const g = gestureRef.current; if (!g.mode) return;
+    if (g.mode === "pinch" && e.touches && e.touches.length === 2) {
+      const ts = getTwoFingerState(e.touches);
+      setScale(Math.max(0.3, Math.min(5, g.startScale*(ts.dist/g.startDist))));
+      setRot(g.startRot+(ts.angle-g.startAngle));
+      g.moved=true; e.preventDefault();
+    } else if (g.mode === "pan") {
+      const p = e.touches?e.touches[0]:e;
+      const dx=p.clientX-g.startX, dy=p.clientY-g.startY;
+      if (Math.abs(dx)+Math.abs(dy)>3) g.moved=true;
+      setTx(g.startTx+dx); setTy(g.startTy+dy);
+    }
+  }, []);
+
+  const handleExport = useCallback(() => {
+    if (!svgRef.current || !norm) return;
+    try {
+      const clone = svgRef.current.cloneNode(true);
+      const bg = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+      bg.setAttribute("x", svgRef.current.viewBox.baseVal.x);
+      bg.setAttribute("y", svgRef.current.viewBox.baseVal.y);
+      bg.setAttribute("width", svgRef.current.viewBox.baseVal.width);
+      bg.setAttribute("height", svgRef.current.viewBox.baseVal.height);
+      bg.setAttribute("fill", "#000000");
+      clone.insertBefore(bg, clone.firstChild);
+      const g = clone.querySelector("g[transform]");
+      if (g && glyph) {
+        g.setAttribute("transform",
+          `translate(0 0) rotate(0 ${glyph.centerX} ${glyph.centerY}) translate(0 0) scale(1)`);
+      }
+      const svgStr  = new XMLSerializer().serializeToString(clone);
+      const blob    = new Blob([svgStr], { type:"image/svg+xml" });
+      const url     = URL.createObjectURL(blob);
+      const a       = document.createElement("a");
+      a.href = url;
+      a.download = `oden-loom-${norm.replace(/\s+/g,"-").slice(0,40)}.svg`;
+      document.body.appendChild(a); a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch(e) { console.error(e); }
+  }, [norm, glyph]);
+
+  return (
+    <>
+      <Inp value={input} onChange={handleChange}
+        placeholder="enter phrase for loom glyph..."
+        accentColor="#f9a8d4" style={{ marginBottom:12 }}/>
+      <div style={{ fontSize:10, color:T.textDim, fontFamily:T.mono, marginBottom:10 }}>
+        ⊕ warp anchors · • shuttle dots · ─ cross threads · ╋ heddles
+      </div>
+      {glyph && (
+        <div style={{
+          width:"100%", aspectRatio:"1/1",
+          background:"#000",
+          border:`1px solid ${T.border}`,
+          borderRadius:T.radiusLg,
+          overflow:"hidden", marginBottom:8, position:"relative", touchAction:"none",
+        }}
+          onMouseDown={handlePointerStart} onMouseMove={handlePointerMove}
+          onMouseUp={handlePointerEnd} onMouseLeave={handlePointerEnd}
+          onTouchStart={handlePointerStart} onTouchMove={handlePointerMove}
+          onTouchEnd={handlePointerEnd} onWheel={handleWheel}>
+          <svg ref={svgRef}
+            viewBox={`${glyph.minX} ${glyph.minY} ${glyph.width} ${glyph.height}`}
+            preserveAspectRatio="xMidYMid meet"
+            style={{ width:"100%", height:"100%", display:"block", cursor:"grab" }}>
+            <defs>
+              {/* 26 warp radial gradients — overlapped with screen blend to create spectral field */}
+              {glyph.warpAnchors.map((a, i) => (
+                <radialGradient key={`wg-${i}`} id={`loom-warp-${i}`}
+                  cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                  <stop offset="0%" stopColor={`hsl(${a.hue}, 70%, 55%)`} stopOpacity="0.55"/>
+                  <stop offset="60%" stopColor={`hsl(${a.hue}, 60%, 40%)`} stopOpacity="0.15"/>
+                  <stop offset="100%" stopColor={`hsl(${a.hue}, 50%, 20%)`} stopOpacity="0"/>
+                </radialGradient>
+              ))}
+              <filter id="loom-aura" x="-30%" y="-30%" width="160%" height="160%">
+                <feGaussianBlur stdDeviation="20"/>
+              </filter>
+              <filter id="loom-glow" x="-30%" y="-30%" width="160%" height="160%">
+                <feGaussianBlur stdDeviation="0.6" result="b"/>
+                <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+            </defs>
+
+            <g transform={
+              `translate(${tx} ${ty}) rotate(${rot*180/Math.PI} ${glyph.centerX} ${glyph.centerY}) translate(${glyph.centerX} ${glyph.centerY}) scale(${scale}) translate(${-glyph.centerX} ${-glyph.centerY})`
+            }>
+              {/* ── WARP FIELD — blurred spectral bed of overlapping gradients ── */}
+              <g style={{ mixBlendMode: "screen" }} filter="url(#loom-aura)">
+                {glyph.warpAnchors.map((a, i) => {
+                  const FIELD_R = glyph.warpR * 1.4;
+                  return (
+                    <circle key={`field-${i}`}
+                      cx={a.x} cy={a.y} r={FIELD_R}
+                      fill={`url(#loom-warp-${i})`}
+                      opacity="0.6"/>
+                  );
+                })}
+              </g>
+
+              {/* Warp ring guide */}
+              <circle cx={0} cy={0} r={glyph.warpR}
+                fill="none" stroke="rgba(255,255,255,0.06)" strokeWidth="0.5"/>
+
+              {/* Warp anchor dots & letters */}
+              {glyph.warpAnchors.map((a, i) => (
+                <g key={`anchor-${i}`}>
+                  <circle cx={a.x} cy={a.y} r="2"
+                    fill={`hsl(${a.hue}, 60%, 55%)`}
+                    opacity="0.5"/>
+                  <text x={a.x * 1.07} y={a.y * 1.07}
+                    fontSize="6" fontFamily="monospace"
+                    fill={`hsl(${a.hue}, 40%, 55%)`}
+                    textAnchor="middle" dominantBaseline="middle"
+                    opacity="0.45">
+                    {a.letter.toUpperCase()}
+                  </text>
+                </g>
+              ))}
+
+              {/* ── CROSS THREADS — between alphabetically adjacent letter pairs ── */}
+              {glyph.crossThreads.map((c, i) => (
+                <line key={`ct-${i}`}
+                  x1={c.x1} y1={c.y1} x2={c.x2} y2={c.y2}
+                  stroke={`hsl(${c.hue}, 40%, 60%)`}
+                  strokeWidth="0.5"
+                  opacity={c.opacity}/>
+              ))}
+
+              {/* ── BEAT STRIPE — triple stroke walk path ── */}
+              {glyph.beatPath && (
+                <>
+                  {/* Wide warp-shadow */}
+                  <path d={glyph.beatPath}
+                    fill="none"
+                    stroke={`hsl(${glyph.warpShadowHue}, 50%, 50%)`}
+                    strokeWidth="8" opacity="0.08"
+                    strokeLinecap="round" strokeLinejoin="round"/>
+                  {/* Medium average weft */}
+                  <path d={glyph.beatPath}
+                    fill="none"
+                    stroke={`hsl(${glyph.avgWeftHue}, 70%, 55%)`}
+                    strokeWidth="3" opacity="0.4"
+                    strokeLinecap="round" strokeLinejoin="round"/>
+                  {/* Thin precise — drawn as colored segments per letter */}
+                  {glyph.shuttleDots.slice(0, -1).map((sd, i) => {
+                    const next = glyph.shuttleDots[i + 1];
+                    return (
+                      <line key={`thin-${i}`}
+                        x1={sd.x} y1={sd.y} x2={next.x} y2={next.y}
+                        stroke={`hsl(${sd.hue}, ${sd.sat}%, ${sd.light}%)`}
+                        strokeWidth="1.2"
+                        opacity="0.9"
+                        strokeLinecap="round"/>
+                    );
+                  })}
+                </>
+              )}
+
+              {/* ── HEDDLE MARKS ── */}
+              {glyph.heddleMarks.map((h, i) => (
+                <line key={`h-${i}`}
+                  x1={h.x1} y1={h.y1} x2={h.x2} y2={h.y2}
+                  stroke={`hsl(${h.hue}, ${h.sat}%, ${h.light}%)`}
+                  strokeWidth="0.6" opacity="0.55"/>
+              ))}
+
+              {/* ── TENSION LINES ── */}
+              {glyph.tensionLines.map((tl, i) => (
+                <line key={`tl-${i}`}
+                  x1={tl.x1} y1={tl.y1} x2={tl.x2} y2={tl.y2}
+                  stroke={`hsl(${tl.hue}, ${tl.sat}%, ${tl.light}%)`}
+                  strokeWidth="0.5" opacity="0.18"/>
+              ))}
+
+              {/* ── WORD LAYER STACK — moiré offset rendering ── */}
+              {glyph.wordLayers.map((wl, li) => (
+                <g key={`wl-${li}`}
+                  transform={`rotate(${wl.rotation} 0 0) scale(${wl.scale})`}
+                  opacity={li === 0 ? 1 : 0.7}>
+                  {wl.dots.map((sd, i) => {
+                    const dotR = 2.5 + (sd.ordinal / 8);
+                    return (
+                      <g key={`sd-${li}-${i}`}>
+                        {sd.isFirstInWord || sd.isLastInWord ? (
+                          <>
+                            <circle cx={sd.x} cy={sd.y} r={dotR + 3}
+                              fill="none"
+                              stroke={`hsl(${sd.hue}, ${sd.sat}%, ${sd.light}%)`}
+                              strokeWidth="0.5" opacity="0.7"/>
+                            <circle cx={sd.x} cy={sd.y} r={dotR + 1.5}
+                              fill="none"
+                              stroke={`hsl(${sd.hue}, ${sd.sat}%, ${sd.light}%)`}
+                              strokeWidth="0.4" opacity="0.5"/>
+                          </>
+                        ) : null}
+                        <circle cx={sd.x} cy={sd.y} r={dotR}
+                          fill={`hsl(${sd.hue}, ${sd.sat}%, ${sd.light}%)`}
+                          opacity="0.95"
+                          filter="url(#loom-glow)"/>
+                      </g>
+                    );
+                  })}
+                </g>
+              ))}
+            </g>
+          </svg>
+
+          {/* DENSITY BAR overlay */}
+          <div style={{
+            position:"absolute", bottom:0, left:0, right:0,
+            height:14, display:"flex",
+            background:"rgba(0,0,0,0.55)",
+            borderTop:`1px solid ${T.border2}`,
+            backdropFilter:"blur(4px)",
+          }}>
+            {glyph.densityBar.map((d, i) => (
+              <div key={`db-${i}`} style={{
+                flex: d.word.length || 1,
+                background: `hsla(${(i * 60) % 360}, 60%, 55%, ${Math.min(0.2 + d.density * 0.3, 0.9)})`,
+                borderRight: i < glyph.densityBar.length - 1 ? "1px solid rgba(0,0,0,0.4)" : "none",
+              }} title={`${d.word}: ${d.density.toFixed(2)} adjacency`}/>
+            ))}
+          </div>
+
+          <button onClick={handleReset} style={{
+            position:"absolute", top:8, right:8, background:"rgba(0,0,0,0.6)",
+            border:`1px solid ${T.border2}`, borderRadius:6, color:T.textMid,
+            cursor:"pointer", fontSize:11, padding:"4px 10px",
+            fontFamily:T.mono, backdropFilter:"blur(4px)"}}>reset</button>
+          <button onClick={handleExport} style={{
+            position:"absolute", top:8, right:64, background:"rgba(0,0,0,0.6)",
+            border:`1px solid #f9a8d444`, borderRadius:6, color:"#f9a8d4",
+            cursor:"pointer", fontSize:11, padding:"4px 10px",
+            fontFamily:T.mono, backdropFilter:"blur(4px)"}}>export svg</button>
+        </div>
+      )}
+      {!glyph && norm && (
+        <div style={{ fontSize:12, color:T.textDim, padding:"20px 0", textAlign:"center" }}>
+          Building loom glyph...
+        </div>
+      )}
+    </>
+  );
+}
+
+
+
+function GlyphPanel({ copy, copiedId, prefill, onPrefillConsumed }) {
+  const [mode, setMode] = useState("single");
+
+  useEffect(() => {
+    if (prefill) setMode("single");
+  }, [prefill]);
+
+  const MODES = [
+    { id:"single", label:"S", desc:"compass walk · vowel polygons · pulse markers",     color:"#e879f9" },
+    { id:"echo",   label:"E", desc:"prime spiral · vowel halos · factor webs",          color:"#67e8f9" },
+    { id:"choral", label:"C", desc:"interference waves · chord nodes · harmonic ghosts", color:"#fde68a" },
+    { id:"loom",   label:"L", desc:"warp ring · shuttle dots · cross threads · moiré",   color:"#f9a8d4" },
+  ];
+  const active = MODES.find(m => m.id === mode);
+
+  return (
+    <Card>
+      <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:8 }}>
+        <SectionLabel style={{ margin:0 }}>Glyph</SectionLabel>
+        <div style={{ display:"flex", gap:0, border:`1px solid ${T.border2}`, borderRadius:8, overflow:"hidden" }}>
+          {MODES.map((m, i) => (
+            <button key={m.id} onClick={() => setMode(m.id)} style={{
+              padding:"5px 12px", fontSize:11, fontFamily:T.mono,
+              fontWeight:700, letterSpacing:"0.08em",
+              background: mode === m.id ? `${m.color}22` : "transparent",
+              color: mode === m.id ? m.color : T.textDim,
+              border:"none",
+              borderRight: i < MODES.length - 1 ? `1px solid ${T.border2}` : "none",
+              cursor:"pointer",
+              minWidth: 32,
+            }}>{m.label}</button>
+          ))}
+        </div>
+      </div>
+      <div style={{
+        fontSize:9, color:T.textGhost, fontFamily:T.mono,
+        letterSpacing:"0.06em", marginBottom:12,
+      }}>
+        {active.desc}
+      </div>
+      {mode === "single" && <GlyphSingle copy={copy} copiedId={copiedId}
+          prefill={prefill} onPrefillConsumed={onPrefillConsumed}/>}
+      {mode === "echo"   && <EchoGlyph/>}
+      {mode === "choral" && <ChoralGlyph/>}
+      {mode === "loom"   && <LoomGlyph/>}
+    </Card>
+  );
+}
+
+// ================================================================
+// § RESONANCE MAP
+// ================================================================
+function ResonanceMap({ indexes, activeCipher, onSendToGlyph }) {
+  const [input,      setInput]      = useState("");
+  const [selected,   setSelected]   = useState(null);
+  const [cipherFilter, setCipherFilter] = useState(null); // null = all
+  const [depthLimit, setDepthLimit] = useState(30);
+
+  const svgContainerRef = useRef(null);
+  const debouncedInput = useDebounce(input, 200);
+  const norm = useMemo(() => normalize(debouncedInput), [debouncedInput]);
+
+  // Stable hash from string — used to seed deterministic layout
+  function stableHash(s) {
+    let h = 0;
+    for (let i = 0; i < s.length; i++) {
+      h = Math.imul(31, h) + s.charCodeAt(i) | 0;
+    }
+    return Math.abs(h);
+  }
+
+  // Deterministic pseudo-random from seed
+  function seededRand(seed) {
+    let s = seed;
+    s ^= s << 13; s ^= s >> 17; s ^= s << 5;
+    return ((s >>> 0) / 0xFFFFFFFF);
+  }
+
+  const { nodes, edges, totalHits, cipherCounts } = useMemo(() => {
+    if (!norm || !indexes) return { nodes: [], edges: [], totalHits: 0, cipherCounts: {} };
+    const vals = calcValues(norm);
+    const hits = new Map();
+    const cipherCounts = {};
+
+    for (const ck of CIPHER_KEYS) {
+      if (cipherFilter && ck !== cipherFilter) continue;
+      const v = vals[ck];
+      if (!v) continue;
+      const bucket = indexes.idx?.[ck]?.[v] || [];
+      cipherCounts[ck] = (cipherCounts[ck] || 0) + bucket.filter(e => e.norm !== norm).length;
+      for (const entry of bucket) {
+        if (entry.norm === norm) continue;
+        if (!hits.has(entry.id)) hits.set(entry.id, { entry, matchCount: 0, ciphers: [] });
+        const h = hits.get(entry.id);
+        h.matchCount++;
+        h.ciphers.push(ck);
+      }
+    }
+
+    const totalHits = hits.size;
+    const sorted = [...hits.values()]
+      .sort((a, b) => b.matchCount - a.matchCount || a.entry.raw.localeCompare(b.entry.raw))
+      .slice(0, depthLimit);
+
+    if (sorted.length === 0) return { nodes: [], edges: [], totalHits, cipherCounts };
+
+    const W = 340, H = 340, cx = W/2, cy = H/2;
+    const byCount = {};
+    for (const h of sorted) {
+      const c = h.matchCount;
+      if (!byCount[c]) byCount[c] = [];
+      byCount[c].push(h);
+    }
+
+    const rings = Object.keys(byCount).sort((a,b) => b - a);
+    const radii  = [0, 58, 105, 148, 182];
+    const nodes  = [];
+    const edges  = [];
+
+    // Center
+    nodes.push({ id:"input", x:cx, y:cy, label:norm, r:10, color:"#e879f9",
+      isCenter:true, matchCount:0, ciphers:[] });
+
+    // Phrase hash used as layout seed — same phrase = same layout always
+    const phraseHash = stableHash(norm);
+
+    rings.forEach((count, ri) => {
+      const ring   = byCount[count];
+      const radius = radii[Math.min(ri+1, radii.length-1)];
+      // Sort ring by entry id for stable order, then offset angle by phrase hash
+      ring.sort((a,b) => a.entry.id - b.entry.id);
+      ring.forEach((h, i) => {
+        // Deterministic angle: evenly spaced + small stable offset per node
+        const baseAngle = (i / ring.length) * Math.PI * 2 - Math.PI/2;
+        const nodeSeed  = phraseHash ^ stableHash(String(h.entry.id));
+        const stableOffset = (seededRand(nodeSeed) - 0.5) * 0.18; // radians, not pixels
+        const angle = baseAngle + stableOffset;
+        // Deterministic radial offset
+        const rOffset = (seededRand(nodeSeed + 1) - 0.5) * 10;
+        const x = cx + Math.cos(angle) * (radius + rOffset);
+        const y = cy + Math.sin(angle) * (radius + rOffset);
+        const col   = CIPHERS[h.ciphers[0]]?.color || "#38bdf8";
+        const nodeR = Math.min(3 + h.matchCount * 1.5, 10);
+
+        // Label: show on inner rings (strong matches) if short enough
+        const showLabel = ri === 0 && h.entry.raw.length <= 18;
+
+        nodes.push({
+          id:h.entry.id, x, y, label:h.entry.raw, r:nodeR, color:col,
+          isCenter:false, matchCount:h.matchCount, ciphers:h.ciphers,
+          showLabel, angle,
+        });
+        edges.push({
+          x1:cx, y1:cy, x2:x, y2:y, color:col,
+          opacity: 0.08 + (h.matchCount/10)*0.5,
+          strokeW: 0.25 + h.matchCount*0.15,
+        });
+      });
+    });
+
+    return { nodes, edges, totalHits, cipherCounts };
+  }, [norm, indexes, cipherFilter, depthLimit]);
+
+  const handleNodeClick = useCallback(node => {
+    if (node.isCenter) return;
+    setSelected(s => s?.id === node.id ? null : node);
+  }, []);
+
+  const selNode = selected && nodes.find(n => n.id === selected.id);
+
+  // Cipher match counts for filter pills
+  const allCipherCounts = useMemo(() => {
+    if (!norm || !indexes) return {};
+    const vals = calcValues(norm);
+    const out  = {};
+    for (const ck of CIPHER_KEYS) {
+      const v = vals[ck];
+      if (!v) continue;
+      const bucket = indexes.idx?.[ck]?.[v] || [];
+      out[ck] = bucket.filter(e => e.norm !== norm).length;
+    }
+    return out;
+  }, [norm, indexes]);
+
+  return (
+    <Card>
+      <SectionLabel>Resonance Map</SectionLabel>
+      <div style={{ fontSize:11, color:T.textDim, marginBottom:10, lineHeight:1.6 }}>
+        Phrases that share cipher values with your input. Node size = resonance strength. Tap to read.
+      </div>
+      <Inp value={input} onChange={e => { setInput(e.target.value); setSelected(null); }}
+        placeholder="enter word or phrase..." accentColor="#e879f9" style={{ marginBottom:10 }}/>
+
+      {/* Cipher filter pills */}
+      {norm && Object.keys(allCipherCounts).length > 0 && (
+        <div style={{ display:"flex", gap:5, flexWrap:"wrap", marginBottom:10 }}>
+          <button onClick={() => setCipherFilter(null)} style={{
+            padding:"3px 10px", borderRadius:20, fontSize:9, fontFamily:T.mono,
+            fontWeight:700, cursor:"pointer",
+            background: !cipherFilter ? "rgba(255,255,255,0.12)" : "transparent",
+            border:`1px solid ${!cipherFilter ? "rgba(255,255,255,0.3)" : T.border}`,
+            color: !cipherFilter ? "#fff" : T.textDim,
+          }}>ALL</button>
+          {CIPHER_KEYS.filter(k => allCipherCounts[k] > 0).map(k => {
+            const sharedVal = norm ? calcValues(norm)[k] : 0;
+            return (
+            <button key={k} onClick={() => setCipherFilter(f => f===k ? null : k)} style={{
+              padding:"3px 10px", borderRadius:20, fontSize:9, fontFamily:T.mono,
+              fontWeight:700, cursor:"pointer",
+              background: cipherFilter===k ? `${CIPHERS[k].color}22` : "transparent",
+              border:`1px solid ${cipherFilter===k ? CIPHERS[k].color : CIPHERS[k].color+"44"}`,
+              color: cipherFilter===k ? CIPHERS[k].color : T.textDim,
+            }}>
+              {CIPHERS[k].short}
+              <span style={{ opacity:0.5, marginLeft:4 }}>{sharedVal}</span>
+              <span style={{ opacity:0.6, marginLeft:5, fontWeight:400 }}>·{allCipherCounts[k]}</span>
+            </button>
+          );})}
+        </div>
+      )}
+
+      {/* Depth slider */}
+      {norm && nodes.length > 0 && (
+        <div style={{ display:"flex", alignItems:"center", gap:8, marginBottom:10 }}>
+          <span style={{ fontSize:9, color:T.textDim, fontFamily:T.mono }}>DEPTH</span>
+          <input type="range" min="10" max="100" step="5" value={depthLimit}
+            onChange={e => setDepthLimit(+e.target.value)}
+            style={{ flex:1, accentColor:"#e879f9" }}/>
+          <span style={{ fontSize:9, color:T.textDim, fontFamily:T.mono, minWidth:24 }}>
+            {depthLimit >= 100 ? "ALL" : depthLimit}
+          </span>
+          <span style={{ fontSize:9, color:T.textDim, fontFamily:T.mono }}>
+            of {totalHits}
+          </span>
+          <button
+            onClick={() => setDepthLimit(d => d >= totalHits ? 30 : Math.min(totalHits, 200))}
+            style={{
+              fontSize:9, fontFamily:T.mono, fontWeight:700,
+              padding:"3px 8px", borderRadius:4,
+              background:depthLimit >= totalHits ? "#e879f922" : "transparent",
+              border:`1px solid ${depthLimit >= totalHits ? "#e879f9" : T.border}`,
+              color:depthLimit >= totalHits ? "#e879f9" : T.textDim,
+              cursor:"pointer",
+            }}>ALL</button>
+        </div>
+      )}
+
+      {nodes.length > 0 && (
+        <>
+          <div style={{
+            width:"100%", aspectRatio:"1/1",
+            background:"radial-gradient(circle at center, #08000f 0%, #000 70%)",
+            border:`1px solid ${T.border}`, borderRadius:T.radiusLg,
+            overflow:"hidden", marginBottom:10, position:"relative",
+          }}>
+            <svg ref={svgContainerRef} viewBox="0 0 340 340"
+              style={{ width:"100%", height:"100%", display:"block" }}>
+              {[58,105,148,182].map((r,i) => (
+                <circle key={i} cx="170" cy="170" r={r}
+                  fill="none" stroke="rgba(255,255,255,0.04)"
+                  strokeWidth="0.5" strokeDasharray="2 3"/>
+              ))}
+              {edges.map((e,i) => (
+                <line key={i} x1={e.x1} y1={e.y1} x2={e.x2} y2={e.y2}
+                  stroke={e.color} strokeWidth={e.strokeW} opacity={e.opacity}/>
+              ))}
+              {nodes.map(node => (
+                <g key={node.id} onClick={() => handleNodeClick(node)}
+                  style={{ cursor:node.isCenter?"default":"pointer" }}>
+                  {selNode?.id === node.id && (
+                    <circle cx={node.x} cy={node.y} r={node.r+4}
+                      fill="none" stroke="#ffffff" strokeWidth="0.5" opacity="0.8"/>
+                  )}
+                  <circle cx={node.x} cy={node.y} r={node.r+3}
+                    fill={node.color} opacity="0.08"/>
+                  <circle cx={node.x} cy={node.y} r={node.r}
+                    fill={node.color} opacity={node.isCenter?1:0.85}/>
+                  {node.isCenter && (
+                    <text x={node.x} y={node.y-14} fontSize="6" fontFamily="monospace"
+                      fill="#e879f9" textAnchor="middle" opacity="0.9">
+                      {node.label.length>20 ? node.label.slice(0,18)+"…" : node.label}
+                    </text>
+                  )}
+                  {/* Inner ring labels for strong matches */}
+                  {node.showLabel && !node.isCenter && (
+                    <text
+                      x={node.x + Math.cos(node.angle) * (node.r + 6)}
+                      y={node.y + Math.sin(node.angle) * (node.r + 6)}
+                      fontSize="4.5" fontFamily="monospace"
+                      fill={node.color} opacity="0.75"
+                      textAnchor={node.x < 170 ? "end" : "start"}
+                      dominantBaseline="middle">
+                      {node.label.length > 16 ? node.label.slice(0,14)+"…" : node.label}
+                    </text>
+                  )}
+                </g>
+              ))}
+            </svg>
+
+            {selNode && !selNode.isCenter && (
+              <div style={{
+                position:"absolute", bottom:8, left:8, right:8,
+                background:"rgba(0,0,0,0.88)",
+                border:`1px solid ${selNode.color}`,
+                borderRadius:T.radius, padding:"8px 12px",
+                backdropFilter:"blur(4px)",
+              }}>
+                <div style={{ display:"flex", alignItems:"flex-start", justifyContent:"space-between", gap:8, marginBottom:4 }}>
+                  <div style={{ fontSize:13, color:"#fff", fontWeight:600, flex:1, minWidth:0,
+                    wordBreak:"break-word" }}>
+                    {selNode.label}
+                  </div>
+                  {onSendToGlyph && (
+                    <button onClick={() => onSendToGlyph(selNode.label)}
+                      style={{
+                        flexShrink:0, padding:"3px 8px", fontSize:9, fontWeight:700,
+                        fontFamily:T.mono, letterSpacing:"0.06em", textTransform:"uppercase",
+                        background:`${selNode.color}22`,
+                        border:`1px solid ${selNode.color}`,
+                        borderRadius:4, color:selNode.color,
+                        cursor:"pointer", whiteSpace:"nowrap",
+                      }}>
+                      view glyph →
+                    </button>
+                  )}
+                </div>
+                <div style={{ display:"flex", gap:5, flexWrap:"wrap" }}>
+                  {selNode.ciphers.map(c => (
+                    <span key={c} style={{
+                      fontSize:9, fontFamily:T.mono, color:CIPHERS[c].color,
+                      border:`1px solid ${CIPHERS[c].color}66`,
+                      borderRadius:3, padding:"1px 6px",
+                    }}>{CIPHERS[c].short}</span>
+                  ))}
+                  <span style={{ fontSize:9, color:T.textDim, fontFamily:T.mono, marginLeft:4 }}>
+                    {selNode.matchCount} cipher{selNode.matchCount>1?"s":""} shared
+                  </span>
+                </div>
+              </div>
+            )}
+          </div>
+          <div style={{ fontSize:10, color:T.textDim, fontFamily:T.mono }}>
+            {nodes.length-1} phrases shown · tap node to read · filter by cipher above
+          </div>
+        </>
+      )}
+
+      {norm && nodes.length === 0 && indexes && (
+        <div style={{ fontSize:12, color:T.textDim, padding:"20px 0", textAlign:"center" }}>
+          No resonant phrases found for "{norm}"
+        </div>
+      )}
+    </Card>
+  );
+}
+
+// ================================================================
+// § CIPHER PANEL
+// ================================================================
+
+const CIPHER_EXPLANATIONS = {
+  // ── Standard Class ──
+  simple: {
+    class: "standard",
+    title: "Simple English",
+    short: "SE",
+    color: "#38bdf8",
+    description: "The foundational cipher. Each letter maps directly to its position in the alphabet. A=1, B=2, all the way to Z=26. Clean, universal, and the most widely used cipher in gematria.",
+    formula: "A=1, B=2, C=3 … Z=26",
+    example: "love → L(12) + O(15) + V(22) + E(5) = 54",
+  },
+  reverseSimple: {
+    class: "standard",
+    title: "Reverse Simple",
+    short: "RS",
+    color: "#c084fc",
+    description: "The mirror of Simple English. A becomes 26, Z becomes 1. Reveals the inverse weight of a word — letters near the end of the alphabet gain power, while early letters diminish.",
+    formula: "A=26, B=25, C=24 … Z=1",
+    example: "love → L(15) + O(12) + V(5) + E(22) = 54",
+  },
+  ascii: {
+    class: "standard",
+    title: "ASCII",
+    short: "AC",
+    color: "#4ade80",
+    description: "Uses each letter's raw ASCII character code. Lowercase a=97 through z=122. Produces larger values than Simple English and is biased toward letters in the second half of the alphabet.",
+    formula: "a=97, b=98, c=99 … z=122",
+    example: "love → l(108) + o(111) + v(118) + e(101) = 438",
+  },
+  jewish: {
+    class: "standard",
+    title: "Jewish",
+    short: "JW",
+    color: "#a3e635",
+    description: "Maps English letters to classical Hebrew gematria values. The alphabet is split into three tiers: units (A–I = 1–9), tens (K–T = 10–100), and hundreds (U–Z = 200–900). J uniquely holds the value 600.",
+    formula: "A–I: 1–9 · K–T: 10–100 · U–Z: 200–900 · J: 600",
+    example: "god → G(7) + O(50) + D(4) = 61",
+  },
+  // ── Sacred Class ──
+  weighted: {
+    class: "sacred",
+    title: "Weighted",
+    short: "WG",
+    color: "#f472b6",
+    description: "An original cipher that accounts for where a letter sits — both within its word and within the full phrase. Later letters in longer phrases carry more weight. Position shapes meaning.",
+    formula: "V = L × (1 + position/wordLen) × (1 + wordPos/wordCount)",
+    example: "Position amplifies later letters and later words",
+  },
+  shadow: {
+    class: "sacred",
+    title: "Shadow",
+    short: "SH",
+    color: "#fb923c",
+    description: "An original cipher built on reverse alphabetics, vowel halving, positional decay, and repetition weighting — then divided by word position. Vowels are inherently quieter; consonants carry more. Repetition concentrates meaning. The further a word sits in a phrase, the more it divides its own influence.",
+    formula: "ReverseAlpha → halve vowels → decay by position → weight repeats → divide by word index",
+    example: "Deep structure. Same letters in different orders produce fundamentally different values.",
+  },
+  eclipse: {
+    class: "sacred",
+    title: "Eclipse",
+    short: "EC",
+    color: "#e879f9",
+    description: "Shadow extended. Adds a mirror gap penalty — the absolute difference between the first and last letter's reverse values. A word with a wide gap between its opening and closing sounds is penalized or amplified accordingly. Eclipse measures the tension between how a word begins and how it ends.",
+    formula: "Shadow + |firstLetterReverseValue − lastLetterReverseValue|",
+    example: "Words that start and end with opposite-weight letters diverge significantly from their Shadow value.",
+  },
+  obsidian: {
+    class: "sacred",
+    title: "Obsidian",
+    short: "OB",
+    color: "#94a3b8",
+    description: "Aggressive and volatile. Uses cube-based encoding (i³ + 7n²) so values escalate sharply with position. Sibilants (S, Z) are squared mod 199, making them explosive in context. Vowels are tripled. Then all adjacent values are multiplicatively entangled — each letter's final contribution depends on its neighbors. The result is a cipher that amplifies tension and instability. Named for obsidian: dark, sharp, volcanic.",
+    formula: "V = i³ + 7n² → phonetic amplify → E[n] = (V′[n] × V′[n−1]) − V′[n+1] → sum mod 9973",
+    example: "sister → sibilants (S) detonate through entanglement, reshaping the entire phrase value",
+  },
+  prism: {
+    class: "sacred",
+    title: "Prism",
+    short: "PR",
+    color: "#67e8f9",
+    description: "A dual-path refractive cipher. Each letter gets two potential values — a structural path (A: i² + 3n + 7) and a positional path (B: i×n + 11) — and its phonetic category decides which path it takes. Vowels take only the structural path. Voiced consonants take only the positional path. Unvoiced consonants take both summed, making them information-dense. Named for a prism: one input, multiple outputs depending on the medium.",
+    formula: "Vowels: A+19 · Voiced: B×2 · Unvoiced: A+B · dampened per letter mod 97",
+    example: "stop vs tops — same letters, different voicing positions, completely different Prism values",
+  },
+  anchor: {
+    class: "sacred",
+    title: "Anchor",
+    short: "AN",
+    color: "#fde68a",
+    description: "The most transparent Sacred Class cipher. Position is squared into the value — V = i² × n — making it the only cipher guaranteed to be collision-free across all anagrams. 'Silent' and 'listen' share every cipher value in most systems. Not here. Phonetic modifiers add texture: vowels get a position boost, hard consonants double, softer sounds get flat additions. Stripped to its essence, it's three lines of math that catches what nothing else does.",
+    formula: "V = i² × n → phonetic layer → sum mod 9973",
+    example: "silent=928, listen=987 — anagram collision resolved",
+  },
+};
+
+function CipherPanel({ indexes, totalCount }) {
+  const [expanded, setExpanded] = useState(null);
+  const [showStats, setShowStats] = useState(false);
+  const [exampleInput, setExampleInput] = useState("ode");
+  const debouncedExample = useDebounce(exampleInput, 150);
+  const exampleNorm = useMemo(() => normalize(debouncedExample), [debouncedExample]);
+  const exampleValues = useMemo(() => exampleNorm ? calcValues(exampleNorm) : null, [exampleNorm]);
+
+  // #30 — Bank stats: compute distribution per cipher
+  const stats = useMemo(() => {
+    if (!indexes || !showStats) return null;
+    const out = {};
+    for (const ck of CIPHER_KEYS) {
+      const buckets = indexes.idx[ck] || {};
+      const values  = Object.keys(buckets).map(Number);
+      if (values.length === 0) { out[ck] = null; continue; }
+      const sizes   = Object.values(buckets).map(arr => arr.length);
+      const min     = Math.min(...values);
+      const max     = Math.max(...values);
+      const uniqVals = values.length;
+      const maxBucket = Math.max(...sizes);
+      const avgBucket = sizes.reduce((a,b)=>a+b,0) / sizes.length;
+      const singletons = sizes.filter(s => s === 1).length;
+      out[ck] = { min, max, uniqVals, maxBucket, avgBucket, singletons };
+    }
+    return out;
+  }, [indexes, showStats]);
+
+  const handleToggle = useCallback(key => {
+    setExpanded(e => e === key ? null : key);
+  }, []);
+
+  const Divider = ({ label }) => (
+    <div style={{ display:"flex", alignItems:"center", gap:8, margin:"14px 0 8px" }}>
+      <div style={{ flex:1, height:1, background:T.border }}/>
+      <span style={{
+        fontSize:9, color:T.textDim, letterSpacing:"0.14em",
+        textTransform:"uppercase", fontFamily:T.mono,
+      }}>{label}</span>
+      <div style={{ flex:1, height:1, background:T.border }}/>
+    </div>
+  );
+
+  return (
+    <Card>
+      <SectionLabel>Ciphers</SectionLabel>
+
+      {/* Live example input */}
+      <div style={{ marginBottom:14 }}>
+        <div style={{ fontSize:10, color:T.textDim, fontFamily:T.mono, marginBottom:6 }}>
+          live example phrase
+        </div>
+        <Inp
+          value={exampleInput}
+          onChange={e => setExampleInput(e.target.value)}
+          placeholder="type any word..."
+          accentColor="#38bdf8"
+          style={{ marginBottom:8 }}
+        />
+        {exampleValues && (
+          <div style={{ display:"flex", gap:5, flexWrap:"wrap" }}>
+            {CIPHER_KEYS.map(k => (
+              <ValueBadge key={k} cipher={k} value={exampleValues[k]} showRoot/>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* #30 — Bank stats toggle */}
+      <button
+        onClick={() => setShowStats(s => !s)}
+        style={{
+          width:"100%",
+          padding:"10px 14px",
+          borderRadius:T.radius,
+          border:`1px solid ${showStats ? T.borderActive : T.border}`,
+          background: showStats ? T.bgActive : T.bg0,
+          color: showStats ? T.text : T.textMid,
+          fontSize:11,
+          fontFamily:T.mono,
+          fontWeight:700,
+          letterSpacing:"0.08em",
+          textTransform:"uppercase",
+          cursor:"pointer",
+          textAlign:"left",
+          display:"flex",
+          justifyContent:"space-between",
+          alignItems:"center",
+          marginBottom: showStats ? 8 : 16,
+        }}>
+        <span>Phrase Bank Statistics</span>
+        <span style={{ color:T.textDim, fontSize:14 }}>{showStats ? "▾" : "▸"}</span>
+      </button>
+
+      {showStats && stats && (
+        <div style={{
+          background:T.bg0,
+          border:`1px solid ${T.border}`,
+          borderRadius:T.radius,
+          padding:"12px 14px",
+          marginBottom:16,
+        }}>
+          <div style={{
+            fontSize:9, color:T.textDim, fontFamily:T.mono,
+            letterSpacing:"0.12em", marginBottom:10,
+          }}>
+            DISTRIBUTION ACROSS {totalCount?.toLocaleString() || "—"} PHRASES
+          </div>
+          <div style={{ display:"grid", gap:6 }}>
+            <div style={{
+              display:"grid", gridTemplateColumns:"32px 1fr 60px 60px 60px",
+              gap:6, fontSize:8, color:T.textGhost, fontFamily:T.mono,
+              padding:"2px 0", borderBottom:`1px solid ${T.border}`,
+              letterSpacing:"0.08em", textTransform:"uppercase",
+            }}>
+              <span>CIPHER</span>
+              <span>RANGE</span>
+              <span style={{ textAlign:"right" }}>UNIQUE</span>
+              <span style={{ textAlign:"right" }}>MAX/BUCKET</span>
+              <span style={{ textAlign:"right" }}>SOLO</span>
+            </div>
+            {CIPHER_KEYS.map(ck => {
+              const s = stats[ck];
+              if (!s) return null;
+              const c = CIPHERS[ck];
+              return (
+                <div key={ck} style={{
+                  display:"grid", gridTemplateColumns:"32px 1fr 60px 60px 60px",
+                  gap:6, fontSize:10, fontFamily:T.mono,
+                  alignItems:"center",
+                }}>
+                  <span style={{ color:c.color, fontWeight:700 }}>{c.short}</span>
+                  <span style={{ color:T.textMid }}>
+                    {s.min.toLocaleString()}–{s.max.toLocaleString()}
+                  </span>
+                  <span style={{ color:T.text, textAlign:"right", fontWeight:700 }}>
+                    {s.uniqVals.toLocaleString()}
+                  </span>
+                  <span style={{ color:T.textMid, textAlign:"right" }}>
+                    {s.maxBucket}
+                  </span>
+                  <span style={{ color:T.textMid, textAlign:"right" }}>
+                    {s.singletons}
+                  </span>
+                </div>
+              );
+            })}
+          </div>
+          <div style={{
+            fontSize:9, color:T.textGhost, fontFamily:T.mono,
+            marginTop:10, lineHeight:1.6,
+          }}>
+            UNIQUE: distinct values across bank · MAX/BUCKET: phrases sharing one value · SOLO: values held by only one phrase
+          </div>
+        </div>
+      )}
+
+      {/* Standard Class */}
+      <Divider label="Standard Class"/>
+      <div style={{
+        fontSize:10, color:T.textDim, marginBottom:10, lineHeight:1.6,
+      }}>
+        Established systems with external lineage. Used across gematria traditions worldwide.
+      </div>
+      {STANDARD_KEYS.map(key => {
+        const c = CIPHER_EXPLANATIONS[key];
+        const isOpen = expanded === key;
+        return (
+          <div key={key} style={{ marginBottom:6 }}>
+            <button
+              onClick={() => handleToggle(key)}
+              style={{
+                width:"100%", display:"flex", alignItems:"center",
+                justifyContent:"space-between", padding:"10px 14px",
+                borderRadius:T.radius,
+                border:`1px solid ${isOpen ? c.color : c.color+"44"}`,
+                background:isOpen ? `${c.color}12` : T.bg2,
+                cursor:"pointer", textAlign:"left",
+              }}>
+              <div style={{ display:"flex", alignItems:"center", gap:10 }}>
+                <span style={{
+                  fontSize:11, fontWeight:900, color:c.color,
+                  fontFamily:T.mono, minWidth:24,
+                }}>{c.short}</span>
+                <span style={{ fontSize:13, color:T.text, fontWeight:600 }}>{c.title}</span>
+              </div>
+              {exampleValues && (
+                <span style={{
+                  fontSize:15, fontWeight:900, color:c.color,
+                  fontFamily:T.mono,
+                }}>{exampleValues[key]}</span>
+              )}
+            </button>
+            {isOpen && (
+              <div style={{
+                borderLeft:`2px solid ${c.color}44`,
+                marginLeft:8, paddingLeft:12,
+                paddingTop:8, paddingBottom:4,
+              }}>
+                <div style={{ fontSize:13, color:T.textMid, lineHeight:1.65, marginBottom:8 }}>
+                  {c.description}
+                </div>
+                <div style={{
+                  background:T.bg0, borderRadius:T.radius,
+                  padding:"8px 12px", marginBottom:6,
+                }}>
+                  <div style={{ fontSize:9, color:T.textDim, fontFamily:T.mono,
+                    letterSpacing:"0.1em", marginBottom:4 }}>FORMULA</div>
+                  <div style={{ fontSize:11, color:c.color, fontFamily:T.mono }}>{c.formula}</div>
+                </div>
+                <div style={{
+                  background:T.bg0, borderRadius:T.radius,
+                  padding:"8px 12px",
+                }}>
+                  <div style={{ fontSize:9, color:T.textDim, fontFamily:T.mono,
+                    letterSpacing:"0.1em", marginBottom:4 }}>EXAMPLE</div>
+                  <div style={{ fontSize:11, color:T.textMid, fontFamily:T.mono }}>{c.example}</div>
+                </div>
+              </div>
+            )}
+          </div>
+        );
+      })}
+
+      {/* Sacred Class */}
+      <Divider label="Sacred Class"/>
+      <div style={{
+        fontSize:10, color:T.textDim, marginBottom:10, lineHeight:1.6,
+      }}>
+        Original constructions with no external precedent. Designed to surface dimensions of language that standard systems cannot reach.
+      </div>
+      {SACRED_KEYS.map(key => {
+        const c = CIPHER_EXPLANATIONS[key];
+        const isOpen = expanded === key;
+        return (
+          <div key={key} style={{ marginBottom:6 }}>
+            <button
+              onClick={() => handleToggle(key)}
+              style={{
+                width:"100%", display:"flex", alignItems:"center",
+                justifyContent:"space-between", padding:"10px 14px",
+                borderRadius:T.radius,
+                border:`1px solid ${isOpen ? c.color : c.color+"44"}`,
+                background:isOpen ? `${c.color}14` : T.bg2,
+                cursor:"pointer", textAlign:"left",
+              }}>
+              <div style={{ display:"flex", alignItems:"center", gap:10 }}>
+                <span style={{
+                  fontSize:11, fontWeight:900, color:c.color,
+                  fontFamily:T.mono, minWidth:24,
+                }}>{c.short}</span>
+                <span style={{ fontSize:13, color:T.text, fontWeight:600 }}>{c.title}</span>
+                <span style={{
+                  fontSize:8, color:c.color, fontFamily:T.mono,
+                  border:`1px solid ${c.color}66`, borderRadius:3,
+                  padding:"1px 5px", letterSpacing:"0.08em",
+                }}>SACRED</span>
+              </div>
+              {exampleValues && (
+                <span style={{
+                  fontSize:15, fontWeight:900, color:c.color,
+                  fontFamily:T.mono,
+                }}>{exampleValues[key]}</span>
+              )}
+            </button>
+            {isOpen && (
+              <div style={{
+                borderLeft:`2px solid ${c.color}44`,
+                marginLeft:8, paddingLeft:12,
+                paddingTop:8, paddingBottom:4,
+              }}>
+                <div style={{ fontSize:13, color:T.textMid, lineHeight:1.65, marginBottom:8 }}>
+                  {c.description}
+                </div>
+                <div style={{
+                  background:T.bg0, borderRadius:T.radius,
+                  padding:"8px 12px", marginBottom:6,
+                }}>
+                  <div style={{ fontSize:9, color:T.textDim, fontFamily:T.mono,
+                    letterSpacing:"0.1em", marginBottom:4 }}>FORMULA</div>
+                  <div style={{ fontSize:11, color:c.color, fontFamily:T.mono, lineHeight:1.6 }}>
+                    {c.formula}
+                  </div>
+                </div>
+                <div style={{
+                  background:T.bg0, borderRadius:T.radius,
+                  padding:"8px 12px",
+                }}>
+                  <div style={{ fontSize:9, color:T.textDim, fontFamily:T.mono,
+                    letterSpacing:"0.1em", marginBottom:4 }}>EXAMPLE</div>
+                  <div style={{ fontSize:11, color:T.textMid, fontFamily:T.mono, lineHeight:1.6 }}>
+                    {c.example}
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+        );
+      })}
     </Card>
   );
 }
@@ -3751,16 +7215,27 @@ function useIndexes(phrases) {
       ${normalize.toString()}
       ${letterCount.toString()}
       ${wordCount.toString()}
-      ${VOWELS.toString().replace("new Set", "const VOWELS=new Set")}
+      const VOWELS        = new Set(["a","e","i","o","u"]);
+      const VOWEL_SET     = new Set(["a","e","i","o","u"]);
+      const VOICED_CONS   = new Set(["b","d","g","j","l","m","n","r","v","z"]);
+      const UNVOICED_CONS = new Set(["k","p","t","s","f","h","c","q","x"]);
+      const HARD_CONS     = new Set(["b","d","g","k","p","t"]);
+      const SOFT_CONS     = new Set(["s","f","v","z","h","j"]);
+      const LIQUIDS       = new Set(["l","r"]);
+      const NASALS        = new Set(["m","n"]);
+      const JEWISH_MAP    = [1,2,3,4,5,6,7,8,9,600,10,20,30,40,50,60,70,80,90,100,200,700,900,300,400,500];
+      const CIPHER_KEYS   = ${JSON.stringify(CIPHER_KEYS)};
+      const PHRASE_CAT_MAP = new Map(${JSON.stringify([...PHRASE_CAT_MAP.entries()])});
+      const CATEGORIES    = ${JSON.stringify(CATEGORIES)};
       ${ciphersFused.toString()}
       ${cipherWeighted.toString()}
       ${cipherShadowEclipse.toString()}
+      ${cipherObsidian.toString()}
+      ${cipherPrism.toString()}
+      ${cipherAnchor.toString()}
       ${calcValues.toString()}
       ${buildDataset.toString()}
       ${buildIndexes.toString()}
-      const PHRASE_CAT_MAP = new Map(${JSON.stringify([...PHRASE_CAT_MAP.entries()])});
-      const CATEGORIES = ${JSON.stringify(CATEGORIES)};
-      const CIPHER_KEYS = ${JSON.stringify(CIPHER_KEYS)};
       self.onmessage = function(e) {
         const phrases = e.data;
         const entries = buildDataset(phrases);
@@ -3867,6 +7342,29 @@ function LookupPanel({ indexes, activeCipher, copy, copiedId, onHistoryPush }) {
     return filterEntries(indexes.idx[activeCipher][computed.values[activeCipher]] || []);
   }, [computed, indexes, activeCipher, filterEntries]);
 
+  // #32 — Anagram detector: anchor cipher is collision-free for anagrams per word.
+  // But for multi-word phrases we need to compare sorted letter signatures directly.
+  // Best approach: use the AC (ASCII) bucket since it has the same value for same letters,
+  // then verify exact letter match.
+  const anagrams = useMemo(() => {
+    if (!norm || !indexes) return [];
+    const inputSig = norm.replace(/\s/g, '').split('').sort().join('');
+    if (inputSig.length < 2) return [];
+    // ASCII cipher gives same value for any permutation of the same letters,
+    // so check that bucket first to narrow candidates dramatically
+    const acVal = computed?.values?.ascii;
+    if (!acVal) return [];
+    const candidates = indexes.idx.ascii[acVal] || [];
+    const out = [];
+    for (const entry of candidates) {
+      if (entry.norm === norm) continue;
+      const eSig = entry.norm.replace(/\s/g, '').split('').sort().join('');
+      if (eSig === inputSig) out.push(entry);
+      if (out.length >= 20) break;
+    }
+    return out;
+  }, [norm, indexes, computed]);
+
   const ranked = useMemo(() => {
     if (!computed || !indexes) return [];
     const exact    = indexes.idx[activeCipher][computed.values[activeCipher]] || [];
@@ -3944,12 +7442,17 @@ function LookupPanel({ indexes, activeCipher, copy, copiedId, onHistoryPush }) {
 
           {/* Cipher value badges — horizontal scroll */}
           <div style={{
-            display:"flex", gap:6, marginBottom:12,
+            display:"flex", gap:6, marginBottom:8,
             overflowX:"auto", WebkitOverflowScrolling:"touch", scrollbarWidth:"none",
           }}>
             {CIPHER_KEYS.map(c => (
               <ValueBadge key={c} cipher={c} value={computed.values[c]} showRoot/>
             ))}
+          </div>
+
+          {/* Cipher fingerprint radar */}
+          <div style={{ display:"flex", justifyContent:"center", marginBottom:8 }}>
+            <CipherFingerprint values={computed.values} size={130}/>
           </div>
 
           {/* Tappable word chips — show active cipher value, tap to see similar */}
@@ -4064,9 +7567,26 @@ function LookupPanel({ indexes, activeCipher, copy, copiedId, onHistoryPush }) {
             }}>5+w</button>
           </div>
 
-          {/* Match count */}
-          <div style={{ fontSize:11, color:ac.color, fontWeight:700, marginBottom:8 }}>
-            {matches.length} match{matches.length !== 1 ? "es" : ""} · {ac.short} = {computed.values[activeCipher]}
+          {/* Match count — prominent */}
+          <div style={{
+            display:"flex", alignItems:"center", justifyContent:"space-between",
+            background: `${ac.color}0d`,
+            border: `1px solid ${ac.color}33`,
+            borderRadius: T.radius,
+            padding: "8px 12px",
+            marginBottom: 10,
+          }}>
+            <div style={{ display:"flex", alignItems:"baseline", gap:8 }}>
+              <span style={{ fontSize:22, fontWeight:900, color:ac.color, fontFamily:T.mono }}>
+                {matches.length}
+              </span>
+              <span style={{ fontSize:10, color:T.textMid, textTransform:"uppercase", letterSpacing:"0.1em" }}>
+                resonant phrase{matches.length !== 1 ? "s" : ""}
+              </span>
+            </div>
+            <div style={{ fontSize:10, color:ac.color, fontFamily:T.mono, opacity:0.7 }}>
+              {ac.short} = {computed.values[activeCipher]}
+            </div>
           </div>
 
           {/* Results */}
@@ -4089,6 +7609,38 @@ function LookupPanel({ indexes, activeCipher, copy, copiedId, onHistoryPush }) {
             }
           </div>
         </>
+      )}
+
+      {/* #32 Anagram detector */}
+      {anagrams.length > 0 && (
+        <div style={{
+          marginBottom:12,
+          background:"#0a0014",
+          border:`1px solid #fde68a44`,
+          borderRadius:T.radius,
+          padding:"10px 12px",
+        }}>
+          <div style={{
+            display:"flex", alignItems:"center", justifyContent:"space-between",
+            marginBottom:8,
+          }}>
+            <span style={{
+              fontSize:9, color:"#fde68a", fontFamily:T.mono,
+              letterSpacing:"0.12em", fontWeight:700,
+            }}>
+              ANAGRAMS · {anagrams.length}
+            </span>
+            <span style={{ fontSize:9, color:T.textDim, fontFamily:T.mono }}>
+              same letters, different order
+            </span>
+          </div>
+          <div style={{ display:"grid", gap:4, maxHeight:200, overflowY:"auto" }}>
+            {anagrams.map(e => (
+              <MatchRow key={`ana-${e.id}`} entry={e} cipher="anchor"
+                copy={copy} copiedId={copiedId} showAllCiphers={false}/>
+            ))}
+          </div>
+        </div>
       )}
 
       {/* Numeric search */}
@@ -4307,7 +7859,11 @@ function CalcPanel({ indexes, activeCipher, copy, copiedId }) {
           <Btn active={view==="chart"} color={ac.color}
             onClick={handleViewMatches}
             style={{ fontSize:10, padding:"3px 8px" }}>
-            matches
+            matches{view !== "chart" && result && (
+              <span style={{ opacity:0.7, marginLeft:4 }}>
+                ({Object.values(allMatches).flat().filter((e,i,a) => a.findIndex(x=>x.id===e.id)===i).length})
+              </span>
+            )}
           </Btn>
           <Btn onClick={addTerm}  style={{ fontSize:10, padding:"3px 7px" }}>+</Btn>
           <Btn onClick={clearAll} style={{ fontSize:10, padding:"3px 7px" }}>clear</Btn>
@@ -4568,121 +8124,224 @@ function HistoryPanel({ history, dispatch, onSelect, copy, copiedId }) {
 // ================================================================
 // § APP ROOT
 // ================================================================
+
+
+// ================================================================
+// § BOTTOM NAVIGATION
+// ================================================================
+const NAV_ITEMS = [
+  { id:"lookup",    label:"Lookup",   icon:"⌕"  },
+  { id:"glyph",     label:"Glyph",    icon:"◈"  },
+  { id:"resonance", label:"Resonance",icon:"◎"  },
+  { id:"name",      label:"Name",     icon:"◇"  },
+  { id:"ciphers",   label:"Ciphers",  icon:"≋"  },
+];
+
+function BottomNav({ active, onChange }) {
+  return (
+    <div style={{
+      position:       "fixed",
+      bottom:         0,
+      left:           0,
+      right:          0,
+      height:         56,
+      background:     T.bg0,
+      borderTop:      `1px solid ${T.border}`,
+      display:        "flex",
+      zIndex:         200,
+      maxWidth:       560,
+      margin:         "0 auto",
+    }}>
+      {NAV_ITEMS.map(item => {
+        const isActive = active === item.id;
+        return (
+          <button key={item.id} onClick={() => onChange(item.id)} style={{
+            flex:           1,
+            display:        "flex",
+            flexDirection:  "column",
+            alignItems:     "center",
+            justifyContent: "center",
+            gap:            2,
+            background:     "transparent",
+            border:         "none",
+            cursor:         "pointer",
+            padding:        "6px 0",
+            position:       "relative",
+          }}>
+            {/* Active indicator line */}
+            {isActive && (
+              <div style={{
+                position:   "absolute",
+                top:        0,
+                left:       "25%",
+                right:      "25%",
+                height:     1,
+                background: T.accent,
+                borderRadius: 1,
+              }}/>
+            )}
+            <span style={{
+              fontSize:   16,
+              color:      isActive ? T.accent : T.textDim,
+              lineHeight: 1,
+              transition: "color 0.15s",
+            }}>{item.icon}</span>
+            <span style={{
+              fontSize:   8,
+              fontFamily: T.mono,
+              fontWeight: 700,
+              letterSpacing: "0.08em",
+              textTransform: "uppercase",
+              color:      isActive ? T.text : T.textGhost,
+              transition: "color 0.15s",
+            }}>{item.label}</span>
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
 export default function App() {
+  const [screen,       setScreen]      = useState("lookup");
   const [activeCipher, setActiveCipher] = useState("simple");
   const [history,      histDispatch]    = useReducer(historyReducer, []);
+  const [glyphPrefill, setGlyphPrefill] = useState(null);
   const { copy, copiedId } = useCopy();
-
   const { indexes, count, loading } = useIndexes(SEED_PHRASES);
 
   const handleHistoryPush   = useCallback(text => histDispatch({ type:"push", text }), []);
   const handleHistorySelect = useCallback(() => {}, []);
   const setCipher           = useCallback(v => setActiveCipher(v), []);
 
+  const handleSendToGlyph = useCallback(phrase => {
+    setGlyphPrefill(phrase);
+    setScreen("glyph");
+  }, []);
+
+  // Screen content
+  const renderScreen = () => {
+    if (loading || !indexes) return null;
+    switch (screen) {
+      case "lookup":
+        return (
+          <>
+            <LookupPanel
+              indexes={indexes} activeCipher={activeCipher}
+              copy={copy} copiedId={copiedId}
+              onHistoryPush={handleHistoryPush}
+            />
+            <HistoryPanel
+              history={history} dispatch={histDispatch}
+              onSelect={handleHistorySelect}
+              copy={copy} copiedId={copiedId}
+            />
+            <CalcPanel
+              indexes={indexes} activeCipher={activeCipher}
+              copy={copy} copiedId={copiedId}
+            />
+          </>
+        );
+      case "glyph":
+        return <GlyphPanel copy={copy} copiedId={copiedId}
+          prefill={glyphPrefill} onPrefillConsumed={() => setGlyphPrefill(null)}/>;
+      case "resonance":
+        return <ResonanceMap indexes={indexes} activeCipher={activeCipher}
+          onSendToGlyph={handleSendToGlyph}/>;
+      case "name":
+        return <NamePanel indexes={indexes} copy={copy} copiedId={copiedId}/>;
+      case "ciphers":
+        return <CipherPanel indexes={indexes} totalCount={count}/>;
+      default:
+        return null;
+    }
+  };
+
   return (
-    <div style={{ minHeight:"100vh", background:T.bg0, color:T.text, fontFamily:T.mono, fontSize:15 }}>
+    <div style={{
+      minHeight:  "100vh",
+      background: T.bg0,
+      color:      T.text,
+      fontFamily: T.mono,
+      fontSize:   14,
+      maxWidth:   560,
+      margin:     "0 auto",
+    }}>
 
       {/* ── HEADER ── */}
       <div style={{
         borderBottom: `1px solid ${T.border}`,
-        padding:      "10px 16px",
+        padding:      "8px 14px",
         display:      "flex",
         alignItems:   "center",
-        gap:          12,
+        gap:          10,
         position:     "sticky",
         top:          0,
         background:   T.bg0,
         zIndex:       100,
       }}>
-        <RainbowEye size={40}/>
-        <RainbowText size={24}/>
+        <Od3nLogo size={80}/>
         <div style={{
-          borderLeft:    `1px solid ${T.border}`,
-          paddingLeft:   12,
-          display:       "flex",
+          borderLeft:  `1px solid ${T.border}`,
+          paddingLeft: 10,
+          display:     "flex",
           flexDirection: "column",
-          gap:           1,
+          gap:         1,
         }}>
           {loading
-            ? <div style={{ fontSize:11, color:T.textDim }}>loading…</div>
+            ? <div style={{ fontSize:10, color:T.textGhost }}>loading…</div>
             : <>
                 <div style={{
-                  fontFamily: T.mono, fontWeight:700, fontSize:15,
+                  fontFamily: T.mono, fontWeight:700, fontSize:13,
                   background: "linear-gradient(90deg,#38bdf8,#c084fc,#fb923c,#4ade80)",
                   WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent",
                 }}>{count}</div>
-                <div style={{ fontSize:9, color:T.textDim }}>phrases</div>
+                <div style={{ fontSize:8, color:T.textGhost, letterSpacing:"0.08em" }}>PHRASES</div>
               </>
           }
         </div>
-        <div style={{ flex:1, minWidth:0 }}>
-          <CipherSelector active={activeCipher} onChange={setCipher}/>
-        </div>
+        {/* Cipher selector only shown on lookup screen */}
+        {screen === "lookup" && (
+          <div style={{ flex:1, minWidth:0 }}>
+            <CipherSelector active={activeCipher} onChange={setCipher}/>
+          </div>
+        )}
+        {/* Screen title on other screens */}
+        {screen !== "lookup" && (
+          <div style={{
+            flex:1, textAlign:"right",
+            fontSize:10, color:T.textDim,
+            fontWeight:700, letterSpacing:"0.12em",
+            textTransform:"uppercase",
+          }}>
+            {NAV_ITEMS.find(n => n.id === screen)?.label}
+          </div>
+        )}
       </div>
 
       {/* ── LOADING STATE ── */}
       {loading && (
         <div style={{
           display:"flex", flexDirection:"column", alignItems:"center",
-          justifyContent:"center", minHeight:"60vh", gap:16,
+          justifyContent:"center", minHeight:"80vh", gap:16,
         }}>
-          <RainbowEye size={60}/>
-          <div style={{ fontSize:12, color:T.textDim, letterSpacing:"0.12em", textTransform:"uppercase" }}>
-            building index…
-          </div>
+          <Od3nLogo size={140}/>
+          <div style={{
+            fontSize:10, color:T.textDim,
+            letterSpacing:"0.14em", textTransform:"uppercase",
+          }}>building index…</div>
         </div>
       )}
 
-      {/* ── UNIFIED PANEL ── */}
+      {/* ── SCREEN CONTENT ── */}
       {!loading && indexes && (
-        <div style={{ padding:"16px 14px", maxWidth:560, margin:"0 auto" }}>
-          <LookupPanel
-            indexes={indexes} activeCipher={activeCipher}
-            copy={copy} copiedId={copiedId}
-            onHistoryPush={handleHistoryPush}
-          />
-          <HistoryPanel
-            history={history} dispatch={histDispatch}
-            onSelect={handleHistorySelect}
-            copy={copy} copiedId={copiedId}
-          />
-          <div style={{ display:"flex", alignItems:"center", gap:10, margin:"4px 0 12px" }}>
-            <div style={{ flex:1, height:1, background:T.border }}/>
-            <span style={{ fontSize:10, color:T.textDim, letterSpacing:"0.1em", textTransform:"uppercase" }}>
-              calculator
-            </span>
-            <div style={{ flex:1, height:1, background:T.border }}/>
-          </div>
-          <CalcPanel
-            indexes={indexes} activeCipher={activeCipher}
-            copy={copy} copiedId={copiedId}
-          />
-
-          <div style={{ display:"flex", alignItems:"center", gap:10, margin:"16px 0 12px" }}>
-            <div style={{ flex:1, height:1, background:T.border }}/>
-            <span style={{ fontSize:10, color:T.textDim, letterSpacing:"0.1em", textTransform:"uppercase" }}>
-              name
-            </span>
-            <div style={{ flex:1, height:1, background:T.border }}/>
-          </div>
-          <NamePanel
-            indexes={indexes}
-            copy={copy} copiedId={copiedId}
-          />
-
-          <div style={{ display:"flex", alignItems:"center", gap:10, margin:"16px 0 12px" }}>
-            <div style={{ flex:1, height:1, background:T.border }}/>
-            <span style={{ fontSize:10, color:T.textDim, letterSpacing:"0.1em", textTransform:"uppercase" }}>
-              glyph
-            </span>
-            <div style={{ flex:1, height:1, background:T.border }}/>
-          </div>
-          <GlyphPanel
-            copy={copy} copiedId={copiedId}
-          />
-
+        <div style={{ padding:"12px 12px 72px", /* 72px = nav bar clearance */ }}>
+          {renderScreen()}
         </div>
       )}
+
+      {/* ── BOTTOM NAV ── */}
+      {!loading && <BottomNav active={screen} onChange={setScreen}/>}
     </div>
   );
 }
